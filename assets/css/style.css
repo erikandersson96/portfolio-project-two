@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Roboto+Mono:wght@300&display=swap");
 
 
+#logo {
+    height: 15px;
+    font-family: nunito, sans-serif; 
+}
+
+
 /* Background image */
 section {
     background: url(../images/hero-image.jpg) no-repeat center center;
