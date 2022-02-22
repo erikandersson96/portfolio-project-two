@@ -13,7 +13,9 @@
     color: white;
 } 
 
-
+#logo, #body-font {
+    text-align: center;
+}
 
 
 /* Background image */
