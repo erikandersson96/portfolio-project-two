@@ -5,4 +5,30 @@
 /* Background image */
 section {
     background: url(../images/hero-image.jpg) no-repeat center center;
+} 
+
+
+/* Easy interface */ 
+.easy {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+} 
+
+/* Easy interface 4 different colors */
+.easy-green {
+    background-color: green;
+}
+
+.easy-blue {
+    background-color: blue;
+}
+
+.easy-yellow {
+    background-color: yellow;
+}
+
+.easy-red {
+    background-color: red;
 }
