@@ -5,7 +5,15 @@
 #logo {
     height: 15px;
     font-family: nunito, sans-serif; 
+    color: white;
 }
+
+#body-font {
+    font-family: 'Roboto Mono', sans-serif; 
+    color: white;
+} 
+
+
 
 
 /* Background image */
