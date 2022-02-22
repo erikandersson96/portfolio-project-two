@@ -31,7 +31,13 @@ section {
     width: 120px;
     height: 120px;
     display: inline-flex;
+    cursor: pointer;
 } 
+
+.easy:hover {
+    box-shadow: inset 0px 0px 0px 3px azure;
+    box-sizing: border-box;
+}
 
 /* Easy interface 4 different colors */
 .easy-green {
