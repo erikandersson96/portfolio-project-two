@@ -11,7 +11,7 @@ const startBtn = document.querySelector('.start');
 const instruction = document.querySelector('.game-info'); 
 
 function nextPattern() {
-    
+    level += 1; 
 }
 
 // a function called startGame that will make the start game button dissapear when user press
