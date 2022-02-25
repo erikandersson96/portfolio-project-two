@@ -10,6 +10,10 @@ const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info'); 
 
+function activateEasy(color) {
+    
+}
+
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work.
 // The guide uses nextStep() here. 
