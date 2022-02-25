@@ -60,6 +60,10 @@ function nextPhase() {
 function nextTurn() {
     level += 1; 
 
+    easyInterface.classList.add('not-activated'); 
+    instruction.textContent = "Let the computer play it's sequence first"; 
+    userLevel.textContent = `Level ${level} of 15`; 
+
     const nextPattern = [...pattern]; 
     nextPattern.push(nextPhase()); 
     playPattern(nextPattern);
