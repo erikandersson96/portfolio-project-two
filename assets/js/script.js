@@ -86,6 +86,11 @@ function startGame() {
 // here we make sure that startGame function excecutes when startBtn is pressed/clicked 
 // by the user.
 startBtn.addEventListener('click', startGame); 
+easyInterface.addEventListener('click', event => {
+    const { easy } = event.target.dataset; 
+
+    if (easy) handleClick(easy); 
+}); 
 
 
 
