@@ -14,6 +14,17 @@ const userLevel = document.querySelector('.level-count');
 // we connect easyInterface to match the class name of the parent div of all circles in html file.
 const easyInterface = document.querySelector('.easy-interface'); 
 
+function resetGame(text) {
+    alert(text); 
+    pattern = []; 
+    userPattern = []; 
+    level = 0; 
+    startBtn.classList.remove('unseen'); 
+    userLevel.textContent = 'Erik game';
+    instruction.classList.add('unseen'); 
+    easyInterface.classList.add('not-activated');
+}
+
 // this function creates a way to tell the user that it is his/her's turn to play. 
 function userTurn() {
     easyInterface.classList.remove('not-activated'); 
