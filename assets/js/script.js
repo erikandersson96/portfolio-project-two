@@ -10,7 +10,7 @@ const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info'); 
 
-
+// LÄGG TILL RÄTT KOMMENTAR HÄR
 function nextPhase() {
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
