@@ -89,6 +89,11 @@ function nextTurn() {
 function manageClick(easy) {
     const index = userPattern.push(easy) - 1; 
 
+    if (userPattern[index] === pattern[index]) {
+        resetGame('Oh no! You pressed the same color sequence as the computer...'); 
+        return; 
+    }
+   
     if (userPattern.length != pattern.length) {
         userPattern = []; 
         instruction.textContent = 'Bravo! Carry on!'; 
