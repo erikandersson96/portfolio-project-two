@@ -1,5 +1,5 @@
 let pattern = []; 
 let userPattern = []; 
 
-const startGame = document.querySelector('.start'); 
+const startBtn = document.querySelector('.start'); 
 
