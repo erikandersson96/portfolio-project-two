@@ -13,7 +13,7 @@ const instruction = document.querySelector('.game-info');
 function activateEasy(color) {
     const easy = document.querySelector(`[data-easy='${color}']`); 
 
-    
+    easy.classList.add('activate'); 
 }
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
