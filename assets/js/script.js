@@ -18,6 +18,10 @@ function activateEasy(color) {
     setTimeout(() => {
         easy.classList.remove('activate');
     }, 350); 
+} 
+
+function playPattern(nextPattern) {
+    
 }
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
