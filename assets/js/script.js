@@ -60,6 +60,11 @@ function nextTurn() {
     const nextPattern = [...pattern]; 
     nextPattern.push(nextPhase()); 
     playPattern(nextPattern);
+
+    pattern = [...nextPattern]; 
+    setTimeout(() => {
+        userTurn(); 
+    }, level * 700 + 1500); 
 }
 
 // a function called startGame that will make the start game button dissapear when user press
