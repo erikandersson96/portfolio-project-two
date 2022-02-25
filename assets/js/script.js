@@ -56,6 +56,7 @@ function nextPhase() {
 // levels he/she has completed. 
 // a timeOut is set to slightly delay the time between the computers finished sequence and 
 // the user's turn to play. IS THIS CORRECT??? 
+// pattern is also updated to match the current sequence in play. 
 function nextTurn() {
     level += 1; 
 
