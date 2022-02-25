@@ -85,7 +85,7 @@ function nextTurn() {
     }, level * 700 + 1500); 
 }
 
-
+// this function is created to compare the user input to the computer. 
 function manageClick(easy) {
     const index = userPattern.push(easy) - 1; 
 
