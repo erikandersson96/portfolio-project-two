@@ -10,7 +10,7 @@ const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info'); 
 
-// this function ADD REAL REASON FOR THIS FUNCTION!!!
+// this function is used to select the correct color of the circles. 
 function activateEasy(color) {
     const easy = document.querySelector(`[data-easy='${color}']`); 
 
