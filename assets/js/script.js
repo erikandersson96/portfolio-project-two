@@ -9,7 +9,7 @@ let level = 0;
 const startBtn = document.querySelector('.start'); 
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info'); 
-
+// we connect userLevel to match Level: in html file by it's div class name. 
 const userLevel = document.querySelector('.level-count'); 
 
 // this function is used to select the correct color of the circles. And light up that
