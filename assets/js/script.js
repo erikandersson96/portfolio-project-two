@@ -12,6 +12,7 @@ const instruction = document.querySelector('.game-info');
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work.
+// The guide uses nextStep() here. 
 function nextPhase() {
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
