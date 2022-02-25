@@ -16,7 +16,7 @@ const easyInterface = document.querySelector('.easy-interface');
 
 // this function creates a way to tell the user that it is his/her's turn to play. 
 function userTurn() {
-    easyInterface.classList.remove('just-text'); 
+    easyInterface.classList.remove('not-activated'); 
     instruction.textContent = "Now it's your turn."; 
 }
 
