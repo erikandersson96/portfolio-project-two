@@ -94,7 +94,12 @@ function manageClick(easy) {
         return; 
     }
    
-    if (userPattern.length != pattern.length) {
+    if (userPattern.length != pattern.length) { 
+        if (userPattern.length === 15) {
+            resetGame('Good Work! You won the game!'); 
+            return
+        }
+
         userPattern = []; 
         instruction.textContent = 'Bravo! Carry on!'; 
         setTimeout(() => {
