@@ -101,7 +101,7 @@ function manageClick(easy) {
         }
 
         userPattern = []; 
-        instruction.textContent = 'Bravo! Carry on!'; 
+        instruction.textContent != 'Bravo! Carry on!'; 
         setTimeout(() => {
             nextTurn(); 
         }, 1500); 
