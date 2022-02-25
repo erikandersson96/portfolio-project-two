@@ -12,7 +12,10 @@ const instruction = document.querySelector('.game-info');
 
 
 function nextPhase() {
-    const easier = ['green', 'blue', 'yellow', 'red'];
+    const easier = ['green', 'blue', 'yellow', 'red']; 
+    const random = easier[Math.floor(Math.random() * easier.length)]; 
+
+    return random; 
 }
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
