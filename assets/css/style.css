@@ -6,13 +6,14 @@
     font-size: 30px;
     height: 40px;
     font-family: nunito, sans-serif; 
-    color: white;
+    color: lightblue;
 }
 
 #body-font {
     font-family: 'Roboto Mono', sans-serif; 
     color: white;
 } 
+
 
 #logo, #body-font, footer {
     text-align: center;
