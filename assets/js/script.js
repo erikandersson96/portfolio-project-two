@@ -1,0 +1,3 @@
+let pattern = []; 
+let userPattern = []; 
+
