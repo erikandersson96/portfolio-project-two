@@ -26,6 +26,7 @@ function nextTurn() {
     level += 1; 
 
     const nextPattern = [...pattern]; 
+    nextPattern.push(nextPhase()); 
 }
 
 // a function called startGame that will make the start game button dissapear when user press
