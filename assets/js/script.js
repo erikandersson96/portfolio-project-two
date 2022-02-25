@@ -12,7 +12,7 @@ const instruction = document.querySelector('.game-info');
 // we connect userLevel to match Level: in html file by it's div class name. 
 const userLevel = document.querySelector('.level-count'); 
 
-
+const easyInterface = document.querySelector('.easy-interface'); 
 
 // this function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
