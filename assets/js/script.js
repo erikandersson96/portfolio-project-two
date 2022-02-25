@@ -58,6 +58,7 @@ function startGame() {
     startBtn.classList.add('unseen'); 
     instruction.classList.remove('unseen');
     instruction.textContent = "Let the computer play it's sequence first"; 
+    nextTurn(); 
 } 
 
 // here we make sure that startGame function excecutes when startBtn is pressed/clicked 
