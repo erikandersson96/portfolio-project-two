@@ -10,6 +10,10 @@ const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info'); 
 
+function nextPhase() {
+    
+}
+
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
 function nextTurn() {
