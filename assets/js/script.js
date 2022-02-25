@@ -21,7 +21,9 @@ function activateEasy(color) {
 } 
 
 function playPattern(nextPattern) {
-    
+    nextPattern.forEach((color, index) => {
+        
+    })
 }
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
