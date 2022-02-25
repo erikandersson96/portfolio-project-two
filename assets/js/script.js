@@ -2,10 +2,13 @@ let pattern = [];
 let userPattern = []; 
 
 const startBtn = document.querySelector('.start'); 
+const instruction = document.querySelector('.game-info'); 
 
 function startGame() {
     startBtn.classList.add('unseen'); 
 } 
 
-startBtn.addEventListener('click', startGame)
+startBtn.addEventListener('click', startGame); 
+
+
 
