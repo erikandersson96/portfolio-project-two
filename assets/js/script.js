@@ -10,6 +10,7 @@ const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info'); 
 
+// this function ADD REAL REASON FOR THIS FUNCTION!!!
 function activateEasy(color) {
     const easy = document.querySelector(`[data-easy='${color}']`); 
 
@@ -20,6 +21,8 @@ function activateEasy(color) {
     }, 350); 
 } 
 
+// here is a function to set a delay on 700 milliseconds between each color that the computer
+// flashes. 
 function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
         setTimeout(() => {
