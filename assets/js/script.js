@@ -54,6 +54,8 @@ function nextPhase() {
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
+// a timeOut is set to slightly delay the time between the computers finished sequence and 
+// the user's turn to play. IS THIS CORRECT??? 
 function nextTurn() {
     level += 1; 
 
