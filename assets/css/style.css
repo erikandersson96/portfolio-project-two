@@ -39,23 +39,47 @@ section {
 } 
 
 .easy:hover {
-    box-shadow: inset 0px 0px 0px 3px azure;
+    box-shadow: inset 0px 0px 0px 3px cyan;
     box-sizing: border-box;
 }
 
 /* Easy interface 4 different colors */
 .easy-green {
     background-color: green;
+    transition: 0.16s;
+}
+
+.easy-green:active, .easy-green.activate {
+    background-color: black;
+    transform: translate(8px);
 }
 
 .easy-blue {
     background-color: blue;
+    transition: 0.16s;
+}
+
+.easy-blue:active, .easy-blue.activate {
+    background-color: black;
+    transform: translate(8px);
 }
 
 .easy-yellow {
     background-color: yellow;
+    transition: 0.16s;
+}
+
+.easy-yellow:active, .easy-yellow.activate {
+    background-color: black;
+    transform: translate(8px);
 }
 
 .easy-red {
     background-color: red;
+    transition: 0.16s;
+}
+
+.easy-red:active, .easy-red.activate {
+    background-color: black;
+    transform: translate(8px);
 }
