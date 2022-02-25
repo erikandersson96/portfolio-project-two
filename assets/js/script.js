@@ -14,6 +14,11 @@ const userLevel = document.querySelector('.level-count');
 // we connect easyInterface to match the class name of the parent div of all circles in html file.
 const easyInterface = document.querySelector('.easy-interface'); 
 
+function userTurn(level) {
+    easyInterface.classList.remove('just-text'); 
+    instruction.textContent = "Now it's your turn."; 
+}
+
 // this function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
 function activateEasy(color) {
