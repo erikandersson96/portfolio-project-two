@@ -1,5 +1,6 @@
 let pattern = []; 
 let userPattern = []; 
+let level = 0; 
 
 const startBtn = document.querySelector('.start'); 
 const instruction = document.querySelector('.game-info'); 
