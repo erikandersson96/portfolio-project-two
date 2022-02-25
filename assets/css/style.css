@@ -25,8 +25,13 @@ section {
     background: url(../images/hero-image.jpg) no-repeat center center;
 } 
 
+/* Taken straight from the guide at: https://freshman.tech/simon-game/ */
 .unseen {
     display: none !important;
+}
+
+.just-text {
+    pointer-events: none;
 }
 
 
