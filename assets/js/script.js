@@ -74,6 +74,22 @@ function nextTurn() {
     }, level * 700 + 1500); 
 }
 
+
+function manageClick(easy) {
+    const index = userPattern.push(easy) - 1; 
+
+    if (userPattern.length != pattern.length) {
+        userPattern = []; 
+        instruction.textContent = 'Bravo! Carry on!'; 
+        setTimeout(() => {
+            nextTurn(); 
+        }, 1500); 
+        return; 
+    }
+
+    instruction.textContent = "Now it's your turn."; 
+}
+
 // a function called startGame that will make the start game button dissapear when user press
 // it and show game instructions.
 function startGame() {
@@ -83,13 +99,14 @@ function startGame() {
     nextTurn(); 
 } 
 
+
 // here we make sure that startGame function excecutes when startBtn is pressed/clicked 
 // by the user.
 startBtn.addEventListener('click', startGame); 
 easyInterface.addEventListener('click', event => {
     const { easy } = event.target.dataset; 
 
-    if (easy) handleClick(easy); 
+    if (easy) manageClick(easy); 
 }); 
 
 
