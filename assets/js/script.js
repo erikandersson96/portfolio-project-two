@@ -10,8 +10,10 @@ const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info'); 
 
-function nextPattern() {
+function nextStep() {
     level += 1; 
+
+    const 
 }
 
 // a function called startGame that will make the start game button dissapear when user press
