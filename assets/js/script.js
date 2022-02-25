@@ -24,8 +24,8 @@ function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
         setTimeout(() => {
             activateEasy(color); 
-        },)
-    })
+        }, (index + 1) * 700);
+    });
 }
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
