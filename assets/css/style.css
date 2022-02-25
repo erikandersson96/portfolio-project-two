@@ -30,7 +30,7 @@ section {
     display: none !important;
 }
 
-.just-text {
+.not-activated {
     pointer-events: none;
 }
 
