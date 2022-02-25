@@ -22,7 +22,9 @@ function activateEasy(color) {
 
 function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
-        
+        setTimeout(() => {
+            activateEasy(color); 
+        },)
     })
 }
 
