@@ -85,7 +85,6 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 * A user's perspective: I want to easily understand the purpose of the website.
 * A user's perspective: I want to easily understand how to play the game. 
 * A user's perspective: I want the website to offer a clean interface.
-* A user's perspective: I wish that the website offers a version for color blind people.
  
  
 ---
