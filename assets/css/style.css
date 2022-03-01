@@ -21,9 +21,12 @@
 
 
 /* Background image */
-section {
+#background-image {
     background: url(../images/hero-image.jpg) no-repeat center center;
 } 
+
+
+/* Wrapper to hold body/game */
 
 /* Taken straight from the guide at: https://freshman.tech/simon-game/ */
 .unseen {
