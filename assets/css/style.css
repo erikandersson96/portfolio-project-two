@@ -9,20 +9,20 @@
     color: lightblue;
 }
 
-#body-font {
+#wrapper {
     font-family: 'Roboto Mono', sans-serif; 
     color: white;
 } 
 
 
-#logo, #body-font, footer {
+#logo, #wrapper, footer {
     text-align: center;
 }
 
 /* Inspiration to this CSS taken from Benjamin Kavanagh's (my mentor) second project */
 
 /* Background image */
-#background-image {
+body {
     background: url(../images/hero-image.jpg) no-repeat center center;
 } 
 
