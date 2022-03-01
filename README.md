@@ -26,7 +26,7 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 * Create a game that everyone at any age can play!
  
 ---
-## Table of Contents - ÄNDRA ALLT SOM ÄR RELEVANT!!
+## Table of Contents 
  
 * [UX](#ux-user-experience)
  * [Visitor Goals](#visitor-goals)
@@ -75,9 +75,7 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
  
 ### Visitor Goals
  
-* To quickly understand what the website is all about and to easily navigate between: Menu I About us I Get in touch.
- 
-* To collect visitors' contact information to give them a quote that includes a better understanding of what Andersson’s can offer for them since every wristwatch is unique.
+* To quickly understand how the game works.
  
 * To be accessible on all devices.
  
@@ -85,9 +83,9 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 ### User Stories
  
 * A user's perspective: I want to easily understand the purpose of the website.
-* A user's perspective: I want the website to be easily navigated between all pages. 
-* A user's perspective: I want the website to offer a clean look.
-* A user's perspective: I wish that the website offers a easy to understand contact form.
+* A user's perspective: I want to easily understand how to play the game. 
+* A user's perspective: I want the website to offer a clean interface.
+* A user's perspective: I wish that the website offers a version for color blind people.
  
  
 ---
