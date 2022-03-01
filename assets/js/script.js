@@ -40,7 +40,7 @@ function activateEasy(color) {
 
     setTimeout(() => {
         easy.classList.remove('activate');
-    }, 350); 
+    }, 300); 
 } 
 
 // here is a function to set a delay on 700 milliseconds between each color that the computer
@@ -101,7 +101,7 @@ function manageClick(easy) {
         }
 
         userPattern = []; 
-        instruction.textContent != 'Bravo! Carry on!'; 
+        instruction.textContent = 'Bravo! Carry on!'; 
         setTimeout(() => {
             nextTurn(); 
         }, 1500); 
