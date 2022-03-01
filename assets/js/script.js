@@ -73,7 +73,7 @@ function nextTurn() {
 
     easyInterface.classList.add('not-activated'); 
     instruction.textContent = "Let the computer play it's sequence first"; 
-    userLevel.textContent = `Level ${level} of 5`; 
+    userLevel.textContent = `Level ${level} of 10`; 
 
     const nextPattern = [...pattern]; 
     nextPattern.push(nextPhase()); 
@@ -95,7 +95,7 @@ function manageClick(easy) {
     }
    
     if (userPattern.length != pattern.length) { 
-        if (userPattern.length === 5) {
+        if (userPattern.length === 10) {
             resetGame('Good Work! You won the game!'); 
             return
         }
