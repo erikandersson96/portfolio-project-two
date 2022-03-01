@@ -10,7 +10,7 @@ Take a look at the website [here]() add link to website inside parentheses
  
  
 ---
-## Portfolio Project One - ÄNDRA
+## Portfolio Project Two 
  
 ---
 ### Intention
