@@ -73,7 +73,7 @@ function nextTurn() {
 
     easyInterface.classList.add('not-activated'); 
     instruction.textContent = "Let the computer play it's sequence first"; 
-    userLevel.textContent = `Level ${level} of 15`; 
+    userLevel.textContent = `Level ${level} of 5`; 
 
     const nextPattern = [...pattern]; 
     nextPattern.push(nextPhase()); 
@@ -82,7 +82,7 @@ function nextTurn() {
     pattern = [...nextPattern]; 
     setTimeout(() => {
         userTurn(); 
-    }, level * 700 + 1500); 
+    }, level * 700 + 1000); 
 }
 
 // this function is created to compare the user input to the computer. 
@@ -95,7 +95,7 @@ function manageClick(easy) {
     }
    
     if (userPattern.length != pattern.length) { 
-        if (userPattern.length === 15) {
+        if (userPattern.length === 5) {
             resetGame('Good Work! You won the game!'); 
             return
         }
@@ -104,7 +104,7 @@ function manageClick(easy) {
         instruction.textContent = 'Bravo! Carry on!'; 
         setTimeout(() => {
             nextTurn(); 
-        }, 1500); 
+        }, 1000); 
         return; 
     }
 
