@@ -24,6 +24,7 @@
 /* Background image */
 body {
     background: url(../images/hero-image.jpg) no-repeat center center;
+    height: 100%;
 } 
 
 
