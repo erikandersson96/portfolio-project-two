@@ -9,18 +9,14 @@
     color: lightblue;
 }
 
-body, h3 {
+#wrapper, h3 {
     font-family: 'Roboto Mono', sans-serif; 
     color: white; 
     font-size: 20px;
 } 
 
-p {
-    font-size: 15px;
-}
 
-
-#logo, body, footer {
+#logo, #wrapper, footer {
     text-align: center;
 }
 
