@@ -3,7 +3,7 @@
 
 
 #logo {
-    font-size: 30px;
+    font-size: 40px;
     height: 40px;
     font-family: nunito, sans-serif; 
     color: #4c917f;
@@ -31,7 +31,19 @@
 
     padding-right: 5px;
     padding-left: 5px;
-    background: #11d6a1;
+    background-color: #11D6A1;
+    border-radius: 5%; 
+    margin-top: 80px;
+} 
+
+
+#descr {
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 400px;
+
+    background-color: #0fbd8e;
     border-radius: 5%;
 }
 
