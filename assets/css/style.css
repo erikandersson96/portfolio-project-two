@@ -9,17 +9,16 @@
     color: lightblue;
 }
 
-#wrapper {
+body {
     font-family: 'Roboto Mono', sans-serif; 
     color: white;
 } 
 
 
-#logo, #wrapper, footer {
+#logo, body, footer {
     text-align: center;
 }
 
-/* Inspiration to this CSS taken from Benjamin Kavanagh's (my mentor) second project */
 
 /* Background image */
 body {
@@ -27,16 +26,6 @@ body {
     height: 100%;
 } 
 
-
-/* Wrapper to hold body/game */ 
-#wrapper {
-    -webkit-box-flex: 1; 
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-
-}
 
 /* Taken from the guide at: https://freshman.tech/simon-game/ */
 .unseen {
