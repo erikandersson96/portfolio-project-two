@@ -6,7 +6,7 @@
     font-size: 30px;
     height: 40px;
     font-family: nunito, sans-serif; 
-    color: lightblue;
+    color: #4c917f;
 }
 
 #wrapper, h3 {
@@ -21,12 +21,20 @@
 }
 
 
-/* Wrapper for all text and game 
+/* Wrapper for all text and game */
 
 #wrapper {
-    
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 600px; 
+
+    padding-right: 5px;
+    padding-left: 5px;
+    background: #11d6a1;
+    border-radius: 5%;
 }
-*/
+
 
 /* Background image */
 body {
