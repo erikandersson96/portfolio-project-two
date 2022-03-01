@@ -5,12 +5,12 @@
 #logo {
     font-size: 25px;
     font-family: nunito, sans-serif; 
-    color: #4c917f;
+    color: black;
 }
 
 #wrapper, h3 {
     font-family: 'Roboto Mono', sans-serif; 
-    color: white; 
+    color: black; 
     font-size: 20px;
 } 
 
@@ -63,7 +63,7 @@ p {
 body {
     background: url(../images/hero-image.jpg) no-repeat center center;
     height: 100%;
-    background-color: black;
+    background-color: white;
 } 
 
 
@@ -72,7 +72,7 @@ body {
 .btn-easy {
     background-color: #0fbd8e;
     border: 1px solid black;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: solid;
     font-size: 15px;
