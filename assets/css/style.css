@@ -70,9 +70,22 @@ body {
     text-decoration: solid;
     font-size: 15px;
 
+} 
+
+
+/* Footer - Social media links */
+
+.social-media-links > li {
+    display: inline-block;
+}
+
+.social-media-links {
+    font-size: 200%;
+
 }
 
 
+/* CSS for the game! */
 
 /* Taken from the guide at: https://freshman.tech/simon-game/ */
 .unseen {
