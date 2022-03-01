@@ -1,9 +1,8 @@
 # Erik game
  
-Introduction of project. What will a user find at the website? What is the website for?
+A website for people to play a version of the famous Simon Game. But this game is called Erik game. Instead of trying to match the computer color sequence, the user must hit a different color sequence. To win the game the user has to complete 10 levels, for each level the computer will increase one more color to the sequence. 
  
-Take a look at the website [here]() add link to website inside parentheses
-(link).
+To play the game you can cklick this [link](). (Opens in a new tab)
  
 ![Am I Responsive, to show the website on different screen sizes](file-path)
  
