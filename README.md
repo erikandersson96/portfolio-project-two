@@ -14,17 +14,16 @@ To play the game you can cklick this [link](). (Opens in a new tab)
 ---
 ### Intention
  
-This website is a `fictional website` for the purpose of my Second Portfolio Project for Code Institute’s Full Stack Software Developer Course. I created this website with the knowledge I gained from the `HTML`, `CSS` and `JavaScript` modules. ÄNDRA HÄR MED!!
- 
-The main goal of this project was to create a website for people to easily get in contact with a professional wristwatch company that services and cleans used watches for their customers. ÄNDRA HÄR MED!!
+This website is a `fictional website` for the purpose of my Second Portfolio Project for Code Institute’s Full Stack Software Developer Course. I created this website with the knowledge I gained from the `HTML`, `CSS` and `JavaScript` modules. 
+
+The main goal with this project was to test my new knowledge in JavaScript. I decided to create my own version of the famous Simon Game, but with a twist. I reversed the logic of the game so the player needs to play his/her own sequence in order to win.
  
 * Features I aimed to achieve with this project:
  
-* To make the site `easy` to read.
-* Create good contrast between the background and text `(Only use Black and White colors)`.
-* Use `Text Overlay` for my text to create a `“stand out”` feeling and catch the attention of the user.
-* Use a `Navigation Bar` that is easy to understand and easy to navigate between the three pages.
-ÄNDRA HÄR MED!!
+* To make the game `easy` to understand.
+* Create a game with an old style interface `(Trying to take the user back to the 90's)`.
+* Use a `Wrapper` for all text and the game itself to create a `“stand out”` feeling and catch the attention of the user.
+* Create a game that everyone at any age can play!
  
 ---
 ## Table of Contents - ÄNDRA ALLT SOM ÄR RELEVANT!!
