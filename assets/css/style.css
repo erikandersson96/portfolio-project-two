@@ -34,7 +34,7 @@
     padding-top: 5px;
     background-color: #11D6A1;
     border-radius: 5%; 
-    margin-top: 50px;
+    margin-top: 30px;
 } 
 
 /* Wrapper around description text, inspiration taken from https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper */
@@ -81,11 +81,6 @@ body {
 
 
 /* Footer - Social media links */ 
-
-footer {
-    height: 20px;
-    bottom: 0;
-}
 
 .social-media-links > li {
     display: inline;
