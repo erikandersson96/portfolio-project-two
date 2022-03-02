@@ -36,6 +36,7 @@
                 <h3>Choose difficulty level</h3>
                 <!-- Easy button -->
                    <button class="btn-easy">Easy</button> 
+                   
             </div>
             <div>
                 <!-- Start button/hide game instructions -->
@@ -57,7 +58,18 @@
                           <div class="easy easy-red" data-easy="red"></div>
                        </div> 
                     </div>
-                    <!-- Medium -->
+
+                    <!-- Main div for medium interface, hidden when another interface is choosen -->
+                    <div class="medium-interface not-activated">
+                        <div>
+                            <!-- data-medium is created to easier refer to the circles in my functions inside my js file-->
+                            <div class="medium medium-green" data-medium="green"></div>
+                        </div>
+                        <div> 
+                            <div class="medium medium-blue" data-medium="blue"></div>
+                            <div class="medium medium-red" data-medium="red"></div>
+                        </div>
+                    </div>
                     <!-- Hard -->
             </div> 
             <!-- Show which of 15 levels the user is on --> 
@@ -81,7 +93,7 @@
                 <a href="http://instagram.com" target="_blank" rel="noopener" 
                 aria-label="Go to our instagram(in new tab)"><i class="fab fa-instagram-square"></i></a>
             </li>
-            <li class="youtube-color">
+            <li>
                 <!-- Youtube -->
                 <a href="http://youtube.com" target="_blank" rel="noopener" 
                 aria-label="Go to our Youtube page(in new tab)"><i class="fab fa-youtube"></i></a>
