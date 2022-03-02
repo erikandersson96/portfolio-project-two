@@ -74,20 +74,20 @@ function nextPhase() {
 // the user's turn to play. IS THIS CORRECT??? 
 // pattern is also updated to match the current sequence in play. 
 function nextTurn() {
-    level += 1; 
-
-    easyInterface.classList.add('not-activated'); 
-    instruction.textContent = "Let the computer play it's sequence first"; 
-    userLevel.textContent = `Level ${level} of 10`; 
-
-    const nextPattern = [...pattern]; 
-    nextPattern.push(nextPhase()); 
+    level += 1;
+    
+    easyInterface.classList.add('not-activated');
+    instruction.textContent = "Let the computer play it's sequence first";
+    userLevel.textContent = `Level ${level} of 10`;
+    
+    const nextPattern = [...pattern];
+    nextPattern.push(nextPhase());
     playPattern(nextPattern);
 
-    pattern = [...nextPattern]; 
+    pattern = [...nextPattern];
     setTimeout(() => {
-        userTurn(); 
-    }, level * 700 + 1000); 
+        userTurn();
+    }, level * 700 + 1000);
 }
 
 // this function is created to compare the user input to the computer. 
