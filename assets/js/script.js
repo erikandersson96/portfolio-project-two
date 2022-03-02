@@ -106,7 +106,7 @@ function manageClick(currentClick) {
         // Increase index by 1
         currentIndex++;
         // Tell the user their score
-        instruction.textContent = `Bravo! ${currentIndex} correct! Carry on!`;
+        instruction.textContent = `Bravo! ${currentIndex} correct of ${level} colors! Carry on!`;
     }
     // Check win condition
     if (currentIndex === 10) {
