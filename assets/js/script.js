@@ -20,11 +20,8 @@ const instruction = document.querySelector('.game-info');
 // we connect userLevel to match Level: in html file by it's div class name. 
 const userLevel = document.querySelector('.level-count');
 // we connect easyInterface to match the class name of the parent div of easy in the html file.
-const easyInterface = document.querySelector('.easy-interface');
-// we connect mediumInterface to match the class name of the parent div of medium in the html file.
-const mediumInterface = document.querySelector('.medium-interface'); 
-// we connect hardInterface to match the class name of the parent div of hard in the html file.
-const hardInterface = document.querySelector('.hard-interface'); 
+const gameInterface = document.querySelector('.easy-interface');
+
 
 // reset game alert
 function resetGame(text) {
@@ -35,12 +32,12 @@ function resetGame(text) {
     startBtn.classList.remove('unseen'); 
     userLevel.textContent = 'Erik game';
     instruction.classList.add('unseen'); 
-    easyInterface.classList.add('not-activated');
+    gameInterface.classList.add('not-activated');
 }
 
 // this function creates a way to tell the user that it is his/her's turn to play. 
 function userTurn() {
-    easyInterface.classList.remove('not-activated'); 
+    gameInterface.classList.remove('not-activated'); 
     instruction.textContent = "Now it's your turn."; 
     
 }
@@ -81,7 +78,7 @@ function playPattern(nextPattern) {
 
 function nextPhase(currentDifficulty) {
 
-    if (currentDifficulty == easyInterface) {
+    if (currentDifficulty == gameInterface) {
         const easier = ['green', 'blue', 'yellow', 'red'];
         const randomEasy = easier[Math.floor(Math.random() * easier.length)]; 
 
@@ -113,7 +110,7 @@ function nextTurn() {
     level += 1; 
 
     
-    easyInterface.classList.add('not-activated');
+    gameInterface.classList.add('not-activated');
     instruction.textContent = "Let the computer play it's sequence first";
     userLevel.textContent = `Level ${level} of 10`;
     
@@ -177,7 +174,7 @@ function startGame() {
 // here we make sure that startGame function excecutes when startBtn is pressed/clicked 
 // by the user.
 startBtn.addEventListener('click', startGame); 
-easyInterface.addEventListener('click', event => {
+gameInterface.addEventListener('click', event => {
     const {
         currentClick
     } = event.target.dataset; 
