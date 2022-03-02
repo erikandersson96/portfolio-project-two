@@ -188,4 +188,22 @@ body {
         display: inline-flex;
         cursor: pointer;
     } 
+
+
+#logo {
+    font-size: 15px;
+    font-family: nunito, sans-serif; 
+    color: black;
+} 
+
+
+p {
+    font-size: 13px;
+} 
+
+
+h3 {
+    font-size: 15px;
+}
+
 }
