@@ -17,8 +17,12 @@ const startBtn = document.querySelector('.start');
 const instruction = document.querySelector('.game-info');
 // we connect userLevel to match Level: in html file by it's div class name. 
 const userLevel = document.querySelector('.level-count');
-// we connect easyInterface to match the class name of the parent div of all circles in html file.
+// we connect easyInterface to match the class name of the parent div of easy in the html file.
 const easyInterface = document.querySelector('.easy-interface');
+// we connect mediumInterface to match the class name of the parent div of medium in the html file.
+const mediumInterface = document.querySelector('.medium-interface'); 
+// we connect hardInterface to match the class name of the parent div of hard in the html file.
+const hardInterface = document.querySelector('.hard-interface'); 
 
 // reset game alert
 function resetGame(text) {
