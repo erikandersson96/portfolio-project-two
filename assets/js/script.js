@@ -68,23 +68,11 @@ function playPattern(nextPattern) {
 // The guide uses nextStep() here. 
 function nextPhase() {
 
-    if (easyInterface === true) {
-        const easier = ['green', 'blue', 'yellow', 'red']; 
-        const random = easier[Math.floor(Math.random() * easier.length)]; 
+    const easier = ['green', 'blue', 'yellow', 'red']; 
+    const random = easier[Math.floor(Math.random() * easier.length)]; 
 
-        return random; 
-    } if (mediumInterface === true) {
-        const medium = ['green', 'blue', 'red']; 
-        const random = medium[Math.floor(Math.random() * medium.length)]; 
-
-        return random; 
-    } else {
-        const hard = ['green', 'blue']; 
-        const random = hard[Math.floor(Math.random() * hard.length)]; 
-
-        return random; 
-    }
-
+    return random; 
+    
 }
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
@@ -95,18 +83,11 @@ function nextPhase() {
 function nextTurn() {
     level += 1; 
 
-    if (easyInterface === true) {
-        easyInterface.classList.add('not-activated');
-        instruction.textContent = "Let the computer play it's sequence first";
-        userLevel.textContent = `Level ${level} of 10`;
-    } 
-
-    if (mediumInterface === true) {
-        mediumInterface.classList.add('not-activated');
-        instruction.textContent = "Let the computer play it's sequence first";
-        userLevel.textContent = `Level ${level} of 10`;
-    }
-
+    
+    easyInterface.classList.add('not-activated');
+    instruction.textContent = "Let the computer play it's sequence first";
+    userLevel.textContent = `Level ${level} of 10`;
+    
     
     const nextPattern = [...pattern];
     nextPattern.push(nextPhase());
