@@ -11,6 +11,8 @@ let gameOver = false
 // User's current position in array
 let currentIndex = 0
 
+
+
 // we connect startBtn to the html button by it's class name with our const declaration.
 const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
@@ -43,6 +45,8 @@ function userTurn() {
     
 }
 
+
+
 // this function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
 function activateEasy(color) {
@@ -65,7 +69,7 @@ function playPattern(nextPattern) {
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work. 
-function nextPhase() {
+/*function nextPhase() {
 
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
@@ -73,7 +77,8 @@ function nextPhase() {
     return random; 
     
 }
-/*
+*/
+
 function nextPhase(currentDifficulty) {
 
     if (currentDifficulty == easyInterface) {
@@ -84,20 +89,20 @@ function nextPhase(currentDifficulty) {
     } 
 
     else if (currentDifficulty == mediumInterface) {
-        let medium = ['green', 'blue', 'red'];
+        let medium = ['green', 'yellow', 'red'];
         const randomMedium = medium[Math.floor(Math.random() * medium.length)]; 
 
         return randomMedium; 
     }
 
     else if (currentDifficulty == hardInterface) {
-        const hard = ['green', 'blue'];
+        const hard = ['blue', 'red'];
         const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
 
         return randomHard; 
     }
 }
-*/
+
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
@@ -114,7 +119,7 @@ function nextTurn() {
     
     
     const nextPattern = [...pattern];
-    nextPattern.push(nextPhase());
+    nextPattern.push(nextPhase(currentDifficulty));
     playPattern(nextPattern);
 
     pattern = [...nextPattern];
@@ -122,6 +127,8 @@ function nextTurn() {
         userTurn();
     }, level * 700 + 1000);
 }
+
+console.log(nextTurn); 
 
 // this function is created to compare the user input to the computer. 
 function manageClick(currentClick) {
@@ -176,5 +183,4 @@ easyInterface.addEventListener('click', event => {
     } = event.target.dataset; 
     manageClick(currentClick); 
 }); 
-
 
