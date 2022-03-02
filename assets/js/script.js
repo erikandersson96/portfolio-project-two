@@ -14,6 +14,7 @@ const userLevel = document.querySelector('.level-count');
 // we connect easyInterface to match the class name of the parent div of all circles in html file.
 const easyInterface = document.querySelector('.easy-interface'); 
 
+// reset game alert
 function resetGame(text) {
     alert(text); 
     pattern = []; 
@@ -40,7 +41,7 @@ function activateEasy(color) {
 
     setTimeout(() => {
         easy.classList.remove('activate');
-    }, 300); 
+    }, 350); 
 } 
 
 // here is a function to set a delay on 700 milliseconds between each color that the computer
