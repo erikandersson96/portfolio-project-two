@@ -64,17 +64,16 @@ function playPattern(nextPattern) {
 }
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
-// random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work.
-// The guide uses nextStep() here. 
-/*function nextPhase() {
+// random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work. 
+function nextPhase() {
 
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
 
     return random; 
     
-}*/
-
+}
+/*
 function nextPhase(currentDifficulty) {
 
     if (currentDifficulty == easyInterface) {
@@ -98,11 +97,12 @@ function nextPhase(currentDifficulty) {
         return randomHard; 
     }
 }
+*/
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
 // a timeOut is set to slightly delay the time between the computers finished sequence and 
-// the user's turn to play. IS THIS CORRECT??? 
+// the user's turn to play. 
 // pattern is also updated to match the current sequence in play. 
 function nextTurn() {
     level += 1; 
