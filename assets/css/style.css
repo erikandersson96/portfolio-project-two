@@ -181,6 +181,98 @@ body {
 } 
 
 
+/* Medium interface 
+
+.medium {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: inline-flex;
+    cursor: pointer;
+} 
+
+.medium:hover {
+    box-shadow: inset 0px 0px 0px 3px cyan;
+    box-sizing: border-box;
+}
+
+*/
+
+/* Medium interface 3 different colors 
+
+.medium-green {
+    background-color: green;
+    transition: 0.16s;
+}
+
+.medium-green:active, .medium-green.activate {
+    background-color: black;
+    transform: translate(8px);
+}
+
+.medium-blue {
+    background-color: blue;
+    transition: 0.16s;
+}
+
+.easy-medium:active, .medium-blue.activate {
+    background-color: black;
+    transform: translate(8px);
+}
+
+
+.medium-red {
+    background-color: red;
+    transition: 0.16s;
+}
+
+.medium-red:active, .medium-red.activate {
+    background-color: black;
+    transform: translate(8px);
+} 
+*/
+
+/* Hard interface 
+
+.hard {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: inline-flex;
+    cursor: pointer;
+} 
+
+.hard:hover {
+    box-shadow: inset 0px 0px 0px 3px cyan;
+    box-sizing: border-box;
+}
+*/
+
+/* Hard interface 2 different colors 
+
+.hard-green {
+    background-color: green;
+    transition: 0.16s;
+}
+
+.hard-green:active, .hard-green.activate {
+    background-color: black;
+    transform: translate(8px);
+}
+
+.hard-blue {
+    background-color: blue;
+    transition: 0.16s;
+}
+
+.hard-medium:active, .hard-blue.activate {
+    background-color: black;
+    transform: translate(8px);
+}
+*/
+
+
+
 /* Media queries */
 
 /* Mobile screen size 340px down */
