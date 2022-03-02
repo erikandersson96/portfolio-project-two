@@ -75,7 +75,7 @@ function nextPhase() {
 // pattern is also updated to match the current sequence in play. 
 function nextTurn() {
     level += 1;
-    
+
     easyInterface.classList.add('not-activated');
     instruction.textContent = "Let the computer play it's sequence first";
     userLevel.textContent = `Level ${level} of 10`;
@@ -91,38 +91,35 @@ function nextTurn() {
 }
 
 // this function is created to compare the user input to the computer. 
-function manageClick(currentClick) {
-
-    // If current value matches current pattern position's value 
-    if (currentClick === pattern[currentIndex]) {
-        // Game over 
-        resetGame('Oh no! You pressed the same color sequence as the computer...'); 
-        return; 
+function manageClick(easy) {
+    // If current value matches current pattern position's value
+    if (easy === pattern[currentIndex]) {
+        // Game over
+        resetGame('Oh no! You pressed the same color sequence as the computer...');
+        return;
     } else {
-        // Increase index by 1 
-        currentIndex++; 
-        // Tell the user their score 
-        instruction.textContent = `Bravo! ${currentIndex} correct! Carry on!`; 
-    } 
-
-    // Check win condition 
+        // Increase index by 1
+        currentIndex++;
+        // Tell the user their score
+        instruction.textContent = `Bravo! ${currentIndex} correct! Carry on!`;
+    }
+    // Check win condition
     if (currentIndex === 10) {
-        resetGame('Good Work! You won the game!')
-        gameOver = true; 
-        return; 
-    } 
-
-    // Check to see if index is the length of current pattern 
+        resetGame('Good Work! You won the game!');
+        gameOver = true;
+        return;
+    }
+    // Check to see if index is the length of current pattern
     if (currentIndex == pattern.length) {
-        // Set computer's turn 
-        userTurn = false; 
-        // Reset index 
-        currentIndex = 0; 
-        // Play computers next turn 
+        // Set computer's turn
+        usersTurn = false;
+        // Reset index
+        currentIndex = 0;
+        // Play CPU's next turn
         setTimeout(() => {
             nextTurn();
-        }, 1000); 
-        usersTurn = true; 
+        }, 1000);
+        usersTurn = true;
     }
 }
 
@@ -142,9 +139,9 @@ function startGame() {
 startBtn.addEventListener('click', startGame); 
 easyInterface.addEventListener('click', event => {
     const {
-        currentClick
+        easy
     } = event.target.dataset; 
-    manageClick(currentClick); 
+    manageClick(easy); 
 }); 
 
 
