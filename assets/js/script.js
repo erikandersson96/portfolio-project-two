@@ -1,24 +1,24 @@
 // pattern is for Computer's gameplay, we set pattern equal to an array[].
-let pattern = []; 
+let pattern = [];
 // userPattern is for user's gameplay, we set userPattern equal to an array[]. 
-let userPattern = []; 
+let userPattern = [];
 // set level to 0 so we can add to it for each round in function nextTurn.
-let level = 0; 
-// Boolean for user turn 
-let usersTurn = false;
+let level = 0;
+// Boolean for user turn
+let usersTurn = false
 // Boolean for win condition
-let gameOver = false; 
-// User's current position in array 
-let currentIndex = 0;
+let gameOver = false
+// User's current position in array
+let currentIndex = 0
 
 // we connect startBtn to the html button by it's class name with our const declaration.
-const startBtn = document.querySelector('.start'); 
+const startBtn = document.querySelector('.start');
 // we connect instruction to the html span for instruction by it's class name with our const declaration.
-const instruction = document.querySelector('.game-info'); 
+const instruction = document.querySelector('.game-info');
 // we connect userLevel to match Level: in html file by it's div class name. 
-const userLevel = document.querySelector('.level-count'); 
+const userLevel = document.querySelector('.level-count');
 // we connect easyInterface to match the class name of the parent div of all circles in html file.
-const easyInterface = document.querySelector('.easy-interface'); 
+const easyInterface = document.querySelector('.easy-interface');
 
 // reset game alert
 function resetGame(text) {
