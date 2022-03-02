@@ -41,14 +41,12 @@ function userTurn() {
 // this function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
 function activateEasy(color) {
-    const currentClick = document.querySelector(`[data-easy='${color}']`); 
-
-    currentClick.classList.add('activate'); 
-
+    const easy = document.querySelector(`[data-easy='${color}']`);
+    easy.classList.add('activate');
     setTimeout(() => {
         easy.classList.remove('activate');
-    }, 350); 
-} 
+    }, 300);
+}
 
 // here is a function to set a delay on 700 milliseconds between each color that the computer
 // flashes. 
