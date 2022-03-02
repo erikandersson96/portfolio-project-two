@@ -66,13 +66,37 @@ function playPattern(nextPattern) {
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work.
 // The guide uses nextStep() here. 
-function nextPhase() {
+/*function nextPhase() {
 
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
 
     return random; 
     
+}*/
+
+function nextPhase(currentDifficulty) {
+
+    if (currentDifficulty == easyInterface) {
+        const easier = ['green', 'blue', 'yellow', 'red'];
+        const randomEasy = easier[Math.floor(Math.random() * easier.length)]; 
+
+        return randomEasy; 
+    } 
+
+    else if (currentDifficulty == mediumInterface) {
+        let medium = ['green', 'blue', 'red'];
+        const randomMedium = medium[Math.floor(Math.random() * medium.length)]; 
+
+        return randomMedium; 
+    }
+
+    else if (currentDifficulty == hardInterface) {
+        const hard = ['green', 'blue'];
+        const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
+
+        return randomHard; 
+    }
 }
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 

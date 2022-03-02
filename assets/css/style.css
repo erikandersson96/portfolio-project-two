@@ -136,7 +136,7 @@ input[type=radio]:checked + label {
 }
 
 label + input[type=radio] + label {
-    border-left: solid 4px #1bf7bc;
+    border-left: solid 2px #1bf7bc;
 }
 
 .radio-buttons {
