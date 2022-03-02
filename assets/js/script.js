@@ -40,15 +40,16 @@ function resetGame(text) {
 function userTurn() {
     easyInterface.classList.remove('not-activated'); 
     instruction.textContent = "Now it's your turn."; 
+    
 }
 
 // this function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
 function activateEasy(color) {
-    const easy = document.querySelector(`[data-easy='${color}']`);
-    easy.classList.add('activate');
+    const currentClick = document.querySelector(`[data-easy='${color}']`);
+    currentClick.classList.add('activate');
     setTimeout(() => {
-        easy.classList.remove('activate');
+        currentClick.classList.remove('activate');
     }, 300);
 }
 
@@ -95,9 +96,9 @@ function nextTurn() {
 }
 
 // this function is created to compare the user input to the computer. 
-function manageClick(easy) {
+function manageClick(currentClick) {
     // If current value matches current pattern position's value
-    if (easy === pattern[currentIndex]) {
+    if (currentClick === pattern[currentIndex]) {
         // Game over
         resetGame('Oh no! You pressed the same color sequence as the computer...');
         return;
@@ -143,9 +144,9 @@ function startGame() {
 startBtn.addEventListener('click', startGame); 
 easyInterface.addEventListener('click', event => {
     const {
-        easy
+        currentClick
     } = event.target.dataset; 
-    manageClick(easy); 
+    manageClick(currentClick); 
 }); 
 
 
