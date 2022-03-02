@@ -142,7 +142,8 @@ label + input[type=radio] + label {
 .radio-buttons {
     border: solid 3px #1bf7bc;
     display: inline-block;
-    margin: 10px;
+    margin-top: 3px;
+    margin-bottom: 8px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -310,7 +311,26 @@ label + input[type=radio] + label {
 
 /* Media queries */
 
-/* Mobile screen size 340px down */
+/* Mobile screen size 350px down */
+@media screen and (max-width: 350px) {
+    label {
+        color: #086b51;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 1px 5px;
+    }
+
+    .radio-buttons {
+        border: solid 3px #1bf7bc;
+        display: inline-block;
+        margin: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+
+/* Mobile screen size 330px down */
 @media screen and (max-width: 330px) {
     .easy {
         border-radius: 50%;
