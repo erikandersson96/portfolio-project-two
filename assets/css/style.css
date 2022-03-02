@@ -6,6 +6,7 @@
     font-size: 25px;
     font-family: nunito, sans-serif; 
     color: black;
+    text-align: center;
 }
 
 #wrapper, h3 {
@@ -13,11 +14,6 @@
     color: black; 
     font-size: 20px;
 } 
-
-
-#logo, #wrapper, footer {
-    text-align: center;
-}
 
 
 /* Wrapper for all text and game */
@@ -34,7 +30,8 @@
     padding-top: 5px;
     background-color: #11D6A1;
     border-radius: 5%; 
-    margin-top: 30px;
+    margin-top: 30px; 
+    text-align: center;
 } 
 
 /* Wrapper around description text, inspiration taken from https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper */
@@ -50,6 +47,7 @@
     background-color: #0fbd8e;
     border-radius: 3%; 
     border: 1px solid black;
+    text-align: center;
 } 
 
 /* Paragraph holding description text */
@@ -105,12 +103,14 @@ body {
 }
 
 .social-media-links i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 1%;
-    color: white;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    color: #0fbd8e;
     
-}
+} 
+
+
 
 
 /* CSS for the game! */
