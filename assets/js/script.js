@@ -50,7 +50,7 @@ function activateEasy(color) {
     currentClick.classList.add('activate');
     setTimeout(() => {
         currentClick.classList.remove('activate');
-    }, 300);
+    }, 350);
 }
 
 // here is a function to set a delay on 700 milliseconds between each color that the computer
@@ -59,7 +59,7 @@ function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
         setTimeout(() => {
             activateEasy(color); 
-        }, (index + 1) * 700);
+        }, (index + 1) * 800);
     });
 }
 
@@ -67,10 +67,24 @@ function playPattern(nextPattern) {
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work.
 // The guide uses nextStep() here. 
 function nextPhase() {
-    const easier = ['green', 'blue', 'yellow', 'red']; 
-    const random = easier[Math.floor(Math.random() * easier.length)]; 
 
-    return random; 
+    if (easyInterface === true) {
+        const easier = ['green', 'blue', 'yellow', 'red']; 
+        const random = easier[Math.floor(Math.random() * easier.length)]; 
+
+        return random; 
+    } if (mediumInterface === true) {
+        const medium = ['green', 'blue', 'red']; 
+        const random = medium[Math.floor(Math.random() * medium.length)]; 
+
+        return random; 
+    } else {
+        const hard = ['green', 'blue']; 
+        const random = hard[Math.floor(Math.random() * hard.length)]; 
+
+        return random; 
+    }
+
 }
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
@@ -79,11 +93,20 @@ function nextPhase() {
 // the user's turn to play. IS THIS CORRECT??? 
 // pattern is also updated to match the current sequence in play. 
 function nextTurn() {
-    level += 1;
+    level += 1; 
 
-    easyInterface.classList.add('not-activated');
-    instruction.textContent = "Let the computer play it's sequence first";
-    userLevel.textContent = `Level ${level} of 10`;
+    if (easyInterface === true) {
+        easyInterface.classList.add('not-activated');
+        instruction.textContent = "Let the computer play it's sequence first";
+        userLevel.textContent = `Level ${level} of 10`;
+    } 
+
+    if (mediumInterface === true) {
+        mediumInterface.classList.add('not-activated');
+        instruction.textContent = "Let the computer play it's sequence first";
+        userLevel.textContent = `Level ${level} of 10`;
+    }
+
     
     const nextPattern = [...pattern];
     nextPattern.push(nextPhase());
@@ -148,6 +171,5 @@ easyInterface.addEventListener('click', event => {
     } = event.target.dataset; 
     manageClick(currentClick); 
 }); 
-
 
 
