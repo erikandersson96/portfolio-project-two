@@ -4,6 +4,12 @@ let pattern = [];
 let userPattern = []; 
 // set level to 0 so we can add to it for each round in function nextTurn.
 let level = 0; 
+// Boolean for user turn 
+let usersTurn = false;
+// Boolean for win condition
+let gameOver = false; 
+// User's current position in array 
+let currentIndex = 0;
 
 // we connect startBtn to the html button by it's class name with our const declaration.
 const startBtn = document.querySelector('.start'); 
@@ -35,9 +41,9 @@ function userTurn() {
 // this function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
 function activateEasy(color) {
-    const easy = document.querySelector(`[data-easy='${color}']`); 
+    const currentClick = document.querySelector(`[data-easy='${color}']`); 
 
-    easy.classList.add('activate'); 
+    currentClick.classList.add('activate'); 
 
     setTimeout(() => {
         easy.classList.remove('activate');
@@ -87,8 +93,8 @@ function nextTurn() {
 }
 
 // this function is created to compare the user input to the computer. 
-function manageClick(easy) {
-    const index = userPattern.push(easy) - 1; 
+function manageClick(currentClick) {
+    const index = userPattern.push(currentClick) - 1; 
 
     if (userPattern[index] === pattern[index]) {
         resetGame('Oh no! You pressed the same color sequence as the computer...'); 
@@ -126,9 +132,9 @@ function startGame() {
 // by the user.
 startBtn.addEventListener('click', startGame); 
 easyInterface.addEventListener('click', event => {
-    const { easy } = event.target.dataset; 
+    const { currentClick } = event.target.dataset; 
 
-    if (easy) manageClick(easy); 
+    if (currentClick) manageClick(currentClick); 
 }); 
 
 
