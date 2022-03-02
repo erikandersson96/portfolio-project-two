@@ -94,33 +94,44 @@ function nextTurn() {
 
 // this function is created to compare the user input to the computer. 
 function manageClick(currentClick) {
-    const index = userPattern.push(currentClick) - 1; 
 
-    if (userPattern[index] === pattern[index]) {
+    // If current value matches current pattern position's value 
+    if (currentClick === pattern[currentIndex]) {
+        // Game over 
         resetGame('Oh no! You pressed the same color sequence as the computer...'); 
         return; 
-    }
-   
-    if (userPattern.length != pattern.length) { 
-        if (userPattern.length === 10) {
-            resetGame('Good Work! You won the game!'); 
-            return
-        }
+    } else {
+        // Increase index by 1 
+        currentIndex++; 
+        // Tell the user their score 
+        instruction.textContent = `Bravo! ${currentIndex} correct! Carry on!`; 
+    } 
 
-        userPattern = []; 
-        instruction.textContent = 'Bravo! Carry on!'; 
-        setTimeout(() => {
-            nextTurn(); 
-        }, 1000); 
+    // Check win condition 
+    if (currentIndex === 10) {
+        resetGame('Good Work! You won the game!')
+        gameOver = true; 
         return; 
-    }
+    } 
 
-    instruction.textContent = "Now it's your turn."; 
+    // Check to see if index is the length of current pattern 
+    if (currentIndex == pattern.length) {
+        // Set computer's turn 
+        userTurn = false; 
+        // Reset index 
+        currentIndex = 0; 
+        // Play computers next turn 
+        setTimeout(() => {
+            nextTurn();
+        }, 1000); 
+        usersTurn = true; 
+    }
 }
 
 // a function called startGame that will make the start game button dissapear when user press
 // it and show game instructions.
 function startGame() {
+
     startBtn.classList.add('unseen'); 
     instruction.classList.remove('unseen');
     instruction.textContent = "Let the computer play it's sequence first"; 
@@ -132,9 +143,10 @@ function startGame() {
 // by the user.
 startBtn.addEventListener('click', startGame); 
 easyInterface.addEventListener('click', event => {
-    const { currentClick } = event.target.dataset; 
-
-    if (currentClick) manageClick(currentClick); 
+    const {
+        currentClick
+    } = event.target.dataset; 
+    manageClick(currentClick); 
 }); 
 
 
