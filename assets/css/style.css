@@ -15,6 +15,9 @@
     font-size: 20px;
 } 
 
+/* Insiration for wrapper around game and wrapper around description taken
+from https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper
+*/
 
 /* Wrapper for all text and game */
 
@@ -34,7 +37,7 @@
     text-align: center;
 } 
 
-/* Wrapper around description text, inspiration taken from https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper */
+/* Wrapper around description text */
 
 #descr {
     margin-right: auto;
@@ -110,7 +113,7 @@ body {
     
 } 
 
-
+/* Inspiration taken from https://codepen.io/skeddles/pen/PbROLK */
 /* Styling for radio buttons Easy/Medium/Hard #0fbd8e */
 
 input[type=radio] {
