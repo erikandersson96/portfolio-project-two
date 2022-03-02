@@ -105,6 +105,7 @@ body {
     
 }
 
+
 .social-media-links i {
     font-size: 30px;
     margin: 10px;
@@ -114,7 +115,7 @@ body {
 } 
 
 /* Inspiration taken from https://codepen.io/skeddles/pen/PbROLK */
-/* Styling for radio buttons Easy/Medium/Hard #0fbd8e */
+/* Styling for radio buttons Easy/Medium/Hard #0fbd8e  #1bf7bc*/
 
 input[type=radio] {
     position: absolute;
@@ -123,7 +124,7 @@ input[type=radio] {
 }
 
 label {
-    color: #086b51;
+    color: black;
     display: inline-block;
     cursor: pointer;
     font-weight: bold;
@@ -132,16 +133,16 @@ label {
 
 input[type=radio]:checked + label {
     color: black;
-    background: #1bf7bc;
+    background: #0ca17a;
 }
 
 label + input[type=radio] + label {
-    border-left: solid 2px #1bf7bc;
+    border-left: solid 3px black;
 }
 
 .radio-buttons {
-    border: solid 3px #1bf7bc;
-    display: inline-block;
+    border: solid 3px black;
+    display: inline-table;
     margin-top: 3px;
     margin-bottom: 8px;
     border-radius: 10px;
