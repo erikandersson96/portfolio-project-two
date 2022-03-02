@@ -111,9 +111,38 @@ body {
 } 
 
 
-/* Styling for radio buttons Easy/Medium/Hard */
+/* Styling for radio buttons Easy/Medium/Hard #0fbd8e */
 
+input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
 
+label {
+    color: #086b51;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1px 15px;
+}
+
+input[type=radio]:checked + label {
+    color: black;
+    background: #1bf7bc;
+}
+
+label + input[type=radio] + label {
+    border-left: solid 4px #1bf7bc;
+}
+
+.radio-buttons {
+    border: solid 3px #1bf7bc;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 
 /* CSS for the game! */
