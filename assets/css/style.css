@@ -95,9 +95,13 @@ body {
 
 /* Footer - Social media links */ 
 
+.social-media-links {
+    text-align: center;
+}
+
 .social-media-links > li {
     display: inline;
-    box-sizing: border-box;
+    
 }
 
 .social-media-links i {
