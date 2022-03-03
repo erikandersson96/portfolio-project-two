@@ -150,35 +150,35 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
  
 **#11D6A1 - Light neon green (HEX-color)**
  
-![A box with the color of my Wrapper](/assets/images/)
+![A box with the color of my Wrapper](/assets/images/#11d6a1.png)
  
 **#0fbd8e - Little darker green (HEX-color)**
  
-![A box with the color of my description box](/assets/images/)
+![A box with the color of my description box](/assets/images/#0fbd8e.png)
  
 **Black - color (Default color)**
  
-![A black box](/assets/images/) 
+![A black box](/assets/images/black.png) 
 
 **#0ca17a - Dark green (HEX-color)** 
 
-![A box with the color of my difficulty selector](/assets/images/) 
+![A box with the color of my difficulty selector](/assets/images/#0ca17a.png) 
 
 **Green - color (Default color)**
 
-![A box with the color of my first circle](/assets/images/) 
+![A box with the color of my first circle](/assets/images/green.png) 
 
 **Blue - color (Default color)**
 
-![A box with the color of my second circle](/assets/images/) 
+![A box with the color of my second circle](/assets/images/blue.png) 
 
 **Yellow - color (Default color)**
 
-![A box with the color of my third circle](/assets/images/) 
+![A box with the color of my third circle](/assets/images/yellow.png) 
 
 **Red - color (Default color)**
  
-![A box with the color of my fourth circle](/assets/images/)
+![A box with the color of my fourth circle](/assets/images/red.png)
 
 
 ### Fonts
