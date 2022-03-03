@@ -128,7 +128,7 @@ label + input[type=radio] + label {
     border-left: solid 3px black;
 }
 
-.radio-buttons {
+.radio-btns {
     border: solid 3px black;
     display: inline-table;
     margin-bottom: 10px;
