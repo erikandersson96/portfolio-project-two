@@ -20,7 +20,7 @@ const instruction = document.querySelector('.game-info');
 // we connect userLevel to match Level: in html file by it's div class name. 
 const userLevel = document.querySelector('.level-count');
 // we connect easyInterface to match the class name of the parent div of easy in the html file.
-const gameInterface = document.querySelector('.easy-interface');
+const gameInterface = document.querySelector('.game-interface');
 
 
 // reset game alert
