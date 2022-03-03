@@ -66,46 +66,70 @@ function playPattern(nextPattern) {
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work. 
-function nextPhase() {
+/*function nextPhase() {
 
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
 
     return random; 
     
-}
+}*/
 
-/*
-let optionEasy = document.getElementById('.option-easy'); 
-let optionMedium = document.getElementById('.option-medium'); 
-let optionHard = document.getElementById('.option-hard');
+let gameDifficulty = 'easy';
+
+let radioButtons = document.getElementsByClassName('.radio-buttons');
+for (let i = 0; i < radioButtons.length, i++;) {
+    radioButtons.onclick = function() {
+
+        gameDifficulty = radioButtons[i].value;
+
+        if (radioButtons[i].value == 'easy') {
+            // Change the amount of circles
+         
+        }
+
+        else if (radioButtons[i].value == 'medium') {
+            // Change the amount of circles
+            
+        }
+
+        else if (radioButtons[i].value == 'hard') {
+            // Change the amount of circles
+            
+        }
+
+        console.log(gameDifficulty); 
+
+    }
+}
 
 
 
 function nextPhase(currentDifficulty) {
 
-    if (currentDifficulty == optionEasy) {
+
+    if (currentDifficulty == 'easy') {
         const easier = ['green', 'blue', 'yellow', 'red'];
         const randomEasy = easier[Math.floor(Math.random() * easier.length)]; 
 
         return randomEasy; 
     } 
 
-    else if (currentDifficulty == optionMedium) {
+    else if (currentDifficulty == 'medium') {
         let medium = ['green', 'yellow', 'red'];
         const randomMedium = medium[Math.floor(Math.random() * medium.length)]; 
 
         return randomMedium; 
     }
 
-    else if (currentDifficulty == optionHard) {
+    else if (currentDifficulty == 'hard') {
         const hard = ['blue', 'red'];
         const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
 
         return randomHard; 
     }
 }
-*/
+
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
