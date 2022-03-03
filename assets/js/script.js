@@ -86,7 +86,7 @@ for (let i = 0; i < radioButtons.length, i++;) {
 
         if (radioButtons[i].value == 'easy') {
             // Change the amount of circles 
-            console.log(easy); 
+             
         }
 
         else if (radioButtons[i].value == 'medium') {
@@ -99,6 +99,7 @@ for (let i = 0; i < radioButtons.length, i++;) {
 
     }
 }
+
 
 
 
