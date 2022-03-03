@@ -187,12 +187,12 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
  
 **nunito, for my logo:**
  
-![Image that displays how font Oswald look](/assets/images/)
+![Image that displays how font nunito looks](/assets/images/nunito.png)
  
 **Roboto Mono, all other text:**
  
-![Image that displays how font Open Sans look](/assets/images/)
-ÄNDRA HÄR MED!!
+![Image that displays how font Roboto Mono looks](/assets/images/robotomono.png)
+
  
 ---
 ## Existing Features
