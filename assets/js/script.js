@@ -84,21 +84,18 @@ for (let i = 0; i < radioButtons.length, i++;) {
         gameDifficulty = radioButtons[i].value;
 
         if (radioButtons[i].value == 'easy') {
-            // Change the amount of circles
-            
+            // Change the amount of circles HOW???
         }
 
         else if (radioButtons[i].value == 'medium') {
-            // Change the amount of circles
-            
+            // Change the amount of circles HOW???
         }
 
         else if (radioButtons[i].value == 'hard') {
-            // Change the amount of circles
-            
+            // Change the amount of circles HOW???
         }
 
-        console.log(gameDifficulty); 
+        console.log(gameDifficulty);
 
     }
 }
