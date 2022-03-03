@@ -146,22 +146,41 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 
 ### Color Scheme
  
-* I chose four different colors for the website. `Black, White, and medium-light grey` for the `Text Overlays` to give it a good contrast to the background image.
+* I went for eight different colors for the website. `Light neon green` for the `Wrapper, difficulty selector and social media links`, little darker green for my `description box`, black for all `text`, dark green for the selected `difficulty` and my circles has `green, blue, yellow, red`.
  
-**#fff - White (HEX-color)**
+**#11D6A1 - Light neon green (HEX-color)**
  
-![A white box with a thin grey border around it](/assets/images/)
+![A box with the color of my Wrapper](/assets/images/)
  
-**#000000 - Black (HEX-color)**
+**#0fbd8e - Little darker green (HEX-color)**
  
-![A black box](/assets/images/)
+![A box with the color of my description box](/assets/images/)
  
-**rgba (6, 6, 8, 0.753) - Medium light grey (RGB-color)**
-This represents the Text Overlays.
+**Black - color (Default color)**
  
-![A transparent box](/assets/images/)
+![A black box](/assets/images/) 
+
+**#0ca17a - Dark green (HEX-color)** 
+
+![A box with the color of my difficulty selector](/assets/images/) 
+
+**Green - color (Default color)**
+
+![A box with the color of my first circle](/assets/images/) 
+
+**Blue - color (Default color)**
+
+![A box with the color of my second circle](/assets/images/) 
+
+**Yellow - color (Default color)**
+
+![A box with the color of my third circle](/assets/images/) 
+
+**Red - color (Default color)**
  
-ÄNDRA HÄR MED!!
+![A box with the color of my fourth circle](/assets/images/)
+
+
 ### Fonts
  
 * I used three different fonts for the website. `Oswald` for all `h1 and h2` and `“Open Sans”` for all body elements with `sans-serif` as a backup if `“Open Sans”` wouldn’t work. The `submit` button and the `call to action button` on the About us page are both using `Arial.` The `Oswald` and `“Open Sans”` fonts were taken from `Pairfonts`. `Arial` is a default font.
