@@ -136,6 +136,11 @@ label + input[type=radio] + label {
 }
 
 
+/* Hide/show circles */
+
+
+
+
 /* CSS for the game! */
 
 /* Taken from the guide at: https://freshman.tech/simon-game/ */
