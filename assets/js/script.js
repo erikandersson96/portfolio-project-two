@@ -46,7 +46,7 @@ function userTurn() {
 
 // this function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
-function activateEasy(color) {
+function activateCircle(color) {
     const currentClick = document.querySelector(`[data-circle='${color}']`);
     currentClick.classList.add('activate');
     setTimeout(() => {
@@ -59,7 +59,7 @@ function activateEasy(color) {
 function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
         setTimeout(() => {
-            activateEasy(color); 
+            activateCircle(color); 
         }, (index + 1) * 800);
     });
 }
