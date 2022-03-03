@@ -183,13 +183,13 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 
 ### Fonts
  
-* I used three different fonts for the website. `Oswald` for all `h1 and h2` and `“Open Sans”` for all body elements with `sans-serif` as a backup if `“Open Sans”` wouldn’t work. The `submit` button and the `call to action button` on the About us page are both using `Arial.` The `Oswald` and `“Open Sans”` fonts were taken from `Pairfonts`. `Arial` is a default font.
+* I used two different fonts for the website. `"nunito"` for my `logo` and `“Roboto Mono”` for all other text with `sans-serif` as a backup if `“nunito” or "Roboto Mono"` wouldn’t work.  The `"nunito"` and `“Roboto Mono”` fonts were taken from `Pairfonts`. I chose this combination beacuse for me it looked the most like an old game so I think they complements each other well for this game. 
  
-**Oswald, h1, and h2:**
+**nunito, for my logo:**
  
 ![Image that displays how font Oswald look](/assets/images/)
  
-**Open Sans, body:**
+**Roboto Mono, all other text:**
  
 ![Image that displays how font Open Sans look](/assets/images/)
 ÄNDRA HÄR MED!!
