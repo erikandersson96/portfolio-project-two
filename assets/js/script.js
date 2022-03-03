@@ -75,27 +75,26 @@ function playPattern(nextPattern) {
     
 }*/
 
+
 let gameDifficulty = 'easy';
 
-let radioButtons = document.getElementsByClassName('.radio-buttons');
+let radioButtons = document.getElementsByClassName('radio-buttons');
 for (let i = 0; i < radioButtons.length, i++;) {
     radioButtons.onclick = function() {
 
-        gameDifficulty = radioButtons[i].value;
+        gameDifficulty = radioButtons[i].value; 
 
         if (radioButtons[i].value == 'easy') {
-            // Change the amount of circles HOW???
+            // Change the amount of circles 
         }
 
         else if (radioButtons[i].value == 'medium') {
-            // Change the amount of circles HOW???
+            // Change the amount of circles
         }
 
         else if (radioButtons[i].value == 'hard') {
-            // Change the amount of circles HOW???
-        }
-
-        console.log(gameDifficulty);
+            // Change the amount of circles           
+        } 
 
     }
 }
@@ -120,7 +119,7 @@ function nextPhase(currentDifficulty) {
     }
     // check if currentDifficulty is matched with hard radio button 
     else if (currentDifficulty == 'hard') {
-        const hard = ['blue', 'red'];
+        const hard = ['blue', 'yellow'];
         const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
 
         return randomHard; 
