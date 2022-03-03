@@ -76,23 +76,29 @@ function nextPhase() {
 }
 
 /*
+let optionEasy = document.getElementById('.option-easy'); 
+let optionMedium = document.getElementById('.option-medium'); 
+let optionHard = document.getElementById('.option-hard');
+
+
+
 function nextPhase(currentDifficulty) {
 
-    if (currentDifficulty == gameInterface) {
+    if (currentDifficulty == optionEasy) {
         const easier = ['green', 'blue', 'yellow', 'red'];
         const randomEasy = easier[Math.floor(Math.random() * easier.length)]; 
 
         return randomEasy; 
     } 
 
-    else if (currentDifficulty == mediumInterface) {
+    else if (currentDifficulty == optionMedium) {
         let medium = ['green', 'yellow', 'red'];
         const randomMedium = medium[Math.floor(Math.random() * medium.length)]; 
 
         return randomMedium; 
     }
 
-    else if (currentDifficulty == hardInterface) {
+    else if (currentDifficulty == optionHard) {
         const hard = ['blue', 'red'];
         const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
 
@@ -125,7 +131,7 @@ function nextTurn() {
     }, level * 700 + 1000);
 }
 
-console.log(nextTurn); 
+
 
 // this function is created to compare the user input to the computer. 
 function manageClick(currentClick) {
@@ -169,6 +175,7 @@ function startGame() {
     instruction.textContent = "Let the computer play it's sequence first"; 
     nextTurn(); 
 } 
+
 
 
 // here we make sure that startGame function excecutes when startBtn is pressed/clicked 
