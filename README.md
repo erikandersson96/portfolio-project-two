@@ -121,17 +121,17 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 LÄGG TILL SCREENSHOT PÅ FINAL PRODUCT HÄR!!
 
 **Changes:**
-* As you can see, I choose to only use three pages instead of four pages. Firstly that is because I didn’t find myself satisfied with the looks of including a video on the `“How it works”` page and secondly I didn’t find a video that suited me well enough. Therefore I felt that a fourth page (third page in the wireframes) felt unnecessary.
+
+Using DOM instead of multiply HTML files: 
+* As you can see, I choose to only display the game on the "Landing page". Beacuse my game only exist on one page, at first I didn't really understood the princip of DOM so I tought that I would create one HTML page for each "function" of the game. Like creating one Landing page that displayed some information about the game and a button that would take the user to the next page(HTML file) which would have been game-level(User name) with the choice of three difficulty levels and a Play button. After that a page with the correlated game interface (Easy, Medium or Hard) and so on as you can see in my wireframes. But I quickly realized that if I instead used the DOM I could keep everything within one HTML file. 
  
-* I also choose to go with `another` background image than the one you can see from the wireframes. I will discuss this later down in the `Media section`.
+Using Game Interface of circles instead of pieces like the wireframes: 
+* I also choose to go with `another` style of my buttons for the game. Instead of using pieces like in the wireframe and in the original Simon Game, I chose to go with four circles. This was beacuse I felt that I am not to comfortable with my CSS skills to experiment with styles like that, maybe in the future.   
  
-* The logo is also different. I discuss this as well in the `Website Design section`.
+* In the footer I chose to only use social media links like `My own Github, Instagram, Youtube`. I felt that it looked cleaner to only have Social media platforms here instead of credits.
  
-* The footer also looks slightly different, I felt that most users use Social media platforms like `Instagram, LinkedIn, Youtube, Facebook`. And I also felt that it looked cleaner with only `four` Social media platforms.
+* Lastly, I decided to go with a simple design that had a look of an old game, so therfore I didn't experiment to much with the design of my final product. I wanted the game to be straight forward so the user could understand the game fast and start playing. 
  
-* Lastly, the way the website displays text and the contact form differs a little bit but when I did the `wireframes` I didn’t think too much about what would be practical and `user-friendly` to meet the user stories expectations.  
- 
-ÄNDRA HÄR MED!!
 ---
 ## Website Design
  
