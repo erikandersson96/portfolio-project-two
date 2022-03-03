@@ -90,28 +90,30 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 ---
 ## Wireframes
  
-* First `4 images` is from the first idea and the wireframes is for `only desktop screens` (I never did a wireframe for mobile use but I will do it for future projects). This wireframe was created using [Balsamiq - Balsamiq Wireframes](https://balsamiq.com/) (link). 
-* Second row containing `3 images` is from the final product of the website. To give you a comparison:
-ÄNDRA HÄR MED!!
+* First `11 images` is from the first visual idea for my project. As you will recognise from comparing my wireframes to the final product, you will see that my final product doesn't look like my wireframes at all. That has to do with a lot of different reasons that I will explain underneath all images. The wireframes was created using [Balsamiq - Balsamiq Wireframes](https://balsamiq.com/) (link). 
+* Second row containing `1 image` is from the final product of the website. To give you a comparison.
+
 ### First Idea
  
-**First website idea:**
-Wireframe Home Page.
- 
-![Screenshot wireframe home page](/assets/images/) 
- 
-Wireframe About us Page.
- 
-![Screenshot wireframe about us page](/assets/images/)
- 
-Wireframe How it works Page.
- 
-![Screenshot wireframe how it works page](/assets/images/) 
- 
-Wireframe Get in touch Page.
- 
-![Screenshot wireframe get in touch page](/assets/images/)
-ÄNDRA HÄR MED!!
+**First website idea (wireframes):**
+
+**Mobile:**
+![Screenshot wireframe: Landing page, game-level, Easy](/assets/images/) 
+![Screenshot wireframe: Medium, Hard, Pop Up](/assets/images/) 
+
+**Tablet:**
+![Screenshot wireframe: Landing page, User name](/assets/images/) 
+![Screenshot wireframe: Easy, Medium](/assets/images/) 
+![Screenshot wireframe: Hard, Pop Up](/assets/images/) 
+
+**Desktop:**
+![Screenshot wireframe: Landing page](/assets/images/) 
+![Screenshot wireframe: User name](/assets/images/) 
+![Screenshot wireframe: Easy](/assets/images/) 
+![Screenshot wireframe: Medium](/assets/images/) 
+![Screenshot wireframe: Hard](/assets/images/) 
+![Screenshot wireframe: Pop Up](/assets/images/) 
+
 ### Comparison
  
 **Final product:**
