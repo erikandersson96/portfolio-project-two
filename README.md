@@ -14,9 +14,9 @@ To play the game you can cklick this [link](). (Opens in a new tab)
 ---
 ### Intention
  
-This website is a `fictional website` for the purpose of my Second Portfolio Project for Code Institute’s Full Stack Software Developer Course. I created this website with the knowledge I gained from the `HTML`, `CSS` and `JavaScript` modules. 
+This website is a `fictional website` for the purpose of my Second Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `HTML`, `CSS` and `JavaScript` modules. 
 
-The main goal with this project was to test my new knowledge in JavaScript. I decided to create my own version of the famous Simon Game, but with a twist. I reversed the logic of the game so the player needs to play his/her own sequence in order to win.
+The main goal with this project was to test my new knowledge in JavaScript. I decided to create my own version of the famous Simon Game, but with a twist. I reversed the logic of the game so the player needs to play his/her own sequence in order to win over the computer.
  
 * Features I aimed to achieve with this project:
  
