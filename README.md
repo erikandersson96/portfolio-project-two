@@ -98,21 +98,21 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 **First website idea (wireframes):**
 
 **Mobile:**
-![Screenshot wireframe: Landing page, game-level, Easy](/assets/images/wireframeMobile1) 
-![Screenshot wireframe: Medium, Hard, Pop Up](/assets/images/wireframeMobile2) 
+![Screenshot wireframe: Landing page, game-level, Easy](/assets/images/wireframeMobile1.png) 
+![Screenshot wireframe: Medium, Hard, Pop Up](/assets/images/wireframeMobile2.png) 
 
 **Tablet:**
-![Screenshot wireframe: Landing page, User name](/assets/images/wireframeTablet1) 
-![Screenshot wireframe: Easy, Medium](/assets/images/wireframeTablet2) 
-![Screenshot wireframe: Hard, Pop Up](/assets/images/wireframeTablet3) 
+![Screenshot wireframe: Landing page, User name](/assets/images/wireframeTablet1.png) 
+![Screenshot wireframe: Easy, Medium](/assets/images/wireframeTablet2.png) 
+![Screenshot wireframe: Hard, Pop Up](/assets/images/wireframeTablet3.png) 
 
 **Desktop:**
-![Screenshot wireframe: Landing page](/assets/images/wireframeDesktop1) 
-![Screenshot wireframe: User name](/assets/images/wireframeDesktop2) 
-![Screenshot wireframe: Easy](/assets/images/wireframeDesktop3) 
-![Screenshot wireframe: Medium](/assets/images/wireframeDesktop4) 
-![Screenshot wireframe: Hard](/assets/images/wireframeDesktop5) 
-![Screenshot wireframe: Pop Up](/assets/images/wireframeDesktop6) 
+![Screenshot wireframe: Landing page](/assets/images/wireframeDesktop1.png) 
+![Screenshot wireframe: User name](/assets/images/wireframeDesktop2.png) 
+![Screenshot wireframe: Easy](/assets/images/wireframeDesktop3.png) 
+![Screenshot wireframe: Medium](/assets/images/wireframeDesktop4.png) 
+![Screenshot wireframe: Hard](/assets/images/wireframeDesktop5.png) 
+![Screenshot wireframe: Pop Up](/assets/images/wireframeDesktop6.png) 
 
 ### Comparison
  
