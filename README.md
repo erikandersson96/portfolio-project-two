@@ -98,38 +98,28 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 **First website idea (wireframes):**
 
 **Mobile:**
-![Screenshot wireframe: Landing page, game-level, Easy](/assets/images/) 
-![Screenshot wireframe: Medium, Hard, Pop Up](/assets/images/) 
+![Screenshot wireframe: Landing page, game-level, Easy](/assets/images/wireframeMobile1) 
+![Screenshot wireframe: Medium, Hard, Pop Up](/assets/images/wireframeMobile2) 
 
 **Tablet:**
-![Screenshot wireframe: Landing page, User name](/assets/images/) 
-![Screenshot wireframe: Easy, Medium](/assets/images/) 
-![Screenshot wireframe: Hard, Pop Up](/assets/images/) 
+![Screenshot wireframe: Landing page, User name](/assets/images/wireframeTablet1) 
+![Screenshot wireframe: Easy, Medium](/assets/images/wireframeTablet2) 
+![Screenshot wireframe: Hard, Pop Up](/assets/images/wireframeTablet3) 
 
 **Desktop:**
-![Screenshot wireframe: Landing page](/assets/images/) 
-![Screenshot wireframe: User name](/assets/images/) 
-![Screenshot wireframe: Easy](/assets/images/) 
-![Screenshot wireframe: Medium](/assets/images/) 
-![Screenshot wireframe: Hard](/assets/images/) 
-![Screenshot wireframe: Pop Up](/assets/images/) 
+![Screenshot wireframe: Landing page](/assets/images/wireframeDesktop1) 
+![Screenshot wireframe: User name](/assets/images/wireframeDesktop2) 
+![Screenshot wireframe: Easy](/assets/images/wireframeDesktop3) 
+![Screenshot wireframe: Medium](/assets/images/wireframeDesktop4) 
+![Screenshot wireframe: Hard](/assets/images/wireframeDesktop5) 
+![Screenshot wireframe: Pop Up](/assets/images/wireframeDesktop6) 
 
 ### Comparison
  
 **Final product:**
  
-Home Page.
- 
-![Screenshot home page](/assets/images/)
- 
-About us Page.
- 
-![Screenshot about us page](/assets/images/)
- 
-Get in touch Page.
- 
-![Screenshot get in touch page](/assets/images/)
-ÄNDRA HÄR MED!!
+LÄGG TILL SCREENSHOT PÅ FINAL PRODUCT HÄR!!
+
 **Changes:**
 * As you can see, I choose to only use three pages instead of four pages. Firstly that is because I didn’t find myself satisfied with the looks of including a video on the `“How it works”` page and secondly I didn’t find a video that suited me well enough. Therefore I felt that a fourth page (third page in the wireframes) felt unnecessary.
  
