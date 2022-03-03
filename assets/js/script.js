@@ -79,7 +79,7 @@ function playPattern(nextPattern) {
 let gameDifficulty = 'easy';
 
 let radioButtons = document.getElementsByClassName('radio-buttons');
-for (let i = 0; i < radioButtons.length, i++;) {
+for (let i = 0; i < radioButtons.length; i++) {
     radioButtons.onclick = function() {
 
         gameDifficulty = radioButtons[i].value; 
@@ -91,13 +91,14 @@ for (let i = 0; i < radioButtons.length, i++;) {
 
         else if (radioButtons[i].value == 'medium') {
             // Change the amount of circles
+            document.getElementsByClassName('easy-blue').style.display = 'none'; 
         }
 
         else if (radioButtons[i].value == 'hard') {
-            // Change the amount of circles           
+            // Change the amount of circles   
+                  
         } 
-
-    }
+    } 
 }
 
 
