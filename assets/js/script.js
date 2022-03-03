@@ -5,11 +5,11 @@ let userPattern = [];
 // set level to 0 so we can add to it for each round in function nextTurn.
 let level = 0;
 // Boolean for user turn
-let usersTurn = false
+let usersTurn = false;
 // Boolean for win condition
-let gameOver = false
+let gameOver = false; 
 // User's current position in array
-let currentIndex = 0
+let currentIndex = 0;
 
 
 
@@ -66,16 +66,16 @@ function playPattern(nextPattern) {
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work. 
-/*function nextPhase() {
+function nextPhase() {
 
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
 
     return random; 
     
-}*/
+}
 
-
+/*
 let gameDifficulty = 'easy';
 
 let radioButtons = document.getElementsByClassName('radio-buttons');
@@ -101,10 +101,9 @@ for (let i = 0; i < radioButtons.length; i++) {
         } 
     } 
 }
+*/
 
-
-
-
+/* 
 function nextPhase(currentDifficulty) {
 
     // check if currentDifficulty is matched with easy radio button 
@@ -129,7 +128,7 @@ function nextPhase(currentDifficulty) {
         return randomHard; 
     }
 }
-
+*/
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
