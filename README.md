@@ -135,17 +135,15 @@ Using Game Interface of circles instead of pieces like the wireframes:
 ---
 ## Website Design
  
-Every Page on the website contains a `Navigation menu` at the top left of the `webpage`. It is used to easily navigate between `Menu | About us | Get in touch`. It is featured on all three pages.
+Logo design - Because this website was created with the intention to keep it clean and simple. I decided to go with only `“Erik game”`. Beacuse I thought it gave the game a simple and clean look.
  
-Logo design - Because this website was created with the intention to keep it clean and simple. I decided to go with only `“Andersson’s”` instead of `“Andersson’s Watch Restoration”` or `“Andersson’s Watch Service”`. It also gave a better visual experience on smaller screen size devices.
- 
-Background Image (Hero image) - I downloaded this image from `pixabay.com` which is a website with free images. The background image is used on all `three pages` and I used a `black background color` to it in case the image wouldn't load.
- 
-Website Colors - I went for only `Black and White` to keep it clean and simple.
- 
-`Text Overlay` - I used `Text overlay` for all text and the contact form on the page to let the background image stand out and make it look better.
- 
-ÄNDRA HÄR MED!!
+Background Image - I downloaded this image from `pixabay.com` which is a website with free images. And I used a `black background color` to it in case the image wouldn't load.
+
+`Wrapper` - I chose a `"Wrapper"` to contain the game and all other text on the page to let the Game stand out from the background image and make it look better.
+
+Website Colors - I went for a lighter green with almost a little neon effect to my Wrapper, difficulty selector and footer (social media links), beacuse I thought it was a nice contrast to my background-image that has green "neon" stripes in it. For my difficulty selector I used a dark green for when the User has selected a difficulty. For my description box (description of the game) and Start game button I chose a little darker green to let it `Stand out` from the Wrapper. For my game controlls (circles) I chose Green, Blue, Yellow and Red beacuse I think it looks the best. 
+  
+
 ### Color Scheme
  
 * I chose four different colors for the website. `Black, White, and medium-light grey` for the `Text Overlays` to give it a good contrast to the background image.
