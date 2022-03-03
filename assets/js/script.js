@@ -85,7 +85,7 @@ for (let i = 0; i < radioButtons.length, i++;) {
 
         if (radioButtons[i].value == 'easy') {
             // Change the amount of circles
-         
+            
         }
 
         else if (radioButtons[i].value == 'medium') {
@@ -107,21 +107,21 @@ for (let i = 0; i < radioButtons.length, i++;) {
 
 function nextPhase(currentDifficulty) {
 
-
+    // check if currentDifficulty is matched with easy radio button 
     if (currentDifficulty == 'easy') {
         const easier = ['green', 'blue', 'yellow', 'red'];
         const randomEasy = easier[Math.floor(Math.random() * easier.length)]; 
 
         return randomEasy; 
     } 
-
+    // check if currentDifficulty is matched with medium radio button 
     else if (currentDifficulty == 'medium') {
         let medium = ['green', 'yellow', 'red'];
         const randomMedium = medium[Math.floor(Math.random() * medium.length)]; 
 
         return randomMedium; 
     }
-
+    // check if currentDifficulty is matched with hard radio button 
     else if (currentDifficulty == 'hard') {
         const hard = ['blue', 'red'];
         const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
