@@ -146,7 +146,7 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 
 ### Color Scheme
  
-* I went for eight different colors for the website. `Light neon green` for the `Wrapper, difficulty selector and social media links`, little darker green for my `description box`, black for all `text`, dark green for the selected `difficulty` and my circles has `green, blue, yellow, red`.
+* I went for eight different colors for the website. `Light neon green` for the `Wrapper, difficulty selector and social media links`, little darker green for the `description box and the "Start game" button`, black for all `text`, dark green for the selected `difficulty` and my circles has `green, blue, yellow, red`.
  
 **#11D6A1 - Light neon green (HEX-color)**
  
