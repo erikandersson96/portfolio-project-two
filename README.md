@@ -527,6 +527,14 @@ Reset game freshman Simon Game.
 
 **Final product:**
 
+Start page Erik game. 
+![Screenshot of Freshman final product](assets/images/)
+
+Game interface Erik game. 
+![Screenshot of Freshman final product](assets/images/)
+
+Reset game, Erik game. 
+![Screenshot of Freshman final product](assets/images/)
 
 
 
