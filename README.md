@@ -206,18 +206,18 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 ![Screenshot of the Navigation bar](/assets/images/)
 ÄNDRA HÄR MED!!
  
-### Interface of the game  
+### Game Interface  
  
 * Beacuse this is a very simplistic game I only have one page for my website. The `"Landing page"` exist of a background image `"A space corridor"` and a `"Wrapper"` for 
 all the content of my game. The description `"box"` is contained with a black thin border that has the same rounded edges as the `"Wrapper"`, the difficulty selector is styled 
-with black borders as well to capsule each diffuculty Easy | Medium | Hard. The `Start game` button is the only `"box"` in the Interface that I have kept square in it's shape, to 
-keep it original. 
+with black borders as well to capsule each diffuculty `Easy | Medium | Hard`. The `Start game` button is the only `"box"` in the Interface that I have kept square in it's shape, to 
+keep it original. The game controlls `"circles"` has all the same round shape to them. 
   
 * The `"Wrapper"` creates an eye-catching contrast to grab the user's attention. 
 
-* 
+* The `description box` and the `difficulty selector` has a border around it to make it stand out and be easy to read. 
  
-![Screenshot of Landing Page](/assets/images/)
+![Screenshot of Game Interface](/assets/images/)
 ÄNDRA HÄR MED!!
  
 ### Footer
