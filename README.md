@@ -575,4 +575,4 @@ I would like to give an extra `Thank you` to all the kind people I have around m
 * My lovely **Girlfriend** for always supporting me.
  
 ÄNDRA HÄR MED!!
-#### RETURN TO THE [TOP](#erik-game) - LÄGG TILL RUBRIK HÄR!
+#### RETURN TO THE [TOP](#erik-game) 
