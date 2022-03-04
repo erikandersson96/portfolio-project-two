@@ -489,12 +489,31 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 a game like Simon Game as my first ever project in JavaScript out of only what I knew when starting out with my Portfolio Project Two was to big of a task. So therefore I chose 
 together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. Instead of 
 doing a `"regular"` Simon Game as the original I created a reverse version with the goal to not press the same color sequence as the computer in order for the user to win.
+The code that I have that is still the same as in the tutorial is `reset game function()`, `human turn function()`, `activate tile function()`, `play round function()`, `next round function()` but it is modified to work with my code that has three different difficulty selections,`start game function()` and `startBtn event listener`. 
 I will compare the guide's code to my code down below with both text and images: 
 
-**Tutorial**
+#### Tutorial
+
+**Code:** 
+
+Reset game function(). 
+![Screenshot of Freshman js code](assets/images/freshmancode1.png) 
+
+Human turn function(), Activate tile function(), Play round function(). 
+![Screenshot of Freshman js code](assets/images/freshmancode2.png) 
+
+Next round function().
+![Screenshot of Freshman js code](assets/images/freshmancode3.png) 
+
+Start game function(), startBtn event listener. 
+![Screenshot of Freshman js code](assets/images/freshmancode4.png)
+
+**Final product**
 
 
-**My own code**
+
+
+#### My project
 
 
 
