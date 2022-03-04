@@ -63,24 +63,11 @@ function playPattern(nextPattern) {
         }, (index + 1) * 800);
     });
 }
-
- 
-// This function creates a random number between index 0-3, Math.floor is used to pick a 
-// random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work.  
   
 
-/*function nextPhase() {
 
-    const easier = ['green', 'blue', 'yellow', 'red']; 
-    const random = easier[Math.floor(Math.random() * easier.length)]; 
-
-    return random; 
-    
-}*/
-
-
- // This function checks which difficulty that has been choosen and displays the right Interface depending on 
- // if it is Easy = 4 colors, Medium = 3 colors, Hard = 2 colors.   
+// This function checks which difficulty that has been choosen and displays the right Interface depending on 
+// if it is Easy = 4 colors, Medium = 3 colors, Hard = 2 colors.   
  
 let gameDifficulty = 'easy';
 
