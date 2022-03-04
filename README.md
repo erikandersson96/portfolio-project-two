@@ -469,9 +469,9 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 1. In the menu to the left, you will find `Pages` almost at the bottom of the list.
 1. Under `“Source”`, click the dropdown menu called `“None”` and select `“Main”`.
 1. Click `save` and the page will automatically refresh with the website link displayed.
-1. The published `link` will show up above. Alternatively, click this [link]().
+1. The published `link` will show up above. Alternatively, click this [link](). LÄGG TILL LÄNKEN PÅ DIN DEPLOYED WEBBSIDA!!!
  
-ÄNDRA HÄR MED!!
+
 ---
 ## Credits
  
