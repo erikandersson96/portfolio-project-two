@@ -225,6 +225,8 @@ as the `Wrapper`.
 ### Medium difficulty 
 
 ### Hard difficulty 
+
+
 ---
 ## Future Features
  
@@ -242,35 +244,33 @@ as the `Wrapper`.
 ---
 ## Testing
  
-* All pages have been tested across all screen sizes for a responsive experience. The layout of the different elements on each page may have different positions to make it look good on each screen size. I tested this in the `Chrome dev tool, so I have not tested it on actual devices`.
+* The interface of the game has been tested across all screen sizes for a responsive experience. The size of the `logo, description box, choose difficulty and the circles` will all 
+change size at a break-point of 330px. I tested this in the `Chrome dev tool, so I have not tested it on actual devices`.
  
-* I used validators to ensure that my code was correct and up to standard. I did this with the use of `W3C validator` for HTML and `Jigsaw Validator` for CSS.
+* I used validators to ensure that my code was correct and up to standard. I did this with the use of `W3C validator` for HTML, `Jigsaw Validator` for CSS and 
+`JS Hint` for JavaScript.
  
-* I made sure that the website looks good down to a screen size of 300px wide.
+* I made sure that the website looks good down to a screen size of 278px wide.
  
 * All links to external websites open in a new browser.
  
-* All Navigation bar links show with an underline which page you are on, and it also shows an underline on the nav link that you hover over with a mouse.
- 
-* The Submit button in the Contact form shows a hover effect when hovered with a mouse.
-ÄNDRA HÄR MED!!
+* My difficulty selctor marks the selceted difficulty Easy | Medium | Hard, with a darker green to let the user know what is been selected. 
+
  
 ### Devices
 Something that's worth mentioning is that I've tested the majority of these devices within `Chrome dev tool`, I have not had physical access to test these devices.
 I have tested the responsiveness and aesthetics on the following devices and browsers:
-ÄNDRA HÄR MED!!
+
 * **Apple**
-(Some features of the site, such as the Get in touch button on the About us page and the Submit button on Get in touch might not look the same depending on which `iOS update` the user has installed. But `iOS 15` will work correctly)
- 
  * iPhone 5/SE
  * iPhone 6/7/8
  * iPhone 6/7/8 Plus
  * iPhone X/11
  * iPad
  * iPad Pro
-ÄNDRA HÄR MED!!
+
 * **Android**
- * Samsung Galaxy S5
+ * Samsung Galaxy S8
  * Microsoft Surface Duo
  
 * **Google Devices**
@@ -286,9 +286,8 @@ I have tested the responsiveness and aesthetics on the following devices and bro
  
 * **Browsers**
  * Chrome
- * Safari
  
-ÄNDRA HÄR MED!!
+ 
 ---
 ### Validator Testing
  
