@@ -69,24 +69,24 @@ function playPattern(nextPattern) {
 // This function checks which difficulty that has been choosen and displays the right Interface depending on 
 // if it is Easy = 4 colors, Medium = 3 colors, Hard = 2 colors.   
  
-let gameDifficulty = 'easy';
+let currentDifficulty = 'easy';
 
 let radioButtons = document.getElementsByClassName('radio-buttons');
 for (let i = 0; i < radioButtons.length; i++) {
     radioButtons.onclick = function() {
 
-        gameDifficulty = radioButtons[i].value;  
+        currentDifficulty = radioButtons[i].value;  
 
         if (radioButtons[i].value == 'easy') {
             // Change the amount of circles 
-            gameDifficulty = 'easy'; 
+            currentDifficulty = 'easy'; 
             document.getElementById('circle-blue').style.display = 'block'; 
             document.getElementById('circle-red').style.display = 'block';
         }
 
         else if (radioButtons[i].value == 'medium') {
             // Change the amount of circles
-            gameDifficulty = 'medium'; 
+            currentDifficulty = 'medium'; 
             document.getElementById('circle-blue').style.display = 'none'; 
             document.getElementById('circle-red').style.display = 'block'; 
 
@@ -94,7 +94,7 @@ for (let i = 0; i < radioButtons.length; i++) {
 
         else if (radioButtons[i].value == 'hard') {
             // Change the amount of circles
-            gameDifficulty = 'hard';   
+            currentDifficulty = 'hard';   
             document.getElementById('circle-blue').style.display = 'none';
             document.getElementById('circle-red').style.display = 'none';       
         } 
@@ -105,7 +105,7 @@ for (let i = 0; i < radioButtons.length; i++) {
 // This function creates a random number between index 0-3, index 0-2 or index 0-1 depending on which 
 // difficulty level that has been selected. Math.floor is used to pick a 
 // random number between each index. Without it we could get 0.3 wich wouldn't let our game to work properly.
-let currentDifficulty = 'easy'; 
+
 
 function nextPhase() {
 
