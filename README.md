@@ -98,15 +98,18 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 **First website idea (wireframes):**
 
 **Mobile:**
+
 ![Screenshot wireframe: Landing page, game-level, Easy](/assets/images/wireframeMobile1.png) 
 ![Screenshot wireframe: Medium, Hard, Pop Up](/assets/images/wireframeMobile2.png) 
 
 **Tablet:**
+
 ![Screenshot wireframe: Landing page, User name](/assets/images/wireframeTablet1.png) 
 ![Screenshot wireframe: Easy, Medium](/assets/images/wireframeTablet2.png) 
 ![Screenshot wireframe: Hard, Pop Up](/assets/images/wireframeTablet3.png) 
 
 **Desktop:**
+
 ![Screenshot wireframe: Landing page](/assets/images/wireframeDesktop1.png) 
 ![Screenshot wireframe: User name](/assets/images/wireframeDesktop2.png) 
 ![Screenshot wireframe: Easy](/assets/images/wireframeDesktop3.png) 
@@ -245,7 +248,7 @@ as the `Wrapper`.
 ## Testing
  
 * The interface of the game has been tested across all screen sizes for a responsive experience. The size of the `logo, description box, choose difficulty and the circles` will all 
-change size at a break-point of 330px. I tested this in the `Chrome dev tool, so I have not tested it on actual devices`.
+change size at a break-point of 350px. I tested this in the `Chrome dev tool, so I have not tested it on actual devices`.
  
 * I used validators to ensure that my code was correct and up to standard. I did this with the use of `W3C validator` for HTML, `Jigsaw Validator` for CSS and 
 `JS Hint` for JavaScript.
