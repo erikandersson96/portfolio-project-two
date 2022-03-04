@@ -217,8 +217,8 @@ keep it original. The game controlls `"circles"` has all the same round shape to
 
 * The `description box` and the `difficulty selector` has a border around it to make it stand out and be easy to read. 
  
-![Screenshot of Game Interface](/assets/images/)
-ÄNDRA HÄR MED!!
+![Screenshot of Game Interface](/assets/images/gameinterface1.png)
+
  
 ### Footer
  
