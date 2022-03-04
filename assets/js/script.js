@@ -73,28 +73,39 @@ let currentDifficulty = 'easy';
 
 let radioButtons = document.getElementsByClassName('radio-buttons');
 for (let i = 0; i < radioButtons.length; i++) {
-    radioButtons.onclick = function() {
+
+    console.log(radioButtons[i])
+
+    radioButtons[i].addEventListener('click', function(){
 
         currentDifficulty = radioButtons[i].value; 
 
         if (currentDifficulty == 'easy') { 
+
             // Change the amount of circles  
-            document.getElementById('circle-blue').style.display = 'block'; 
-            document.getElementById('circle-red').style.display = 'block';    
+            document.getElementById('circle-blue').style.display = 'inline-flex'; 
+            document.getElementById('circle-red').style.display = 'inline-flex';    
         } 
 
-        else if (currentDifficulty == 'medium') {
+        else if (currentDifficulty == 'medium') { 
+
+
             // Change the amount of circles
             document.getElementById('circle-blue').style.display = 'none'; 
-            document.getElementById('circle-red').style.display = 'block'; 
+            document.getElementById('circle-red').style.display = 'inline-flex'; 
         }
 
-        else if (currentDifficulty == 'hard') {
+        else if (currentDifficulty == 'hard') { 
+
+
             // Change the amount of circles   
             document.getElementById('circle-blue').style.display = 'none';
             document.getElementById('circle-red').style.display = 'none';       
         } 
+
     } 
+    )
+        
 }
  
 
@@ -105,6 +116,8 @@ for (let i = 0; i < radioButtons.length; i++) {
 
 function nextPhase() {
 
+    console.log('The current difficulty is: ' + currentDifficulty)
+
     // check if currentDifficulty is matched with easy radio button 
     if (currentDifficulty == 'easy') {
         const easier = ['green', 'blue', 'yellow', 'red'];
@@ -114,6 +127,7 @@ function nextPhase() {
     } 
     // check if currentDifficulty is matched with medium radio button 
     else if (currentDifficulty == 'medium') {
+
         let medium = ['green', 'yellow', 'red'];
         const randomMedium = medium[Math.floor(Math.random() * medium.length)]; 
 
@@ -121,7 +135,7 @@ function nextPhase() {
     }
     // check if currentDifficulty is matched with hard radio button 
     else if (currentDifficulty == 'hard') {
-        const hard = ['blue', 'yellow'];
+        const hard = ['green', 'yellow'];
         const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
 
         return randomHard; 
@@ -157,6 +171,7 @@ function nextTurn() {
 
 // This function is created to compare the user input to the computer. 
 function manageClick(currentClick) {
+
     // If current value matches current pattern position's value
     if (currentClick === pattern[currentIndex]) {
         // Game over
@@ -204,9 +219,9 @@ function startGame() {
 // by the user.
 startBtn.addEventListener('click', startGame); 
 gameInterface.addEventListener('click', event => {
-    const {
-        currentClick
-    } = event.target.dataset; 
+
+    const currentClick = event.target.dataset.circle; 
+
     manageClick(currentClick); 
 }); 
 
