@@ -79,18 +79,24 @@ for (let i = 0; i < radioButtons.length; i++) {
 
         if (radioButtons[i].value == 'easy') {
             // Change the amount of circles 
+            gameDifficulty = 'easy'; 
             document.getElementById('circle-blue').style.display = 'block'; 
             document.getElementById('circle-red').style.display = 'block';
         }
 
         else if (radioButtons[i].value == 'medium') {
             // Change the amount of circles
+            gameDifficulty = 'medium'; 
             document.getElementById('circle-blue').style.display = 'none'; 
+            document.getElementById('circle-red').style.display = 'block'; 
+
         }
 
         else if (radioButtons[i].value == 'hard') {
-            // Change the amount of circles   
-            document.getElementById('circle-red').style.display = 'none';      
+            // Change the amount of circles
+            gameDifficulty = 'hard';   
+            document.getElementById('circle-blue').style.display = 'none';
+            document.getElementById('circle-red').style.display = 'none';       
         } 
     } 
 }
@@ -142,7 +148,7 @@ function nextTurn() {
     
     
     const nextPattern = [...pattern];
-    nextPattern.push(nextPhase()); /** Add currentDifficulty i nextPhase() */
+    nextPattern.push(nextPhase()); 
     playPattern(nextPattern);
 
     pattern = [...nextPattern];
