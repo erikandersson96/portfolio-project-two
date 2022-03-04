@@ -112,7 +112,9 @@ for (let i = 0; i < radioButtons.length; i++) {
 // This function creates a random number between index 0-3, index 0-2 or index 0-1 depending on which 
 // difficulty level that has been selected. Math.floor is used to pick a 
 // random number between each index. Without it we could get 0.3 wich wouldn't let our game to work properly.
-function nextPhase(currentDifficulty) {
+let currentDifficulty = 'easy'; 
+
+function nextPhase() {
 
     // check if currentDifficulty is matched with easy radio button 
     if (currentDifficulty == 'easy') {
@@ -153,7 +155,7 @@ function nextTurn() {
     
     
     const nextPattern = [...pattern];
-    nextPattern.push(nextPhase(currentDifficulty)); /** Add currentDifficulty i nextPhase() */
+    nextPattern.push(nextPhase()); /** Add currentDifficulty i nextPhase() */
     playPattern(nextPattern);
 
     pattern = [...nextPattern];
