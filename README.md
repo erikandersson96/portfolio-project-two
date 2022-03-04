@@ -490,6 +490,7 @@ a game like Simon Game as my first ever project in JavaScript out of only what I
 together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. Instead of 
 doing a `"regular"` Simon Game as the original I created a reverse version with the goal to not press the same color sequence as the computer in order for the user to win.
 The code that I have that is still the same as in the tutorial is `reset game function()`, `human turn function()`, `activate tile function()`, `play round function()`, `next round function()` but it is modified to work with my code that has three different difficulty selections,`start game function()` and `startBtn event listener`. 
+Here is also a live version of Freshmans Simon Game [link](https://freshman-simon.surge.sh/). 
 I will compare the guide's code to my code down below with both text and images: 
 
 #### Tutorial
@@ -525,6 +526,7 @@ Reset game freshman Simon Game.
 **Code:** 
 
 **Final product:**
+
 
 
 
