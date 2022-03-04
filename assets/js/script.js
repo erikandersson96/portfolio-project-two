@@ -77,19 +77,19 @@ for (let i = 0; i < radioButtons.length; i++) {
 
         currentDifficulty = radioButtons[i].value; 
 
-        if (radioButtons[i].value == 'easy') { 
+        if (currentDifficulty == 'easy') { 
             // Change the amount of circles  
             document.getElementById('circle-blue').style.display = 'block'; 
             document.getElementById('circle-red').style.display = 'block';    
         } 
 
-        else if (radioButtons[i].value == 'medium') {
+        else if (currentDifficulty == 'medium') {
             // Change the amount of circles
             document.getElementById('circle-blue').style.display = 'none'; 
             document.getElementById('circle-red').style.display = 'block'; 
         }
 
-        else if (radioButtons[i].value == 'hard') {
+        else if (currentDifficulty == 'hard') {
             // Change the amount of circles   
             document.getElementById('circle-blue').style.display = 'none';
             document.getElementById('circle-red').style.display = 'none';       
