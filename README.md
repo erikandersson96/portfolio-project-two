@@ -458,7 +458,7 @@ I frequently used `commit` throughout the whole project, this is the commands us
  
 This is all done to prevent any `data` loss in case Gitpod crashes.
  
-ÄNDRA HÄR MED!!
+
 ---
 ## GitHub Pages
  
