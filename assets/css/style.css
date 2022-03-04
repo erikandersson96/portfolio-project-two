@@ -154,7 +154,7 @@ label + input[type=radio] + label {
 
 
 /* Easy interface */ 
-.easy {
+.circle {
     border-radius: 50%;
     width: 140px;
     height: 140px;
@@ -162,7 +162,7 @@ label + input[type=radio] + label {
     cursor: pointer;
 } 
 
-.easy:hover {
+.circle:hover {
     box-shadow: inset 0px 0px 0px 3px cyan;
     box-sizing: border-box;
 }
@@ -233,7 +233,7 @@ label + input[type=radio] + label {
 
 /* Mobile screen size 330px down */
 @media screen and (max-width: 330px) {
-    .easy {
+    .circle {
         border-radius: 50%;
         width: 120px;
         height: 120px;
