@@ -508,13 +508,23 @@ Next round function().
 Start game function(), startBtn event listener. 
 ![Screenshot of Freshman js code](assets/images/freshmancode4.png)
 
-**Final product**
+**Final product:**
 
+Start page freshman Simon Game. 
+![Screenshot of Freshman final product](assets/images/freshmancomplete1.png) 
 
+Game interface freshman Simon Game. 
+![Screenshot of Freshman final product](assets/images/freshmancomplete2.png)
+
+Reset game freshman Simon Game. 
+![Screenshot of Freshman final product](assets/images/freshmancomplete3.png)
 
 
 #### My project
 
+**Code:** 
+
+**Final product:**
 
 
 
