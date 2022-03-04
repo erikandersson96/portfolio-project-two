@@ -51,10 +51,10 @@ function activateCircle(color) {
     currentClick.classList.add('activate');
     setTimeout(() => {
         currentClick.classList.remove('activate');
-    }, 350);
+    }, 400);
 }
 
-// Here is a function to set a delay on 700 milliseconds between each color that the computer
+// Here is a function to set a delay on 800 milliseconds between each color that the computer
 // flashes. 
 function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
@@ -74,7 +74,6 @@ let currentDifficulty = 'easy';
 let radioButtons = document.getElementsByClassName('radio-buttons');
 for (let i = 0; i < radioButtons.length; i++) {
 
-    console.log(radioButtons[i])
 
     radioButtons[i].addEventListener('click', function(){
 
@@ -103,8 +102,7 @@ for (let i = 0; i < radioButtons.length; i++) {
             document.getElementById('circle-red').style.display = 'none';       
         } 
 
-    } 
-    )
+    })
         
 }
  
