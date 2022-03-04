@@ -288,7 +288,8 @@ I have tested the responsiveness and aesthetics on the following devices and bro
  * Lenovo 24" monitor
  
 * **Browsers**
- * Chrome
+ * Chrome 
+ * Safari 
  
  
 ---
