@@ -501,26 +501,33 @@ I will compare the guide's code to my code down below with both text and images:
 **Code:** 
 
 Reset game function(). 
+
 ![Screenshot of Freshman js code](assets/images/freshmancode1.png) 
 
 Human turn function(), Activate tile function(), Play round function(). 
+
 ![Screenshot of Freshman js code](assets/images/freshmancode2.png) 
 
 Next round function().
+
 ![Screenshot of Freshman js code](assets/images/freshmancode3.png) 
 
 StartBtn event listener. 
+
 ![Screenshot of Freshman js code](assets/images/freshmancode4.png)
 
 **Final product:**
 
 Start page freshman Simon Game. 
+
 ![Screenshot of Freshman final product](assets/images/freshmancomplete1.png) 
 
 Game interface freshman Simon Game. 
+
 ![Screenshot of Freshman final product](assets/images/freshmancomplete2.png)
 
 Reset game freshman Simon Game. 
+
 ![Screenshot of Freshman final product](assets/images/freshmancomplete3.png)
 
 
@@ -531,12 +538,15 @@ Reset game freshman Simon Game.
 **Final product:**
 
 Start page Erik game. 
+
 ![Screenshot of Freshman final product](assets/images/)
 
 Game interface Erik game. 
+
 ![Screenshot of Freshman final product](assets/images/)
 
 Reset game, Erik game. 
+
 ![Screenshot of Freshman final product](assets/images/)
 
 
@@ -564,4 +574,4 @@ I would like to give an extra `Thank you` to all the kind people I have around m
 * My lovely **Girlfriend** for always supporting me.
  
 ÄNDRA HÄR MED!!
-#### RETURN TO THE [TOP](#) - LÄGG TILL RUBRIK HÄR!
+#### RETURN TO THE [TOP](#erik-game) - LÄGG TILL RUBRIK HÄR!
