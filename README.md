@@ -485,23 +485,16 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 ÄNDRA HÄR MED!!
 ### Media
  
-* The Background Image (Hero image) was taken from [Pixa bay]() (link).
-* I changed the background image one time since the original image made the contrast look bad. Because I chose to go with only `Black and White text`. The first image was also taken from [Pixa bay]() (link).
-ÄNDRA HÄR MED!!
-**First background image:**
+* The Background Image (Hero image) was taken from [Pixa bay](https://pixabay.com/) (link).
+
+**Background image:**
  
-* Image taken from [Pixa bay]() (link).
+* Image taken from [Pixa bay](https://pixabay.com/sv/photos/tunnel-korridor-plats-yttre-rymden-3233082/) (link). 
+If you click the link you can see how it looks like at Pixa bay. 
  
-![First background image, before I changed]()
+![Background image](/assets/images/background-image.jpg)
  
-ÄNDRA HÄR MED!!
-**The background image I choose to go for because I thought it looked better:**
- 
-* Image taken from [Pixa bay]() (link).
- 
-![Background image I choose]()
- 
-ÄNDRA HÄR MED!!
+
 ---
 ## Support
  
