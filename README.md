@@ -570,7 +570,7 @@ I would like to give an extra `Thank you` to all the kind people I have around m
  
 * **Code Institute** for their **Tutor** support.
 * My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link) for being a Superior mentor.
-* **Adam Hamwandi**, which is another student at Code Institute.
+* **Google** for always clear things up.
 * My lovely **Girlfriend** for always supporting me.
  
 ÄNDRA HÄR MED!!
