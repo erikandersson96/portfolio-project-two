@@ -217,7 +217,7 @@ keep it original. The game controlls `"circles"` has all the same round shape to
 * The footer includes all the social media links to the relevant social media platform. The links will open in a new tab to not confuse the user. Or open each social media platform application on the device if the user interacts on a mobile device or tablet. The icons for the social media links have been used from `Font Awesome` and they all have the same color 
 as the `Wrapper`. 
  
-![Screenshot of Footer](/assets/images/)
+![Screenshot of Footer](/assets/images/footer1.png)
 
  
 ### About us 
