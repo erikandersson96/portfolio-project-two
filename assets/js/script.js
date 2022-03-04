@@ -75,32 +75,28 @@ let radioButtons = document.getElementsByClassName('radio-buttons');
 for (let i = 0; i < radioButtons.length; i++) {
     radioButtons.onclick = function() {
 
-        currentDifficulty = radioButtons[i].value;  
+        currentDifficulty = radioButtons[i].value; 
 
-        if (radioButtons[i].value == 'easy') {
-            // Change the amount of circles 
-            currentDifficulty = 'easy'; 
+        if (radioButtons[i].value == 'easy') { 
+            // Change the amount of circles  
             document.getElementById('circle-blue').style.display = 'block'; 
-            document.getElementById('circle-red').style.display = 'block';
-        }
+            document.getElementById('circle-red').style.display = 'block';    
+        } 
 
         else if (radioButtons[i].value == 'medium') {
             // Change the amount of circles
-            currentDifficulty = 'medium'; 
             document.getElementById('circle-blue').style.display = 'none'; 
             document.getElementById('circle-red').style.display = 'block'; 
-
         }
 
         else if (radioButtons[i].value == 'hard') {
-            // Change the amount of circles
-            currentDifficulty = 'hard';   
+            // Change the amount of circles   
             document.getElementById('circle-blue').style.display = 'none';
             document.getElementById('circle-red').style.display = 'none';       
         } 
     } 
 }
-
+ 
 
 // This function creates a random number between index 0-3, index 0-2 or index 0-1 depending on which 
 // difficulty level that has been selected. Math.floor is used to pick a 
