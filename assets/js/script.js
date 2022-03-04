@@ -13,17 +13,17 @@ let currentIndex = 0;
 
 
 
-// we connect startBtn to the html button by it's class name with our const declaration.
+// Connect startBtn to the html button by it's class name with our const declaration.
 const startBtn = document.querySelector('.start');
-// we connect instruction to the html span for instruction by it's class name with our const declaration.
+// Connect instruction to the html span for instruction by it's class name with our const declaration.
 const instruction = document.querySelector('.game-info');
-// we connect userLevel to match Level: in html file by it's div class name. 
+// Connect userLevel to match Level: in html file by it's div class name. 
 const userLevel = document.querySelector('.level-count');
-// we connect easyInterface to match the class name of the parent div of easy in the html file.
+// Connect easyInterface to match the class name of the parent div of easy in the html file.
 const gameInterface = document.querySelector('.game-interface');
 
 
-// reset game alert
+// Reset game, with alert
 function resetGame(text) {
     alert(text); 
     pattern = []; 
@@ -35,7 +35,7 @@ function resetGame(text) {
     gameInterface.classList.add('not-activated');
 }
 
-// this function creates a way to tell the user that it is his/her's turn to play. 
+// This function creates a way to tell the user that it is his/her's turn to play. 
 function userTurn() {
     gameInterface.classList.remove('not-activated'); 
     instruction.textContent = "Now it's your turn."; 
@@ -44,7 +44,7 @@ function userTurn() {
 
 
 
-// this function is used to select the correct color of the circles. And light up that
+// This function is used to select the correct color of the circles. And light up that
 // circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
 function activateCircle(color) {
     const currentClick = document.querySelector(`[data-circle='${color}']`);
@@ -54,7 +54,7 @@ function activateCircle(color) {
     }, 350);
 }
 
-// here is a function to set a delay on 700 milliseconds between each color that the computer
+// Here is a function to set a delay on 700 milliseconds between each color that the computer
 // flashes. 
 function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
@@ -64,8 +64,11 @@ function playPattern(nextPattern) {
     });
 }
 
-// this function creates a random number between index 0-3, Math.floor is used to pick a 
-// random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work. 
+ 
+// This function creates a random number between index 0-3, Math.floor is used to pick a 
+// random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work.  
+  
+
 /*function nextPhase() {
 
     const easier = ['green', 'blue', 'yellow', 'red']; 
@@ -76,6 +79,9 @@ function playPattern(nextPattern) {
 }*/
 
 
+ // This function checks which difficulty that has been choosen and displays the right Interface depending on 
+ // if it is Easy = 4 colors, Medium = 3 colors, Hard = 2 colors.   
+ 
 let gameDifficulty = 'easy';
 
 let radioButtons = document.getElementsByClassName('radio-buttons');
@@ -103,7 +109,9 @@ for (let i = 0; i < radioButtons.length; i++) {
 }
 
 
-
+// This function creates a random number between index 0-3, index 0-2 or index 0-1 depending on which 
+// difficulty level that has been selected. Math.floor is used to pick a 
+// random number between each index. Without it we could get 0.3 wich wouldn't let our game to work properly.
 function nextPhase(currentDifficulty) {
 
     // check if currentDifficulty is matched with easy radio button 
@@ -130,9 +138,9 @@ function nextPhase(currentDifficulty) {
 }
 
 
-// a function called nextTurn is used to add 1 to the level for the user to see how many 
+// Function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
-// a timeOut is set to slightly delay the time between the computers finished sequence and 
+// TimeOut is set to slightly delay the time between the computers finished sequence and 
 // the user's turn to play. 
 // pattern is also updated to match the current sequence in play. 
 function nextTurn() {
@@ -156,7 +164,7 @@ function nextTurn() {
 
 
 
-// this function is created to compare the user input to the computer. 
+// This function is created to compare the user input to the computer. 
 function manageClick(currentClick) {
     // If current value matches current pattern position's value
     if (currentClick === pattern[currentIndex]) {
@@ -189,8 +197,8 @@ function manageClick(currentClick) {
     }
 }
 
-// a function called startGame that will make the start game button dissapear when user press
-// it and show game instructions.
+// Function called startGame that will make the start game button dissapear when user press
+// it and show the game instructions.
 function startGame() {
 
     startBtn.classList.add('unseen'); 
@@ -201,7 +209,7 @@ function startGame() {
 
 
 
-// here we make sure that startGame function excecutes when startBtn is pressed/clicked 
+// Here we make sure that startGame function excecutes when startBtn is pressed/clicked 
 // by the user.
 startBtn.addEventListener('click', startGame); 
 gameInterface.addEventListener('click', event => {
