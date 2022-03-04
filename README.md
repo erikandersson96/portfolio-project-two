@@ -476,13 +476,20 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 ## Credits
  
 ### Content
- 
-* The `Text Overlay` inspiration was taken from the `Love Running project`.
-* The design of the `Navigation Bar` was taken as inspiration from the `Love Running project`.
-* The `footer` was also taken as inspiration from the `Love Running project`. But the icons for the different social media was taken from [Font Awesome]() (link).
-* The fonts were taken from [Pair Fonts]() (link).
- 
-ÄNDRA HÄR MED!!
+
+**Styling**
+* The `Wrapper` inspiration was taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html).
+* The design of the `Difficulty selector/Radio buttons` was taken as inspiration from this [project](https://codepen.io/skeddles/pen/PbROLK) but with my own styling and naming to the HTML and CSS elements.
+* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article.   
+* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link).
+* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link). 
+
+**JavaScript code**
+* The inspiration for my Simon Game JavaScript code was taken from 
+
+
+
+
 ### Media
  
 * The Background Image (Hero image) was taken from [Pixa bay](https://pixabay.com/) (link).
