@@ -70,7 +70,8 @@ body {
 
 /* Start button */
 
-.start-btn {
+.start-btn { 
+    font-family: 'Roboto Mono', sans-serif; 
     background-color: #0fbd8e;
     border: 1px solid black;
     color: black;
