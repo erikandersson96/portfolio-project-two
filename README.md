@@ -485,7 +485,16 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 * The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link). 
 
 **JavaScript code**
-* The inspiration for my Simon Game JavaScript code was taken from 
+* The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), beacuse my knowledge for JavaScript is very low and for me to create 
+a game like Simon Game as my first ever project in JavaScript out of only what I knew when starting out with my Portfolio Project Two was to big of a task. So therefore I chose 
+together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. Instead of 
+doing a `"regular"` Simon Game as the original I created a reverse version with the goal to not press the same color sequence as the computer in order for the user to win.
+I will compare the guide's code to my code down below with both text and images: 
+
+**Tutorial**
+
+
+**My own code**
 
 
 
