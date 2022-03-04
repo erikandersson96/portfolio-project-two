@@ -197,15 +197,7 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 ---
 ## Existing Features
  
- 
-### Navigation Bar
- 
-* Used for all three pages. Consisting of one Unordered List containing
- `Home | About us | Get in touch.`
- 
-![Screenshot of the Navigation bar](/assets/images/)
-ÄNDRA HÄR MED!!
- 
+  
 ### Game Interface  
  
 * Beacuse this is a very simplistic game I only have one page for my website. The `"Landing page"` exist of a background image `"A space corridor"` and a `"Wrapper"` for 
@@ -222,10 +214,11 @@ keep it original. The game controlls `"circles"` has all the same round shape to
  
 ### Footer
  
-* The footer includes all the social media links to the relevant social platform. The links will open in a new tab to not confuse the user. Or open each social platform application on the device if the user interacts on a mobile device or tablet.
+* The footer includes all the social media links to the relevant social media platform. The links will open in a new tab to not confuse the user. Or open each social media platform application on the device if the user interacts on a mobile device or tablet. The icons for the social media links have been used from `Font Awesome` and they all have the same color 
+as the `Wrapper`. 
  
 ![Screenshot of Footer](/assets/images/)
-ÄNDRA HÄR MED!!
+
  
 ### About us 
  
