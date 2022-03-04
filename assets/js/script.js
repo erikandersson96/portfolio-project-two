@@ -66,16 +66,16 @@ function playPattern(nextPattern) {
 
 // this function creates a random number between index 0-3, Math.floor is used to pick a 
 // random number between 0-3. Without it we could get 0.3 wich wouldn't let our game to work. 
-function nextPhase() {
+/*function nextPhase() {
 
     const easier = ['green', 'blue', 'yellow', 'red']; 
     const random = easier[Math.floor(Math.random() * easier.length)]; 
 
     return random; 
     
-}
+}*/
 
-/*
+
 let gameDifficulty = 'easy';
 
 let radioButtons = document.getElementsByClassName('radio-buttons');
@@ -101,9 +101,9 @@ for (let i = 0; i < radioButtons.length; i++) {
         } 
     } 
 }
-*/
 
-/* 
+
+
 function nextPhase(currentDifficulty) {
 
     // check if currentDifficulty is matched with easy radio button 
@@ -128,7 +128,7 @@ function nextPhase(currentDifficulty) {
         return randomHard; 
     }
 }
-*/
+
 
 // a function called nextTurn is used to add 1 to the level for the user to see how many 
 // levels he/she has completed. 
@@ -145,7 +145,7 @@ function nextTurn() {
     
     
     const nextPattern = [...pattern];
-    nextPattern.push(nextPhase()); /** Add currentDifficulty i nextPhase() */
+    nextPattern.push(nextPhase(currentDifficulty)); /** Add currentDifficulty i nextPhase() */
     playPattern(nextPattern);
 
     pattern = [...nextPattern];
