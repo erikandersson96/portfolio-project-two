@@ -150,11 +150,11 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
  
 **#11D6A1 - Light neon green (HEX-color)**
  
-![A box with the color of my Wrapper](/assets/images/#11d6a1.png)
+![A box with the color of my Wrapper](/assets/images/11d6a1.png)
  
 **#0fbd8e - Little darker green (HEX-color)**
  
-![A box with the color of my description box](/assets/images/#0fbd8e.png)
+![A box with the color of my description box](/assets/images/0fbd8e.png)
  
 **Black - color (Default color)**
  
@@ -162,7 +162,7 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 
 **#0ca17a - Dark green (HEX-color)** 
 
-![A box with the color of my difficulty selector](/assets/images/#0ca17a.png) 
+![A box with the color of my difficulty selector](/assets/images/0ca17a.png) 
 
 **Green - color (Default color)**
 
@@ -206,11 +206,16 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 ![Screenshot of the Navigation bar](/assets/images/)
 ÄNDRA HÄR MED!!
  
-### Landing Page  
+### Interface of the game  
  
-* The landing page includes an image of a watch with a black background to make it stand out. The background image is used for all three pages. I used `Text Overlay` to create a nice effect to the background containing a text with: `“Life is too short to waste on a great watch. - So give it all the love it truly deserves!”.`
- 
-* This creates an eye-catching contrast to grab the user's attention.
+* Beacuse this is a very simplistic game I only have one page for my website. The `"Landing page"` exist of a background image `"A space corridor"` and a `"Wrapper"` for 
+all the content of my game. The description `"box"` is contained with a black thin border that has the same rounded edges as the `"Wrapper"`, the difficulty selector is styled 
+with black borders as well to capsule each diffuculty Easy | Medium | Hard. The `Start game` button is the only `"box"` in the Interface that I have kept square in it's shape, to 
+keep it original. 
+  
+* The `"Wrapper"` creates an eye-catching contrast to grab the user's attention. 
+
+* 
  
 ![Screenshot of Landing Page](/assets/images/)
 ÄNDRA HÄR MED!!
