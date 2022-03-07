@@ -248,7 +248,11 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 
 **Red - color (Default color)**
  
-![A box with the color of my fourth circle](/assets/images/red.png)
+![A box with the color of my fourth circle](/assets/images/red.png) 
+
+**Orange - color (Default color)** 
+
+![A box with the color of my middle circle](/assets/images/orange.png)
 
 
 ### Fonts
