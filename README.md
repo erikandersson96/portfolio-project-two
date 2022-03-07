@@ -1,4 +1,4 @@
-# Erik game
+# Erik game (Color game)
  
 A website for people to play a version of the famous Simon Game. But this game is called Erik game. Instead of trying to match the computer color sequence, the user must hit a different color sequence. To win the game the user has to complete 10 levels, for each level the computer will increase one more color to the sequence. 
  
@@ -63,7 +63,8 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
  * [Creating My Website](#creating-my-website)
  * [GitHub Pages](#github-pages)
  
-* [Credits](#credits)
+* [Credits](#credits) 
+ * [Inspiration for this project](#inspiration-for-this-project)
  * [Content](#content)
  * [Media](#media)
  
@@ -477,19 +478,11 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
  
 
 ---
-## Credits
- 
-### Content
+## Credits 
 
-**Styling**
-* The `Wrapper` inspiration was taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html).
-* The design of the `Difficulty selector/Radio buttons` was taken as inspiration from this [project](https://codepen.io/skeddles/pen/PbROLK) but with my own styling and naming to the HTML and CSS elements.
-* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article.   
-* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link).
-* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link). 
+### Inspiration for this project 
 
-**JavaScript code**
-* The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), beacuse my knowledge for JavaScript is very low and for me to create 
+The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), beacuse my knowledge for JavaScript is very low and for me to create 
 a game like Simon Game as my first ever project in JavaScript out of only what I knew when starting out with my Portfolio Project Two was to big of a task. So therefore I chose 
 together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. Instead of 
 doing a `"regular"` Simon Game as the original I created a reverse version with the goal to not press the same color sequence as the computer in order for the user to win.
@@ -497,9 +490,9 @@ The code that I have that is still the same as in the tutorial is `reset game fu
 Here is also a live version of Freshmans Simon Game [link](https://freshman-simon.surge.sh/). 
 I will compare the guide's code to my code down below with both text and images: 
 
-#### Tutorial
+#### Tutorial - Freshman Simon Game
 
-**Code:** 
+**Freshman JavaScript Code:** 
 
 Reset game function(). 
 
@@ -517,39 +510,72 @@ StartBtn event listener.
 
 ![Screenshot of Freshman js code](assets/images/freshmancode4.png)
 
-**Final product:**
+**Freshman Final product:**
 
-Start page freshman Simon Game. 
+Start page Freshman Simon Game. 
 
 ![Screenshot of Freshman final product](assets/images/freshmancomplete1.png) 
 
-Game interface freshman Simon Game. 
+Game interface Freshman Simon Game. 
 
 ![Screenshot of Freshman final product](assets/images/freshmancomplete2.png)
 
-Reset game freshman Simon Game. 
+Reset game Freshman Simon Game. 
+
+![Screenshot of Freshman final product](assets/images/freshmancomplete3.png) 
+
+You won the game Freshman Simon Game. 
 
 ![Screenshot of Freshman final product](assets/images/freshmancomplete3.png)
 
 
-#### My project
+#### My project - Erik game
 
-**Code:** 
+**JavaScript Code:** 
+
+Reset game function(). 
+
+![Screenshot of Erik game JavaScript code](assets/images/)
+
+Human turn function(), Activate tile function(), Play round function(). 
+
+![Screenshot of Erik game JavaScript code](assets/images/)
+
+Next round function(). 
+
+![Screenshot of Erik game JavaScript code](assets/images/)
+
+StartBtn event listener. 
+
+![Screenshot of Erik game JavaScript code](assets/images/)
 
 **Final product:**
 
 Start page Erik game. 
 
-![Screenshot of Freshman final product](assets/images/)
+![Screenshot of Erik game final product](assets/images/)
 
 Game interface Erik game. 
 
-![Screenshot of Freshman final product](assets/images/)
+![Screenshot of Erik game final product](assets/images/)
 
 Reset game, Erik game. 
 
-![Screenshot of Freshman final product](assets/images/)
+![Screenshot of Erik game final product](assets/images/) 
 
+You won the game! 
+
+![Screenshot of Erik game final product](assets/images/) 
+ 
+
+### Content
+
+**Styling**
+* The `Wrapper` inspiration was taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html).
+* The design of the `Difficulty selector/Radio buttons` was taken as inspiration from this [project](https://codepen.io/skeddles/pen/PbROLK) but with my own styling and naming to the HTML and CSS elements.
+* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article.   
+* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link).
+* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link). 
 
 
 ### Media
