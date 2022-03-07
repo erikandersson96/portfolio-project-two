@@ -83,15 +83,16 @@ for (let i = 0; i < radioButtons.length; i++) {
 
             // Change the amount of circles  
             document.getElementById('circle-blue').style.display = 'inline-flex'; 
-            document.getElementById('circle-red').style.display = 'inline-flex';    
+            document.getElementById('circle-red').style.display = 'inline-flex'; 
+            document.getElementById('circle-orange').style.display = 'inline-flex';    
         } 
 
         else if (currentDifficulty == 'medium') { 
 
-
             // Change the amount of circles
-            document.getElementById('circle-blue').style.display = 'none'; 
+            document.getElementById('circle-blue').style.display = 'inline-flex'; 
             document.getElementById('circle-red').style.display = 'inline-flex'; 
+            document.getElementById('circle-orange').style.display = 'none'; 
         }
 
         else if (currentDifficulty == 'hard') { 
@@ -99,7 +100,8 @@ for (let i = 0; i < radioButtons.length; i++) {
 
             // Change the amount of circles   
             document.getElementById('circle-blue').style.display = 'none';
-            document.getElementById('circle-red').style.display = 'none';       
+            document.getElementById('circle-red').style.display = 'inline-flex';
+            document.getElementById('circle-orange').style.display = 'none';        
         } 
 
     })
