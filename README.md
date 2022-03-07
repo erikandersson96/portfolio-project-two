@@ -429,7 +429,7 @@ I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve go
  
 * Erik game has been tested through [wave.webaim.org](https://wave.webaim.org/) for accessibility.
  
-You can look at the approved result [here]().
+You can look at the approved result [here](https://wave.webaim.org/report#/https://erikandersson96.github.io/portfolio-project-two/).
 
 * When I tested my webpage first I got 2 alerts. 
 
