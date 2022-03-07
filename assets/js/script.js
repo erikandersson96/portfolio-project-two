@@ -120,9 +120,9 @@ for (let i = 0; i < radioButtons.length; i++) {
 * Erik game. It also checks which difficulty the user has selected. 
 */
 
-// This function creates a random number between index 0-3, index 0-2 or index 0-1 depending on which 
+// This function creates a random number between index 0-4, index 0-3 or index 0-2 depending on which 
 // difficulty level that has been selected. Math.floor is used to pick a 
-// random number between each index. Without it we could get 0.3 wich wouldn't let our game to work properly.
+// random number between each index. Without it we could get 0.3 which wouldn't let our game to work properly.
 
 
 function nextPhase() {
@@ -151,12 +151,15 @@ function nextPhase() {
     }
 }
 
+/* 
+* This nextTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations. 
+*/
 
-// Function called nextTurn is used to add 1 to the level for the user to see how many 
-// levels he/she has completed. 
+// Function called nextTurn is used to add 1 color to the sequence.  
+// It also tells the user which level is being played of 10. 
 // TimeOut is set to slightly delay the time between the computers finished sequence and 
 // the user's turn to play. 
-// pattern is also updated to match the current sequence in play. 
+// Pattern is also updated to match the current sequence in play. 
 function nextTurn() {
     level += 1; 
 
@@ -212,6 +215,12 @@ function manageClick(currentClick) {
     }
 }
 
+
+/* 
+* This startGame function is taken as inspiration from Freshman Simon Game, but it is configurated to work with 
+* Erik game.  
+*/
+
 // Function called startGame that will make the start game button dissapear when user press
 // it and show the game instructions.
 function startGame() {
@@ -223,6 +232,10 @@ function startGame() {
 } 
 
 
+/* 
+* startBtn is taken as inspiration from Freshman Simon Game, but it is configurated to work with 
+* Erik game.  
+*/
 
 // Here we make sure that startGame function excecutes when startBtn is pressed/clicked 
 // by the user.
