@@ -23,7 +23,9 @@ const userLevel = document.querySelector('.level-count');
 const gameInterface = document.querySelector('.game-interface');
 
 
-// Reset game, with alert
+// This resetGame function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
+
+// Reset game, with alert.  
 function resetGame(text) {
     alert(text); 
     pattern = []; 
@@ -35,6 +37,8 @@ function resetGame(text) {
     gameInterface.classList.add('not-activated');
 }
 
+// This userTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
+
 // This function creates a way to tell the user that it is his/her's turn to play. 
 function userTurn() {
     gameInterface.classList.remove('not-activated'); 
@@ -43,9 +47,10 @@ function userTurn() {
 }
 
 
+// This activateCircle function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
 
 // This function is used to select the correct color of the circles. And light up that
-// circle for 350 milliseconds, each circle will light up for 350 milliseconds each. 
+// circle for 400 milliseconds, each circle will light up for 400 milliseconds each. 
 function activateCircle(color) {
     const currentClick = document.querySelector(`[data-circle='${color}']`);
     currentClick.classList.add('activate');
@@ -53,6 +58,8 @@ function activateCircle(color) {
         currentClick.classList.remove('activate');
     }, 400);
 }
+
+// This playPattern function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
 
 // Here is a function to set a delay on 800 milliseconds between each color that the computer
 // flashes. 
@@ -108,6 +115,10 @@ for (let i = 0; i < radioButtons.length; i++) {
         
 }
  
+/* 
+* This nextPhase function is taken as inspiration from Freshman Simon Game, but it is configurated to work with 
+* Erik game. It also checks which difficulty the user has selected. 
+*/
 
 // This function creates a random number between index 0-3, index 0-2 or index 0-1 depending on which 
 // difficulty level that has been selected. Math.floor is used to pick a 
@@ -115,8 +126,6 @@ for (let i = 0; i < radioButtons.length; i++) {
 
 
 function nextPhase() {
-
-    console.log('The current difficulty is: ' + currentDifficulty)
 
     // check if currentDifficulty is matched with easy radio button 
     if (currentDifficulty == 'easy') {
