@@ -128,15 +128,19 @@ Landing page.
 
 Easy Interface. 
 
-![Screenshot of easy interface](/assets/images/)
+![Screenshot of easy interface](/assets/images/easy.png)
 
 Medium Interface. 
 
-![Screenshot of medium interface](/assets/images/)
+![Screenshot of medium interface](/assets/images/medium.png)
 
 Hard Interface. 
 
-![Screenshot of hard interface](/assets/images/)
+![Screenshot of hard interface](/assets/images/hard.png) 
+
+Footer (social media links). 
+
+![Screenshot of footer](/assets/images/footer1.png) 
 
 
 **Changes:**
