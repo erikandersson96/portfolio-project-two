@@ -455,44 +455,18 @@ had flashed first `yellow` and secondly `green` the user wouldn't have any optio
 
 **Bugg before:** 
 
-![Screenshot hard interface before (only 2 colors)](/assets/images/) 
+![Screenshot hard interface before (only 2 colors)](/assets/images/hardbefore.png) 
 
 
 **Solution:** 
 
-![Screenshot hard interface now (3 colors)](/assets/images/)
+![Screenshot hard interface now (3 colors)](/assets/images/erikgameinterface2.png)
 
 
 ---
 ## Unfixed Bugs
  
-When a user visits the website on an `Apple` mobile or tablet device with an older `iOS update` than `iOS 15`. They might not view the `“About us”` page call to action button that directs users to the contact form at the `“Get in touch”` page the same as on a desktop and other mobile devices. The `call to action button` should be within the `Text Overlay` that contains the `About us` information, and the same for the `submit` button on `Get in touch` page. This could as well happen on some `Android` mobile devices, but as I wrote earlier I don't have access to test this on these devices.
- 
-I also discovered that when I clicked the link for my Wave Page on my Apple iPhone 11 in the `Wave Page` section in this Readme, I got 1 `contrast` error for the `About us` and `Get in touch` page. But this is only when I click the link from my iPhone, not when I do the same procedure on my desktop. I tried if I changed the screen size of my Chrome browser window on my MacBook (desktop) to see if that gave the same `contrast issue` as on my `iPhone 11` but it didn't even if I refreshed the page a couple of times to test. This could of course be the same on a `Android` mobile device. 
- 
-When I searched for a `solution` to these `"defects/errors"` on the Internet I couldn’t figure out what caused this so I decided that I will leave it as `unfixed bugs`, and I will try my best to solve this issue later in my career when I have more knowledge in Software development.
-ÄNDRA HÄR MED!!
-**Here is a screenshot of the contrast error I got when I looked at Wave Page on my iPhone 11:**
- 
-About us:
- 
-![Screenshot on iPhone 11 at Wave Page, About us]()
-ÄNDRA HÄR MED!!
-Get in touch:
- 
-![Screenshot on iPhone 11 at Wave Page, Get in touch]()
-ÄNDRA HÄR MED!!
-**Here is a screenshot with the same screen size dimensions (1,792 x 828 pixels) as my iPhone 11 but when I looked at Wave Page on my desktop (MacBook Pro):**
- 
-About us:
- 
-![Screenshot on desktop at Wave Page, About us]()
-ÄNDRA HÄR MED!!
-Get in touch:
- 
-![Screenshot on desktop at Wave Page, Get in touch]()
- 
-ÄNDRA HÄR MED!!
+
 ---
 ## Deployment
  
