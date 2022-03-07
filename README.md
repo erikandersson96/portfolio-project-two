@@ -394,17 +394,14 @@ Empty heading, beacuse I let my `h3` heading be empty between it's opening and c
 
 **Solution 2:**
  
-I deleted my `h3` heading and added a `div` instead with the same class as my `h3` had and styled it within my css to have the correct pixel size. 
+I deleted my `h3` heading and added a `div` instead with the same class as my `h3` had. I actualy got more satisfied with this solution not only beacuse of the validation 
+but beacuse then the level counter isn't displayed before the game starts, just the way I wanted it to be to start with but forgot to change. 
 
 **After I applied the HTML solutions:**
  
-Here you can take a look at my `Approved` HTML for my [Home Page]().
- 
-Here you can take a look at my `Approved` HTML for my [About us Page]().
- 
-Here you can take a look at my `Approved` HTML for my [Get in touch Page]().
- 
-ÄNDRA HÄR MED!!
+Here you can take a look at my `Approved` HTML validation for my [Game]().  
+
+
 * **CSS-Validator** 
  
 When testing the website link at [Jigsaw Validator]() I got these results:
