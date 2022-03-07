@@ -448,7 +448,7 @@ the correct size and font.
 ---
 ## Fixed Bugs
  
-When I first completed my JavaScript code and was satisfied with my styling I tested Erik game a couple of times both on desktop but also on a mobile device. 
+* When I first completed my JavaScript code and was satisfied with my styling I tested Erik game a couple of times both on desktop but also on a mobile device. 
 After a while I got to the conclusion that when playing in `Hard` difficulty (2 colors) It could quickly become impossible to win over the computer, beacuse if the computer 
 had flashed first `yellow` and secondly `green` the user wouldn't have any option to start. This was beacuse the user can't start with pressing the same color as the computer started or finsih with otherwise the user would lose. So to prevent this I had to come up with a solution. So I added one more color of `orange` to `Easy` in the middle that will be hidden in 
 `Medium and Hard` difficulty. So `Medium` got 4 `colors` instead and `Hard` got 3 `colors`. The solution I applied is this: 
@@ -462,6 +462,8 @@ had flashed first `yellow` and secondly `green` the user wouldn't have any optio
 
 ![Screenshot hard interface now (3 colors)](/assets/images/erikgameinterface2.png)
 
+
+* Footer. LÄGG TILL HÄR!
 
 ---
 ## Unfixed Bugs
