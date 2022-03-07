@@ -413,34 +413,17 @@ Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-v
 
 ---
 ### Lighthouse Dev Tool
-I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve got an average result of `98,6%` for desktop and `90%` for mobile devices.
-ÄNDRA HÄR MED!!
-**Home Page (desktop)**
+I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve got an average result of `97,25%` for desktop and `99,25%` for mobile devices.
+
+**Desktop**
  
-![Screenshot home page in ligthouse](/assets/images/)
-ÄNDRA HÄR MED!!
-**About us Page (desktop)**
+![Screenshot home page in ligthouse](/assets/images/lighthousedesktop1.png)
  
-![Screenshot about us page in lighthouse](/assets/images/)
-ÄNDRA HÄR MED!!
-**Get in touch Page (desktop)**
+**Mobile**
  
-![Screenshot get in touch page in lighthouse](/assets/images/)
+![Screenshot home page in lighthouse for mobile](/assets/images/lighthousemobile1.png)
+
  
-ÄNDRA HÄR MED!
-**Home Page (mobile)**
- 
-![Screenshot home page in lighthouse for mobile](/assets/images/)
-ÄNDRA HÄR MED!!
-**About us (mobile)**
- 
-![Screenshot home page in lighthouse for mobile](/assets/images/)
-ÄNDRA HÄR MED!!
-**Get in touch (mobile)**
- 
-![Screenshot home page in lighthouse for mobile]()
- 
-ÄNDRA HÄR MED!!
 ---
 ### Wave Page
  
