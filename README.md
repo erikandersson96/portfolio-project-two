@@ -399,7 +399,7 @@ but beacuse then the level counter isn't displayed before the game starts, just 
 
 **After I applied the HTML solutions:**
  
-Here you can take a look at my `Approved` HTML validation for my [Game]().  
+Here you can take a look at my `Approved` HTML validation for my [Game]().  LÄGG TILL VALIDERING HÄR!!
 
 
 * **CSS-Validator** 
