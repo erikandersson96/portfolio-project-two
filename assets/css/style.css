@@ -66,6 +66,11 @@ body {
     height: 100%;
 } 
 
+/* I used filedset and legend for screen readers but I dont want it in my game interface, so therfore it is displayed with none */
+
+fieldset, legend {
+    display: none;
+}
 
 
 /* Start button */
