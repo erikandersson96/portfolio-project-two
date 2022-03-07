@@ -120,9 +120,24 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 
 ### Comparison
  
-**Final product:**
+**Final product:** **(desktop)**
  
-LÄGG TILL SCREENSHOT PÅ FINAL PRODUCT HÄR!!
+Landing page. 
+
+![Screenshot of landing page](/assets/images/)
+
+Easy Interface. 
+
+![Screenshot of easy interface](/assets/images/)
+
+Medium Interface. 
+
+![Screenshot of medium interface](/assets/images/)
+
+Hard Interface. 
+
+![Screenshot of hard interface](/assets/images/)
+
 
 **Changes:**
 
