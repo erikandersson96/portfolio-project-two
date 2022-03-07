@@ -384,7 +384,7 @@ I've got an error for using a `div` element as a child of my `label` element.
 
 **Solution:**
  
-I deleted de `div` beacuse it was just unnecessary. Beginner misstake. 
+I deleted the `div` beacuse it was just unnecessary. Beginner misstake. 
 
 **Error 2:**
  
