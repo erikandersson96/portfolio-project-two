@@ -487,7 +487,7 @@ a game like Simon Game as my first ever project in JavaScript out of only what I
 together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. Instead of 
 doing a `"regular"` Simon Game as the original I created a reverse version with the goal to not press the same color sequence as the computer in order for the user to win.
 The code that I have that is still the same as in the tutorial is `resetGame function()`, `humanTurn function()`, `activateTile function()`, `playRound function()`, 
-`nextStep function()`, `nextRound function()` but it is modified to work with my code that has three different difficulty selections, `startBtn event listener`. 
+`nextStep function()`, `nextRound function()`, `startGame function()`, `startBtn event listener`. 
 Here is also a live version of Freshmans Simon Game [link](https://freshman-simon.surge.sh/). 
 I will compare the guide's code to my code down below with both text and images: 
 
@@ -507,7 +507,7 @@ NextStep function(), NextRound function().
 
 ![Screenshot of Freshman js code](assets/images/freshmancode3.png) 
 
-StartBtn event listener. 
+StartGame function(), StartBtn event listener. 
 
 ![Screenshot of Freshman js code](assets/images/freshmancode4.png)
 
@@ -536,27 +536,37 @@ You won the game Freshman Simon Game.
 
 Reset game function(). 
 
-![Screenshot of Erik game JavaScript code](assets/images/)
+![Screenshot of Erik game JavaScript code](assets/images/erikcode1.png)
 
-Human turn function(), Activate tile function(), Play round function(). 
+Human turn function(). Name in my code: userTurn., 
+Activate tile function(). Name in my code: activateCircle., 
+Play round function(). Name in my code: playPattern. 
 
-![Screenshot of Erik game JavaScript code](assets/images/)
+![Screenshot of Erik game JavaScript code](assets/images/erikcode2.png)
 
-Next round function(). 
+NextStep function(). Name in my code: nextPhase.
 
-![Screenshot of Erik game JavaScript code](assets/images/)
+![Screenshot of Erik game JavaScript code](assets/images/erikcode3.png) 
 
-StartBtn event listener. 
+NextRound function(). Name in my code: nextTurn. 
 
-![Screenshot of Erik game JavaScript code](assets/images/)
+![Screenshot of Erik game JavaScript code](assets/images/erikcode4.png)
+
+StartGame function(). 
+
+![Screenshot of Erik game JavaScript code](assets/images/erikcode5.png) 
+
+StartButton event listener. Name in my code: startBtn.
+
+![Screenshot of Erik game JavaScript code](assets/images/erikcode6.png) 
 
 **Final product:**
 
-Start page Erik game. 
+Start page, Erik game. 
 
 ![Screenshot of Erik game final product](assets/images/)
 
-Game interface Erik game. 
+Game interface, Erik game. 
 
 ![Screenshot of Erik game final product](assets/images/)
 
@@ -564,7 +574,7 @@ Reset game, Erik game.
 
 ![Screenshot of Erik game final product](assets/images/) 
 
-You won the game! 
+You won the game! Erik game.  
 
 ![Screenshot of Erik game final product](assets/images/) 
  
