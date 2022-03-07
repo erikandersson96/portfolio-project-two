@@ -157,8 +157,8 @@ label + input[type=radio] + label {
 /* Easy interface */ 
 .circle {
     border-radius: 50%;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     display: inline-flex;
     cursor: pointer;
 } 
@@ -166,6 +166,13 @@ label + input[type=radio] + label {
 .circle:hover {
     box-shadow: inset 0px 0px 0px 3px cyan;
     box-sizing: border-box;
+} 
+
+/* Middle circle size */
+
+.easy-orange {
+    width: 100px;
+    height: 100px;
 }
 
 /* Easy interface 4 different colors */
