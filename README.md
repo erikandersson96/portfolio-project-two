@@ -427,11 +427,24 @@ I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve go
 ---
 ### Wave Page
  
-Each page has been tested through wave.webaim.org for accessibility.
+* Erik game has been tested through [wave.webaim.org](https://wave.webaim.org/) for accessibility.
  
-* You can look at the results [here]().
- 
-ÄNDRA HÄR MED!!
+You can look at the approved result [here]().
+
+* When I tested my webpage first I got 2 alerts. 
+
+**First alert.** 
+
+I got this beacuse I hadn't added a `fieldset` or `legend` for my `Radio Buttons` in my index file. When I googled this I found that I should use it in consideration for `screen readers`. 
+So I added it but then I didn't like the look of a border and a legend around my radio buttons so I applied some CSS to hide them. 
+
+**Second alert.**
+
+I got this beacuse I had used a `h3` element for my `"Choose difficulty level"` above my `Radio Buttons`, and after some googling I understood that I should use an 
+`h2` instead beacuse my logo is `h1` and this was the second heading level for my index file structure. So I changed to an `h2` and styled it with in my css to have 
+the right size and font. 
+
+
 ---
 ## Fixed Bugs
  
