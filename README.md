@@ -586,6 +586,15 @@ The alert message for you won the game works the same as in Freshman Simon Game.
 * The inspiration for my radio buttons, Easy | Medium | Hard has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
 that I found from this article [link](https://freefrontend.com/css-radio-buttons/) (both links opens in a new tab). 
 
+**Image inspiration:** 
+
+![Screenshot of css inspiration for radio buttons](assets/images/cssinspo.png)
+
+**My radio buttons:** 
+
+![Screenshot of my radio buttons](assets/images/radiobtns1.png)
+
+
 ### Content
 
 **Styling**
