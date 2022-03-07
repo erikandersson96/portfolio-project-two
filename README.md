@@ -474,7 +474,8 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 1. In the menu to the left, you will find `Pages` almost at the bottom of the list.
 1. Under `“Source”`, click the dropdown menu called `“None”` and select `“Main”`.
 1. Click `save` and the page will automatically refresh with the website link displayed.
-1. The published `link` will show up above. Alternatively, click this [link](). LÄGG TILL LÄNKEN PÅ DIN DEPLOYED WEBBSIDA!!!
+1. The published `link` will show up above. Alternatively, click this [link](https://erikandersson96.github.io/portfolio-project-two/).
+(Link opens in a new tab). 
  
 
 ---
@@ -488,7 +489,7 @@ together with my mentor `Benjamin Kavanagh` to follow that guide as support but 
 doing a `"regular"` Simon Game as the original I created a reverse version with the goal to not press the same color sequence as the computer in order for the user to win.
 The code that I have that is still the same as in the tutorial is `resetGame function()`, `humanTurn function()`, `activateTile function()`, `playRound function()`, 
 `nextStep function()`, `nextRound function()`, `startGame function()`, `startBtn event listener`. 
-Here is also a live version of Freshmans Simon Game [link](https://freshman-simon.surge.sh/). 
+Here is also a live version of Freshmans Simon Game [link](https://freshman-simon.surge.sh/). (Links opens in a new tab). 
 I will compare the guide's code to my code down below with both text and images: 
 
 #### Tutorial - Freshman Simon Game
@@ -599,20 +600,20 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 
 **Styling**
 * The `Wrapper` inspiration was taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html).
-* The design of the `Difficulty selector/Radio buttons` was taken as inspiration from this [project](https://codepen.io/skeddles/pen/PbROLK) but with my own styling and naming to the HTML and CSS elements.
-* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article.   
-* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link).
-* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link). 
+* The design of the `Difficulty selector/Radio buttons` was taken as inspiration from this [project](https://codepen.io/skeddles/pen/PbROLK) but with my own styling and naming to the HTML and CSS elements. (Link opens in a new tab).
+* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article. (Link opens in a new tab).  
+* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link opens in a new tab).
+* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link opens in a new tab). 
 
 
 ### Media
  
-* The Background Image (Hero image) was taken from [Pixa bay](https://pixabay.com/) (link).
+* The Background Image (Hero image) was taken from [Pixa bay](https://pixabay.com/) (link opens in a new tab).
 
 **Background image:**
  
 * Image taken from [Pixa bay](https://pixabay.com/sv/photos/tunnel-korridor-plats-yttre-rymden-3233082/) (link). 
-If you click the link you can see how it looks like at Pixa bay. 
+If you click the link you can see how it looks like at Pixa bay (link opens in a new tab). 
  
 ![Background image](/assets/images/background-image.jpg)
  
@@ -623,7 +624,7 @@ If you click the link you can see how it looks like at Pixa bay.
 I would like to give an extra `Thank you` to all the kind people I have around me that gave me support in all different ways.
  
 * **Code Institute** for their **Tutor** support.
-* My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link) for being a Superior mentor.
+* My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link opens in a new tab) for being a Superior mentor.
 * **Google** for always clear things up.
 * My lovely **Girlfriend** for always supporting me.
  
