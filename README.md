@@ -296,9 +296,15 @@ as the `Wrapper`.
  
 ### Easy difficulty 
 
+![Screenshot of Easy Interface](/assets/images/erikgameinterface1.png)
+
 ### Medium difficulty 
 
+![Screenshot of Medium Interface](/assets/images/erikgameinterface2.png)
+
 ### Hard difficulty 
+
+![Screenshot of Hard Interface](/assets/images/erikgameinterface3.png)
 
 
 ---
