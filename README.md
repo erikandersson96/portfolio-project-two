@@ -579,7 +579,12 @@ You won the game! Erik game.
 The alert message for you won the game works the same as in Freshman Simon Game.
 
 ![Screenshot of Erik game final product](assets/images/erikgamewon.png) 
- 
+
+
+#### Styling for radio buttons
+
+* The inspiration for my radio buttons, Easy | Medium | Hard has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
+that I found from this article [link](https://freefrontend.com/css-radio-buttons/) (both links opens in a new tab). 
 
 ### Content
 
