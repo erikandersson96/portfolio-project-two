@@ -441,28 +441,28 @@ So I added it but then I didn't like the look of a border and a legend around my
 **Second alert.**
 
 I got this beacuse I had used a `h3` element for my `"Choose difficulty level"` above my `Radio Buttons`, and after some googling I understood that I should use an 
-`h2` instead beacuse my logo is `h1` and this was the second heading level for my index file structure. So I changed to an `h2` and styled it with in my css to have 
-the right size and font. 
+`h2` instead beacuse my logo is `h1` and this was the second heading level for my index file structure. So I changed to an `h2` and styled it with css to have 
+the correct size and font. 
 
 
 ---
 ## Fixed Bugs
  
-I validated my CSS and found `287 parse errors`. This was because I had written `Open+Sans` instead of `“Open Sans”`. As a result of the `287 parse errors`, I realized that I was inefficient with my CSS and refactored the `Media Queries` to only include code that had been changed.
- 
-When I was running `Wave Page` I got `6 label errors` for my contact form. This was caused because I had written my HTML for the contact form in the wrong way without `correct labels`. I corrected this by correcting my HTML code for the contact form, with a correct `label` for each input field.
- 
-* Here you can take a look at before and after screenshot of my `HTML` contact form:
-ÄNDRA HÄR MED!!
-**Before:**
- 
-![Screenshot wrong html contact form]()
-ÄNDRA HÄR MED!!
-**After:**
- 
-![Screenshot correct html contact form]()
- 
-ÄNDRA HÄR MED!!
+When I first completed my JavaScript code and was satisfied with my styling I tested Erik game a couple of times both on desktop but also on a mobile device. 
+After a while I got to the conclusion that when playing in `Hard` difficulty (2 colors) It could quickly become impossible to win over the computer, beacuse if the computer 
+had flashed first `yellow` and secondly `green` the user wouldn't have any option to start. This was beacuse the user can't start with pressing the same color as the computer started or finsih with otherwise the user would lose. So to prevent this I had to come up with a solution. So I added one more color of `orange` to `Easy` in the middle that will be hidden in 
+`Medium and Hard` difficulty. So `Medium` got 4 `colors` instead and `Hard` got 3 `colors`. The solution I applied is this: 
+
+**Bugg before:** 
+
+![Screenshot hard interface before (only 2 colors)](/assets/images/) 
+
+
+**Solution:** 
+
+![Screenshot hard interface now (3 colors)](/assets/images/)
+
+
 ---
 ## Unfixed Bugs
  
