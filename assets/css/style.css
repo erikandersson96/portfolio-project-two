@@ -157,8 +157,8 @@ label + input[type=radio] + label {
 /* Easy interface */ 
 .circle {
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     display: inline-flex;
     cursor: pointer;
 } 
@@ -239,8 +239,8 @@ label {
 } 
 
 .circle {
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     } 
 
 
