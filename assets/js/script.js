@@ -25,7 +25,8 @@ const gameInterface = document.querySelector('.game-interface');
 
 // This resetGame function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
 
-// Reset game, with alert.  
+// Reset game, with alert. 
+
 function resetGame(text) {
     alert(text); 
     pattern = []; 
@@ -38,7 +39,6 @@ function resetGame(text) {
 }
 
 // This userTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
-
 // This function creates a way to tell the user that it is his/her's turn to play. 
 function userTurn() {
     gameInterface.classList.remove('not-activated'); 
@@ -49,8 +49,11 @@ function userTurn() {
 
 // This activateCircle function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
 
-// This function is used to select the correct color of the circles. And light up that
-// circle for 400 milliseconds, each circle will light up for 400 milliseconds each. 
+/**
+ * This function is used to select the correct color of the circles. And light up that
+ * circle for 400 milliseconds, each circle will light up for 400 milliseconds each. 
+ *  */ 
+
 function activateCircle(color) {
     const currentClick = document.querySelector(`[data-circle='${color}']`);
     currentClick.classList.add('activate');
@@ -61,8 +64,8 @@ function activateCircle(color) {
 
 // This playPattern function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
 
-// Here is a function to set a delay on 800 milliseconds between each color that the computer
-// flashes. 
+// Here is a function to set a delay on 800 milliseconds between each color that the computer flashes. 
+
 function playPattern(nextPattern) {
     nextPattern.forEach((color, index) => {
         setTimeout(() => {
@@ -73,8 +76,10 @@ function playPattern(nextPattern) {
   
 
 
-// This function checks which difficulty that has been choosen and displays the right Interface depending on 
-// if it is Easy = 4 colors, Medium = 3 colors, Hard = 2 colors.   
+/**
+ * This function checks which difficulty that has been choosen and displays the right Interface depending on 
+ * if it is Easy = 4 colors, Medium = 3 colors, Hard = 2 colors.   
+ *  */ 
  
 let currentDifficulty = 'easy';
 
@@ -120,10 +125,11 @@ for (let i = 0; i < radioButtons.length; i++) {
 * Erik game. It also checks which difficulty the user has selected. 
 */
 
-// This function creates a random number between index 0-4, index 0-3 or index 0-2 depending on which 
-// difficulty level that has been selected. Math.floor is used to pick a 
-// random number between each index. Without it we could get 0.3 which wouldn't let our game to work properly.
-
+/**
+ * This function creates a random number between index 0-4, index 0-3 or index 0-2 depending on which 
+ * difficulty level that has been selected. Math.floor is used to pick a 
+ * random number between each index. Without it we could get 0.3 which wouldn't let our game to work properly.
+ *  */ 
 
 function nextPhase() {
 
@@ -155,11 +161,14 @@ function nextPhase() {
 * This nextTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations. 
 */
 
-// Function called nextTurn is used to add 1 color to the sequence.  
-// It also tells the user which level is being played of 10. 
-// TimeOut is set to slightly delay the time between the computers finished sequence and 
-// the user's turn to play. 
-// Pattern is also updated to match the current sequence in play. 
+/**
+ * Function called nextTurn is used to add 1 color to the sequence.  
+ * It also tells the user which level is being played of 10. 
+ * TimeOut is set to slightly delay the time between the computers finished sequence and 
+ * the user's turn to play. 
+ * Pattern is also updated to match the current sequence in play. 
+ *  */ 
+
 function nextTurn() {
     level += 1; 
 
@@ -221,8 +230,11 @@ function manageClick(currentClick) {
 * Erik game.  
 */
 
-// Function called startGame that will make the start game button dissapear when user press
-// it and show the game instructions.
+/**
+ * Function called startGame that will make the start game button dissapear when user press
+ * it and show the game instructions.
+ *  */ 
+
 function startGame() {
 
     startBtn.classList.add('unseen'); 
@@ -237,8 +249,11 @@ function startGame() {
 * Erik game.  
 */
 
-// Here we make sure that startGame function excecutes when startBtn is pressed/clicked 
-// by the user.
+/**
+ * Here we make sure that startGame function excecutes when startBtn is pressed/clicked 
+ * by the user. 
+ *  */ 
+
 startBtn.addEventListener('click', startGame); 
 gameInterface.addEventListener('click', event => {
 
