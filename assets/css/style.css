@@ -84,19 +84,18 @@ body {
 
 /* Footer - Social media links */ 
 
-.social-media-links {
+footer {
     text-align: center;
 }
 
 .social-media-links > li {
     display: inline;
-    
 }
 
 .social-media-links i {
     font-size: 30px;
-    margin: 10px;
     padding: 10px;
+    margin: 10px;
     color: #0fbd8e;
     
 } 
