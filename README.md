@@ -271,7 +271,7 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 ---
 ## Existing Features
  
-  
+
 ### Game Interface  
  
 * Beacuse this is a very simplistic game I only have one page for my website. The `"Landing page"` exist of a background image `"A space corridor"` and a `"Wrapper"` for 
@@ -283,7 +283,7 @@ keep it original. The game controlls `"circles"` has all the same round shape to
 
 * The `description box` and the `difficulty selector` has a border around it to make it stand out and be easy to read. 
  
-![Screenshot of Game Interface](/assets/images/gameinterface1.png)
+![Screenshot of Game Interface](/assets/images/gameinterface1.png) ÄNDRA BILD HÄR TILL HELA SKÄRMEN MED DEN FIXAD FOOTERN!
 
  
 ### Footer
@@ -375,13 +375,13 @@ I have tested the responsiveness and aesthetics on the following devices and bro
 * **HTML-Validator**
  
 When testing the website link at [W3C Validator](https://validator.w3.org/) I got these results: 
-ÄNDRA HÄR MED!!
+
 **Error 1:**
  
-I've got an error for using `h1` element more than in my logo. And this could confuse a screen reader because it will treat it as a `top-level heading.`
+I've got an error for using a `div` element as a child of my `label` element. 
  
-![Screenshot of first HTML validation error](/assets/images/)
-ÄNDRA HÄR MED!!
+![Screenshot of first HTML validation error](/assets/images/htmlvalidation1.png)
+
 **Solution:**
  
 I changed the `h1` tags to `h2` tags instead.
