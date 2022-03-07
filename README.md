@@ -513,19 +513,19 @@ StartGame function(), StartBtn event listener.
 
 **Freshman Final product:**
 
-Start page Freshman Simon Game. 
+Start page, Freshman Simon Game. 
 
 ![Screenshot of Freshman final product](assets/images/freshmancomplete1.png) 
 
-Game interface Freshman Simon Game. 
+Game interface, Freshman Simon Game. 
 
 ![Screenshot of Freshman final product](assets/images/freshmancomplete2.png)
 
-Reset game Freshman Simon Game. 
+Reset game, Freshman Simon Game. 
 
 ![Screenshot of Freshman final product](assets/images/freshmancomplete3.png) 
 
-You won the game Freshman Simon Game. 
+You won the game, Freshman Simon Game. 
 
 ![Screenshot of Freshman final product](assets/images/freshmancomplete3.png)
 
@@ -564,19 +564,21 @@ StartButton event listener. Name in my code: startBtn.
 
 Start page, Erik game. 
 
-![Screenshot of Erik game final product](assets/images/)
+![Screenshot of Erik game final product](assets/images/erikgamestart.png)
 
 Game interface, Erik game. 
 
-![Screenshot of Erik game final product](assets/images/)
+![Screenshot of Erik game final product](assets/images/erikgameinterface1.png)
 
 Reset game, Erik game. 
+The alert message for reset game works the same as in Freshman Simon Game. 
 
-![Screenshot of Erik game final product](assets/images/) 
+![Screenshot of Erik game final product](assets/images/erikgamereset.png) 
 
 You won the game! Erik game.  
+The alert message for you won the game works the same as in Freshman Simon Game.
 
-![Screenshot of Erik game final product](assets/images/) 
+![Screenshot of Erik game final product](assets/images/erikgamewon.png) 
  
 
 ### Content
