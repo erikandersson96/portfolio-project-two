@@ -118,7 +118,7 @@ function nextPhase() {
 
     // check if currentDifficulty is matched with easy radio button 
     if (currentDifficulty == 'easy') {
-        const easier = ['green', 'blue', 'yellow', 'red'];
+        const easier = ['green', 'blue', 'yellow', 'red', 'orange'];
         const randomEasy = easier[Math.floor(Math.random() * easier.length)]; 
 
         return randomEasy; 
@@ -126,14 +126,14 @@ function nextPhase() {
     // check if currentDifficulty is matched with medium radio button 
     else if (currentDifficulty == 'medium') {
 
-        let medium = ['green', 'yellow', 'red'];
+        const medium = ['green', 'blue', 'yellow', 'red'];
         const randomMedium = medium[Math.floor(Math.random() * medium.length)]; 
 
         return randomMedium; 
     }
     // check if currentDifficulty is matched with hard radio button 
     else if (currentDifficulty == 'hard') {
-        const hard = ['green', 'yellow'];
+        const hard = ['green', 'yellow', 'red'];
         const randomHard = hard[Math.floor(Math.random() * hard.length)]; 
 
         return randomHard; 
