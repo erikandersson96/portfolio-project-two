@@ -143,10 +143,10 @@ Footer (social media links).
 ![Screenshot of footer](/assets/images/footer1.png) 
 
 
-**Changes:**
+#### Changes:
 
 Using DOM instead of multiply HTML files: 
-* As you can see, I choose to only display the game on the "Landing page". Beacuse my game only exist on one page, at first I didn't really understood the princip of DOM so I tought that I would create one HTML page for each "function" of the game. Like creating one Landing page that displayed some information about the game and a button that would take the user to the next page(HTML file) which would have been game-level(User name) with the choice of three difficulty levels and a Play button. After that a page with the correlated game interface (Easy, Medium or Hard) and so on as you can see in my wireframes. But I quickly realized that if I instead used the DOM I could keep everything within one HTML file. 
+* As you can see, I choose to only display the game on the "Landing page". Beacuse my game only exist on one page, at first I didn't really understood the princip of DOM so I tought that I would create one HTML page for each "function" of the game. Like creating one Landing page that displayed some information about the game and a button that would take the user to the next page(HTML file) which would have been game-level(User name) with the choice of three difficulty levels and a Play button. After that a page with the correlated game interface (Easy, Medium or Hard) and so on as you can see in my wireframes. But I quickly realized that if I instead used the DOM I could keep everything within one HTML file. I will display with images my first repository and each html file that i created before I choose to create this repository and work with DOM instead. Worth mentioning is that this first repository never had finsihed CSS so the styling is not what is importent, I just want to give you as a reader a better understanding of how complex things could have been for me if I didn't go with using the DOM. 
  
 Using Game Interface of circles instead of pieces like the wireframes: 
 * I also choose to go with `another` style of my buttons for the game. Instead of using pieces like in the wireframe and in the original Simon Game, I chose to go with four circles. This was beacuse I felt that I am not to comfortable with my CSS skills to experiment with styles like that, maybe in the future.   
@@ -154,7 +154,54 @@ Using Game Interface of circles instead of pieces like the wireframes:
 * In the footer I chose to only use social media links like `My own Github, Instagram, Youtube`. I felt that it looked cleaner to only have Social media platforms here instead of credits.
  
 * Lastly, I decided to go with a simple design that had a look of an old game, so therfore I didn't experiment to much with the design of my final product. I wanted the game to be straight forward so the user could understand the game fast and start playing. 
- 
+
+#### Images of first repository **(without using DOM):** 
+
+**HTML files.**
+
+Index file. 
+
+![Screenshot of index file](/assets/images/firstindex.png) 
+
+Select difficulty file. 
+
+![Screenshot of difficulty file](/assets/images/firstselector.png) 
+
+Easy interface file. 
+
+![Screenshot of easy interface file](/assets/images/first-easy.png)
+
+Medium interface file. 
+
+![Screenshot of medium interface file](/assets/images/first-medium.png) 
+
+Hard interface file. 
+
+![Screenshot of hard interface file](/assets/images/first-hard.png) 
+
+**Interface - users perspective.**
+
+Landing page. 
+
+![Screenshot of landing page](/assets/images/firstlanding.png) 
+
+Choose difficulty. 
+
+![Screenshot of choose difficulty](/assets/images/firstselection.png) 
+
+Easy Interface. 
+
+![Screenshot of easy interface](/assets/images/first-easy1.png) 
+
+Medium Interface. 
+
+![Screenshot of medium interface](/assets/images/first-medium1.png) 
+
+Hard Interface. 
+
+![Screenshot of hard interface](/assets/images/first-medium1.png) 
+
+
 ---
 ## Website Design
  
