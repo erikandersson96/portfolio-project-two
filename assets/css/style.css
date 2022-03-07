@@ -209,6 +209,18 @@ label + input[type=radio] + label {
     transform: translate(8px);
 } 
 
+/* Middle circle in easy difficulty */ 
+
+.easy-orange {
+    background-color: orange;
+    transition: 0.16s;
+} 
+
+.easy-orange:active, .easy-orange.activate {
+    background-color: black;
+    transform: translate(8px);
+}
+
 
 
 /* Media queries */
