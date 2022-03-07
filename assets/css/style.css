@@ -93,7 +93,6 @@ body {
     
 }
 
-
 .social-media-links i {
     font-size: 30px;
     margin: 10px;
@@ -102,8 +101,8 @@ body {
     
 } 
 
-/* Inspiration taken from https://codepen.io/skeddles/pen/PbROLK */
-/* Styling for radio buttons Easy/Medium/Hard #0fbd8e  #1bf7bc*/
+/* Inspiration for styling of radio buttons taken from https://codepen.io/skeddles/pen/PbROLK */
+/* Styling for radio buttons Easy/Medium/Hard */
 
 input[type=radio] {
     position: absolute;
@@ -135,10 +134,6 @@ label + input[type=radio] + label {
     border-radius: 10px;
     overflow: hidden;
 }
-
-
-/* Hide/show circles */
-
 
 
 
