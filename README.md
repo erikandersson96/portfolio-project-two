@@ -374,7 +374,7 @@ I have tested the responsiveness and aesthetics on the following devices and bro
  
 * **HTML-Validator**
  
-When testing the website link at [W3C Validator](https://validator.w3.org/) I got these results: 
+When testing the website link at [W3C Validator](https://validator.w3.org/) I got 2 errors, I will show them here: 
 
 **Error 1:**
  
@@ -384,20 +384,18 @@ I've got an error for using a `div` element as a child of my `label` element.
 
 **Solution:**
  
-I changed the `h1` tags to `h2` tags instead.
- 
-After I corrected the Solution I got a new error:
-ÄNDRA HÄR MED!!
+I deleted de `div` beacuse it was just unnecessary. Beginner misstake. 
+
 **Error 2:**
  
-My `action` attribute to my form element has no value.
+Empty heading, beacuse I let my `h3` heading be empty between it's opening and closing tags.
  
-![Screenshot of second HTML validation error](/assets/images/)
-ÄNDRA HÄR MED!!
+![Screenshot of second HTML validation error](/assets/images/htmlvalidation2.png)
+
 **Solution 2:**
  
-I tried to remove the `action` attribute in my HTML without interfering with the experience of the website and it all worked. I also got no errors for my HTML after this when validating the HTML code again.
-ÄNDRA HÄR MED!!
+I deleted my `h3` heading and added a `div` instead with the same class as my `h3` had and styled it within my css to have the correct pixel size. 
+
 **After I applied the HTML solutions:**
  
 Here you can take a look at my `Approved` HTML for my [Home Page]().
