@@ -51,12 +51,14 @@
                 <!-- Game instructions show instead of startBtn when user press "Start game" button -->
                 <span class="instruction game-info unseen"></span>
             </div> 
-                 
+                 <!-- Main div for game interface -->
                     <div class="game-interface not-activated"> 
+                        <!-- data-easy is created to easier refer to the circles in my functions inside my js file -->
                        <div>
                           <div class="circle easy-green" id="circle-green" data-circle="green"></div> 
                           <div class="circle easy-blue" id="circle-blue" data-circle="blue"></div>
-                       </div> 
+                       </div>
+                       <!-- This middle div is only for easy difficulty, will be hidden in medium and hard --> 
                        <div>
                            <div class="circle easy-orange" id="circle-orange" data-circle="orange"></div>
                        </div>
@@ -66,8 +68,6 @@
                        </div> 
                     </div>
 
-                    <!-- Main div for easy interface, hide when other interface is choosen --> 
-                    <!-- data-easy is created to easier refer to the circles in my functions inside my js file -->
             <!-- Show which of 15 levels the user is on --> 
             <div> 
                 <h3 class="level level-count"></h3>
