@@ -507,7 +507,7 @@ NextStep function(), NextRound function().
 
 ![Screenshot of Freshman js code](assets/images/freshmancode3.png) 
 
-StartGame function(), StartBtn event listener. 
+StartGame function(), StartButton event listener. 
 
 ![Screenshot of Freshman js code](assets/images/freshmancode4.png)
 
@@ -583,7 +583,7 @@ The alert message for you won the game works the same as in Freshman Simon Game.
 
 #### Styling for radio buttons
 
-* The inspiration for my radio buttons, Easy | Medium | Hard has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
+* The inspiration for my radio buttons, `Easy | Medium | Hard` has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
 that I found from this article [link](https://freefrontend.com/css-radio-buttons/) (both links opens in a new tab). 
 
 **Image inspiration:** 
