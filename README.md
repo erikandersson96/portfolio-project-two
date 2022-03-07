@@ -404,33 +404,13 @@ Here you can take a look at my `Approved` HTML validation for my [Game]().
 
 * **CSS-Validator** 
  
-When testing the website link at [Jigsaw Validator]() I got these results:
-ÄNDRA HÄR MED!!
-**Error:**
+When testing the website link at [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator.html.en) I got these results:
+
+**Congratulations! No error found.**
+
+Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
  
-`287 Parse errors.` I had written for the font-family: `Open+Sans` and the `“+”` gave me an error for all of them. And I had also set every `Media queries` for all attributes of that `div` not only the attributes that I actually changed. And I also got an error for including too much unnecessary code within each `Media screen size breakpoint`, I did not only include the  parameters that I changed, I also included every each of them including the ones that I didn’t change.
-ÄNDRA HÄR MED!!
-**Here is a screenshot of my CSS validation error:**
- 
-![Screenshot of CSS jigsaw validation error](/assets/images/)
-ÄNDRA HÄR MED!!
-**Here is an example of how i wrote "Open+Sans":**
- 
-![Screenshot of wrong spelling of font](/assets/images/)
-ÄNDRA HÄR MED!!
-**Here is an example of how I structured my Media queries at first, which caused this parse error:**
- 
-![Screenshot of wrong media queries structure](/assets/images/)
-ÄNDRA HÄR MED!!
-**Solution:**
- 
-I changed every font to the correct spelling (from `Open+Sans` to `“Open Sans”`) and I also got rid of all unnecessary code in every `Media screen breakpoint` that I had included from the start. So from now on it only holds the changes made for every `13 breakpoints` in my CSS file.
- 
-ÄNDRA HÄR MED!!
-**After I applied the CSS solution:**
-Here is a link to my Approved CSS jigsaw [Validator]().
- 
-ÄNDRA HÄR MED!!
+
 ---
 ### Lighthouse Dev Tool
 I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve got an average result of `98,6%` for desktop and `90%` for mobile devices.
