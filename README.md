@@ -34,7 +34,8 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
  
 * [Wireframes](#wireframes)
  * [First Idea](#first-idea)
- * [Comparison](#comparison)
+ * [Comparison](#comparison) 
+ * [Flow diagram](#flow-diagram)
  
 * [Website Design](#website-design)
  * [Color Scheme](#color-scheme)
