@@ -202,6 +202,19 @@ Hard Interface.
 ![Screenshot of hard interface](/assets/images/first-medium1.png) 
 
 
+## Flow diagram 
+
+* Before I started my project my mentor [Ben](https://github.com/BAK2K3) wanted me to do a `Flow diagram` there I tried to display how my JavaScript logic would work. 
+So I followed his advice and created a `Flow diagram` with [Lucid chart](https://www.lucidchart.com/pages/). When I created my `Flow diagram` I had not started with my JavaScript for my 
+project yet, so there will be some differences between the `Flow diagram` and my final JavaCript code. But my `Flow diagram` would at least give you as a reader an idea of 
+how the JavaScript logic works. I will both display my `Flow diagram` underneath but also give you some pointers to what is different with my JavaScript code: 
+
+**Flow diagram:** 
+
+![Screenshot of flow diagram](/assets/images/)
+
+
+
 ---
 ## Website Design
  
