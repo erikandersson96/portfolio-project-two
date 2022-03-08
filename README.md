@@ -336,15 +336,13 @@ as the `Wrapper`.
  
 ### Learning Points
  
-* I'd like to include feedback to the user so they are aware that the information was submitted from the `Contact Form.` I didn't have the knowledge to include a `“Thank you for Submitting”` pop-up or redirect to a new page. But I will include this as soon as I have the knowledge required to do so in the next projects.
- 
-* I made some mistakes when positioning each element: the text on the first page, the About us page, the Price information, and the `Contact form` on the third page. I used `"absolute"` instead of `“relative”` position which forced me to create a total of `13 Media Screen size breakpoints.` This is a mistake that I will take with me into the next project and improve upon to increase the amount of breakpoints. I will also start with creating the website for my next project on a mobile device first because it's much easier to expand the screen size than increase the screen size as I did with this project, which resulted in a lot of time wasted.
- 
-* I also learned when git commit a message in `Gitpod` I should have only included what was relevant to that commit. I may have committed a message which included more changes than I added in that exact commit message, not only once but a couple of times. This is something that I will improve in my next project to be more consistent and correct with my commit messages.
- 
-* The way I structured my `Media Screen size breakpoints` will improve for future projects. When I ran the `W3C CSS Validator` I got a ton of errors because I had included attributes in every `Media queries` even if they were not changed between screen sizes which resulted in `287 parse errors`, but they are all fixed now.
- 
-ÄNDRA HÄR MED!!
+* I learned when testing my website in `Wave page` that you are not supposed to have an `h3 heading` following an `h1` if you haven't used any `h2` in between beacuse it is `bad habbit` at least would I could read when I got the alert message with `Wave page` and istead apply styling to it in CSS to get the right font-size. I also learned in `Wave page` that when using `Radio buttons` 
+as I have in Erik game, it is good practise to use `fieldset and legend` for my `input and label elements` within my html index file beacuse it is more userfriendly for screen readers. So I fixed this and applied some styling to my `fieldset and legend` to hide it in my User interface. 
+
+* I learned when testing my website in HTML validation that I wasn't allowed to use a `div` as a child element to a `label` (radio buttons), I had did it for my `<span>`  element in my label so 
+I just removed the div and added it's `class` to the `<span>` element instead. 
+
+
 ---
 ## Testing
  
@@ -432,7 +430,9 @@ When testing the website link at [Jigsaw Validator](https://jigsaw.w3.org/css-va
 
 **Congratulations! No error found.**
 
-Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). 
+
+(All links opens in a new tab). 
  
 
 ---
@@ -453,7 +453,8 @@ I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve go
  
 * Erik game has been tested through [wave.webaim.org](https://wave.webaim.org/) for accessibility.
  
-You can look at the approved result [here](https://wave.webaim.org/report#/https://erikandersson96.github.io/portfolio-project-two/).
+You can look at the approved result [here](https://wave.webaim.org/report#/https://erikandersson96.github.io/portfolio-project-two/)
+(links opens in a new tab).
 
 * When I tested my webpage first I got 2 alerts. 
 
@@ -666,7 +667,7 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 
 **Background image:**
  
-* Image taken from [Pixa bay](https://pixabay.com/sv/photos/tunnel-korridor-plats-yttre-rymden-3233082/) (link). 
+* Image taken from [Pixa bay](https://pixabay.com/sv/photos/tunnel-korridor-plats-yttre-rymden-3233082/) (link opens in a new tab). 
 If you click the link you can see how it looks like at Pixa bay (link opens in a new tab). 
  
 ![Background image](/assets/images/background-image.jpg)
