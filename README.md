@@ -491,7 +491,14 @@ had flashed first `yellow` and secondly `green` the user wouldn't have any optio
 
 ---
 ## Unfixed Bugs
- 
+
+* When the user plays `Erik game`, if the user taps/cklicks each color in his/her sequence to fast the user might get pass the current level and get one press for the next level. 
+I noticed that this is the same in `Freshman Simon Game (the tutorial that I took inspiration from, read more in Credits)` so I will leave it as an `Unfixed bug`, but I will 
+remember it for future projects as my JavaScript knowledge gets better. 
+
+* When I first deployed `Erik game` I sent the link for the game to my friends so they could test it and then give me some input. What one of them experienced was that he wasn't able 
+to reach my game in `Opera GX` browser (desktop). I have only tested my game in `Safari and chrome` (both desktop and mobile) with no issues so I don't know why this bug exist with some 
+browsers so I will leave it as an `Unfixed bug` and try to improve that over time with my increased knowledge.  
 
 ---
 ## Deployment
