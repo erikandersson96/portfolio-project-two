@@ -29,45 +29,45 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 ## Table of Contents 
  
 * [UX](#ux-user-experience)
- * [Visitor Goals](#visitor-goals)
- * [User Stories](#user-stories)
+  * [Visitor Goals](#visitor-goals)
+  * [User Stories](#user-stories)
  
 * [Wireframes](#wireframes)
- * [First Idea](#first-idea)
- * [Comparison](#comparison) 
- * [Flow diagram](#flow-diagram)
+  * [First Idea](#first-idea)
+  * [Comparison](#comparison) 
+  * [Flow diagram](#flow-diagram)
  
 * [Website Design](#website-design)
- * [Color Scheme](#color-scheme)
- * [Fonts](#fonts)
+  * [Color Scheme](#color-scheme)
+  * [Fonts](#fonts)
  
 * [Existing Features](#existing-features)
- * [Navigation Bar](#navigation-bar)
- * [Landing Page](#landing-page)
- * [Footer](#footer)
- * [About us](#about-us)
- * [Get in touch](#get-in-touch)
+  * [Navigation Bar](#navigation-bar)
+  * [Landing Page](#landing-page)
+  * [Footer](#footer)
+  * [About us](#about-us)
+  * [Get in touch](#get-in-touch)
  
 * [Future Features](#future-features)
- * [Learning Points](#learning-points)
+  * [Learning Points](#learning-points)
  
 * [Testing](#testing)
- * [Devices](#devices)
- * [Validator Testing](#validator-testing)
- * [Lighthouse Dev Tool](#lighthouse-dev-tool)
- * [Wave Page](#wave-page)
- * [Fixed Bugs](#fixed-bugs)
- * [Unfixed Bugs](#unfixed-bugs)
+  * [Devices](#devices)
+  * [Validator Testing](#validator-testing)
+  * [Lighthouse Dev Tool](#lighthouse-dev-tool)
+  * [Wave Page](#wave-page)
+  * [Fixed Bugs](#fixed-bugs)
+  * [Unfixed Bugs](#unfixed-bugs)
  
  
 * [Deployment](#deployment)
- * [Creating My Website](#creating-my-website)
- * [GitHub Pages](#github-pages)
+  * [Creating My Website](#creating-my-website)
+  * [GitHub Pages](#github-pages)
  
 * [Credits](#credits) 
- * [Inspiration for this project](#inspiration-for-this-project)
- * [Content](#content)
- * [Media](#media)
+  * [Inspiration for this project](#inspiration-for-this-project)
+  * [Content](#content)
+  * [Media](#media)
  
 * [Support](#support)
  
@@ -365,31 +365,31 @@ Something that's worth mentioning is that I've tested the majority of these devi
 I have tested the responsiveness and aesthetics on the following devices and browsers:
 
 * **Apple**
- * iPhone 5/SE
- * iPhone 6/7/8
- * iPhone 6/7/8 Plus
- * iPhone X/11
- * iPad
- * iPad Pro
+  * iPhone 5/SE
+  * iPhone 6/7/8
+  * iPhone 6/7/8 Plus
+  * iPhone X/11
+  * iPad
+  * iPad Pro
 
 * **Android**
- * Samsung Galaxy S8
- * Microsoft Surface Duo
+  * Samsung Galaxy S8
+  * Microsoft Surface Duo
  
 * **Google Devices**
- * Google Nest Hub
- * Google Nest Hub Max
+  * Google Nest Hub
+  * Google Nest Hub Max
  
 * **Motorola**
- * Moto G4
+  * Moto G4
  
 * **Desktops/laptops**
- * MacBook Pro 13"
- * Lenovo 24" monitor
+  * MacBook Pro 13"
+  * Lenovo 24" monitor
  
 * **Browsers**
- * Chrome 
- * Safari 
+  * Chrome 
+  * Safari 
  
  
 ---
