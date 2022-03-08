@@ -215,8 +215,15 @@ how the JavaScript logic works. I will both display my `Flow diagram` underneath
 
 **Differences:** 
 
-* 
+* In the flow diagram I first thought I would create a direct replica of Simon Game so my logic in the `Flow diagram` tells you that `"User try to match sequence"` as in the original 
+Simon Game but in my final product `Erik game` the user is not supposed to match the color sequence of the computer in order to win. 
 
+* The User interface (UI) says that `Easy` whould have 4 different colors, `Medium` whould have 6 different colors and `Hard` would have 8 different colors. But in `Erik game` the 
+User interface looks a little bit different with `Easy` that has 5 different colors, `Medium` has 4 different colors and `Hard` has 3 different colors. 
+
+* The condition that checks if the user's input is either `true` or `false` would in this case be `false` it would trigger the alert message with `"Game over play again!"` but I should 
+also have added so the condition checks if the user has completed all levels (10/10) and then trigger an alert message with `You won!`. In `Erik game` the logic is created this way that the 
+condition both checks each round if it is `true or false` for the color sequence but also if the user has completed all levels or not. 
 
 
 ---
