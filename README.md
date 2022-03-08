@@ -684,5 +684,5 @@ I would like to give an extra `Thank you` to all the kind people I have around m
 * **Google** for always clear things up.
 * My lovely **Girlfriend** for always supporting me.
  
-ÄNDRA HÄR MED!!
+
 #### RETURN TO THE [TOP](#erik-game) 
