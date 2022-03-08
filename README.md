@@ -211,7 +211,11 @@ how the JavaScript logic works. I will both display my `Flow diagram` underneath
 
 **Flow diagram:** 
 
-![Screenshot of flow diagram](/assets/images/flowdiagram.png)
+![Screenshot of flow diagram](/assets/images/flowdiagram.png) 
+
+**Differences:** 
+
+* 
 
 
 
