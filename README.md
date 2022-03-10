@@ -712,7 +712,7 @@ I would like to give an extra `Thank you` to all the kind people I have around m
 * **Code Institute** for their **Tutor** support.
 * My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link opens in a new tab) for being a Superior mentor.
 * **Google** for always clear things up.
-* My lovely **Girlfriend** for always supporting me.
+* My lovely **Girlfriend** for always supporting and believing in me.
  
 
 #### RETURN TO THE [TOP](#erik-game) 
