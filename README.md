@@ -657,6 +657,13 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 ![Screenshot of my radio buttons code](assets/images/inspo-radio.png)
 
 
+#### Wrapper 
+
+* The CSS for my `wrapper` was inspired from [stackoverflow](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper). 
+
+**My CSS for the wrapper** 
+
+![Screenshot of my wrapper css](assets/images/inspo-wrapper.png)
 
 
 ### Content
