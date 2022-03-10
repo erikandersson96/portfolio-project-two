@@ -73,7 +73,8 @@ body {
     height: 100%;
 } 
 
-/* I used filedset and legend for screen readers but I dont want it in my game interface, so therfore it is displayed with none and border 0 */
+/* I used filedset and legend for screen readers but I dont want it in my game interface, 
+so therfore it is displayed with: none and border: 0 */
 
 legend {
     display: none;
@@ -153,8 +154,9 @@ label + input[type=radio] + label {
 
 
 /* CSS for the game! */
+/* unseen and not-activated is taken as inspiration from the guide at: https://freshman.tech/simon-game/, 
+https://jsfiddle.net/ayoisaiah/Lxwhder6/20/ */
 
-/* Taken from the guide at: https://freshman.tech/simon-game/ */
 .unseen {
     display: none !important;
 }
