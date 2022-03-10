@@ -25,6 +25,7 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 * Use a `Wrapper` for all text and the game itself to create a `“stand out”` feeling and catch the attention of the user.
 * Create a game that everyone at any age can play!
  
+
 ---
 ## Table of Contents 
  
@@ -649,7 +650,13 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 
 **My radio buttons:** 
 
-![Screenshot of my radio buttons](assets/images/radiobtns1.png)
+![Screenshot of my radio buttons](assets/images/radiobtns1.png) 
+
+**My CSS code for radio buttons** 
+
+![Screenshot of my radio buttons code](assets/images/inspo-radio.png)
+
+
 
 
 ### Content
