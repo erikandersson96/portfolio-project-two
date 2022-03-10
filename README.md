@@ -639,6 +639,19 @@ The alert message for you won the game works the same as in Freshman Simon Game.
 ![Screenshot of Erik game final product](assets/images/erikgamewon.png) 
 
 
+#### Hide buttons when cklicked 
+
+* My CSS for this were taken as inspiration from [Freshman Simon Game](https://jsfiddle.net/ayoisaiah/Lxwhder6/20/). 
+
+**Freshman Simon Game CSS for hide buttons** 
+
+![Screenshot of Freshman hide buttons css](assets/images/inspo-simoncss.png) 
+
+**My CSS for hide buttons** 
+
+![Screenshot of Erik game hide buttons css](assets/images/inspo-unseen.png)
+
+
 #### Styling for radio buttons
 
 * The inspiration for my radio buttons, `Easy | Medium | Hard` has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
@@ -663,7 +676,8 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 
 **My CSS for the wrapper** 
 
-![Screenshot of my wrapper css](assets/images/inspo-wrapper.png)
+![Screenshot of my wrapper css](assets/images/inspo-wrapper.png) 
+
 
 
 ### Content
