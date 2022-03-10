@@ -20,7 +20,8 @@ const instruction = document.querySelector('.game-info');
 // Connect userLevel to match Level: in html file by it's div class name. 
 const userLevel = document.querySelector('.level-count');
 // Connect easyInterface to match the class name of the parent div of easy in the html file.
-const gameInterface = document.querySelector('.game-interface');
+const gameInterface = document.querySelector('.game-interface'); 
+
 
 
 // This resetGame function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
