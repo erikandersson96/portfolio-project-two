@@ -490,8 +490,6 @@ had flashed first `yellow` and secondly `green` the user wouldn't have any optio
 ![Screenshot hard interface now (3 colors)](/assets/images/erikgameinterface2.png)
 
 
-* Footer. LÄGG TILL HÄR!
-
 ---
 ## Unfixed Bugs
 
@@ -502,6 +500,10 @@ remember it for future projects as my JavaScript knowledge gets better.
 * When I first deployed `Erik game` I sent the link for the game to my friends so they could test it and then give me some input. What one of them experienced was that he wasn't able 
 to reach my game in `Opera GX` browser (desktop). I have only tested my game in `Safari and chrome` (both desktop and mobile) with no issues so I don't know why this bug exist with some 
 browsers so I will leave it as an `Unfixed bug` and try to improve that over time with my increased knowledge.  
+
+* Footer, my footer for the social media links `Github, Instagram, Youtube` won't center in the middle of the screen. I have tried to apply various css methods from google and 
+nothing have helped. I know it could be solved in some way but I will leave it as an `unfixed bug` beacuse my knowledge isn't enough to solve it right now.  
+
 
 ---
 ## Deployment
@@ -679,7 +681,7 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 ![Screenshot of my wrapper css](assets/images/inspo-wrapper.png) 
 
 
-
+---
 ### Content
 
 **Styling**
