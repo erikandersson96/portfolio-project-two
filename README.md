@@ -545,11 +545,11 @@ I will list them underneath:
 
 **With alert message:** 
 
-![Screenshot of alert message](/assets/images/) 
+![Screenshot of alert message](/assets/images/erikgamereset.png) 
 
 **Now without alert message:**
 
-![Screenshot of game over message](/assets/images/) 
+![Screenshot of game over message](/assets/images/gameover.png) 
 
 
 ---
