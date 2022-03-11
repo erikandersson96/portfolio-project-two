@@ -454,7 +454,14 @@ When testing the website link at [Jigsaw Validator](https://jigsaw.w3.org/css-va
 Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). 
 
 (All links opens in a new tab). 
- 
+
+
+* **JS Hint** 
+
+When testing my JavaScript code in [JS hint]() I got this result: 
+
+![Screenshot of result from JS hint](/assets/images/)
+
 
 ---
 ### Lighthouse Dev Tool
