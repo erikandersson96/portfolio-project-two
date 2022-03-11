@@ -462,7 +462,8 @@ When testing my JavaScript code in [JS hint]() I got this result:
 
 ![Screenshot of result from JS hint](/assets/images/jshint.png) 
 
-Other then that message which is fine I got no errors. 
+I have considered that message and I do not believe it requires fixing as it only relates to semantics and I think my code is well commented. 
+Other then that message I got no errors. 
 
 
 ---
