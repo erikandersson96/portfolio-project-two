@@ -126,7 +126,7 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
  
 Landing page. 
 
-![Screenshot of landing page](/assets/images/)
+![Screenshot of landing page](/assets/images/land.png)
 
 Easy Interface. 
 
