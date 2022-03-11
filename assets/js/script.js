@@ -171,6 +171,7 @@ function nextPhase() {
  *  */ 
 
 function nextTurn() {
+    usersTurn = false; 
     level += 1; 
 
     
