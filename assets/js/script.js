@@ -35,7 +35,6 @@ function resetGame() {
     level = 0;
     instruction.textContent = `Oh no! You hit the same sequence. You got to level: ${level}`;
     startBtn.classList.remove('unseen');
-    gameInterface.classList.remove('not-activated');
 } 
 
 

@@ -105,6 +105,13 @@ fieldset {
 }
 
 
+/* Padding for game instructions */
+
+.instruction {
+    padding-bottom: 15px;
+}
+
+
 /* Footer - Social media links */ 
 
 footer {
