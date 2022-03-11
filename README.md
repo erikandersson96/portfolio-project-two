@@ -4,7 +4,7 @@ A website for people to play a version of the famous Simon Game. But this game i
  
 To play the game you can cklick this [link](https://erikandersson96.github.io/portfolio-project-two/). (Opens in a new tab).
  
-![Am I Responsive, to show the website on different screen sizes](responsive.png)
+![Am I Responsive, to show the website on different screen sizes](/assets/images/responsive.png)
  
  
  
