@@ -193,9 +193,14 @@ function nextTurn() {
 
 
 // This function is created to compare the user input to the computer. 
-function manageClick(currentClick) {
+function manageClick(currentClick) { 
 
-    // If current value matches current pattern position's value
+
+    if (usersTurn) {
+
+    usersTurn = false; 
+
+        // If current value matches current pattern position's value
     if (currentClick === pattern[currentIndex]) {
         // Game over
         resetGame('Oh no! You pressed the same color sequence as the computer...');
@@ -222,8 +227,8 @@ function manageClick(currentClick) {
         setTimeout(() => {
             nextTurn();
         }, 1000);
-        usersTurn = true;
-    }
+     }
+   }   
 }
 
 
