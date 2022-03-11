@@ -314,13 +314,22 @@ keep it original. The game controlls `"circles"` has all the same round shape to
  
 ### Easy difficulty 
 
+* When the user press `Easy` in the difficulty selector the JavaScript checks in radioButtons function if the current difficulty is the same as the `Easy` button 
+radio class name, so the right game interface displays for `Easy` difficulty. 
+
 ![Screenshot of Easy Interface](/assets/images/erikgameinterface1.png)
 
 ### Medium difficulty 
 
+* When the user press `Medium` in the difficulty selector the JavaScript checks in radioButtons function if the current difficulty is the same as the `Medium` button 
+radio class name, so the right game interface displays for `Medium` difficulty.
+
 ![Screenshot of Medium Interface](/assets/images/erikgameinterface3.png)
 
 ### Hard difficulty 
+
+* When the user press `Hard` in the difficulty selector the JavaScript checks in radioButtons function if the current difficulty is the same as the `Hard` button 
+radio class name, so the right game interface displays for `Hard` difficulty.
 
 ![Screenshot of Hard Interface](/assets/images/erikgameinterface2.png)
 
