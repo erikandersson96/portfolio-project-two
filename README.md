@@ -579,156 +579,29 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 ---
 ## Credits 
 
-### Inspiration for this project 
+### Code - JavaScript
 
-The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), beacuse my knowledge for JavaScript is very low and for me to create 
+* The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), beacuse my knowledge for JavaScript is very low and for me to create 
 a game like Simon Game as my first ever project in JavaScript out of only what I knew when starting out with my Portfolio Project Two was to big of a task. So therefore I chose 
-together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. Instead of 
-doing a `"regular"` Simon Game as the original I created a reverse version with the goal to not press the same color sequence as the computer in order for the user to win.
-The code that I have that is still the same as in the tutorial is `resetGame function()`, `humanTurn function()`, `activateTile function()`, `playRound function()`, 
-`nextStep function()`, `nextRound function()`, `startGame function()`, `startBtn event listener`. 
-Here is also a live version of Freshmans Simon Game [link](https://freshman-simon.surge.sh/). (Links opens in a new tab). 
-I will compare the guide's code to my code down below with both text and images: 
-
-#### Tutorial - Freshman Simon Game
-
-**Freshman JavaScript Code:** 
-
-ResetGame function(). 
-
-![Screenshot of Freshman js code](assets/images/freshmancode1.png) 
-
-HumanTurn function(), ActivateTile function(), PlayRound function(). 
-
-![Screenshot of Freshman js code](assets/images/freshmancode2.png) 
-
-NextStep function(), NextRound function().
-
-![Screenshot of Freshman js code](assets/images/freshmancode3.png) 
-
-StartGame function(), StartButton event listener. 
-
-![Screenshot of Freshman js code](assets/images/freshmancode4.png)
-
-**Freshman Final product:**
-
-Start page, Freshman Simon Game. 
-
-![Screenshot of Freshman final product](assets/images/freshmancomplete1.png) 
-
-Game interface, Freshman Simon Game. 
-
-![Screenshot of Freshman final product](assets/images/freshmancomplete2.png)
-
-Reset game, Freshman Simon Game. 
-
-![Screenshot of Freshman final product](assets/images/freshmancomplete3.png) 
-
-You won the game, Freshman Simon Game. 
-
-![Screenshot of Freshman final product](assets/images/freshmancomplete3.png)
+together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. 
+I have added comments above my JavaScript code so that it clarifies my code vs the tutorial.   
 
 
-#### My project - Erik game
+### Styling - CSS
 
-**JavaScript Code:** 
-
-Reset game function(). 
-
-![Screenshot of Erik game JavaScript code](assets/images/erikcode1.png)
-
-Human turn function(). Name in my code: userTurn., 
-Activate tile function(). Name in my code: activateCircle., 
-Play round function(). Name in my code: playPattern. 
-
-![Screenshot of Erik game JavaScript code](assets/images/erikcode2.png)
-
-NextStep function(). Name in my code: nextPhase.
-
-![Screenshot of Erik game JavaScript code](assets/images/erikcode3.png) 
-
-NextRound function(). Name in my code: nextTurn. 
-
-![Screenshot of Erik game JavaScript code](assets/images/erikcode4.png)
-
-StartGame function(). 
-
-![Screenshot of Erik game JavaScript code](assets/images/erikcode5.png) 
-
-StartButton event listener. Name in my code: startBtn.
-
-![Screenshot of Erik game JavaScript code](assets/images/erikcode6.png) 
-
-**Final product:**
-
-Start page, Erik game. 
-
-![Screenshot of Erik game final product](assets/images/erikgamestart.png)
-
-Game interface, Erik game. 
-
-![Screenshot of Erik game final product](assets/images/erikgameinterface1.png)
-
-Reset game, Erik game. 
-The alert message for reset game works the same as in Freshman Simon Game. 
-
-![Screenshot of Erik game final product](assets/images/erikgamereset.png) 
-
-You won the game! Erik game.  
-The alert message for you won the game works the same as in Freshman Simon Game.
-
-![Screenshot of Erik game final product](assets/images/erikgamewon.png) 
-
-
-#### Hide buttons when cklicked 
-
-* My CSS for this were taken as inspiration from [Freshman Simon Game](https://jsfiddle.net/ayoisaiah/Lxwhder6/20/). 
-
-**Freshman Simon Game CSS for hide buttons** 
-
-![Screenshot of Freshman hide buttons css](assets/images/inspo-simoncss.png) 
-
-**My CSS for hide buttons** 
-
-![Screenshot of Erik game hide buttons css](assets/images/inspo-unseen.png)
-
-
-#### Styling for radio buttons
+* Hide buttons when clicked. This css styling were taken as inspiration from [Freshman Simon Game](https://jsfiddle.net/ayoisaiah/Lxwhder6/20/). 
 
 * The inspiration for my radio buttons, `Easy | Medium | Hard` has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
-that I found from this article [link](https://freefrontend.com/css-radio-buttons/) (both links opens in a new tab). 
+that I found from this article [link](https://freefrontend.com/css-radio-buttons/). But with my own styling and naming to the HTML and CSS elements. (both links opens in a new tab)
 
-**Image inspiration:** 
+* The CSS for my `wrapper` was inspired from [stackoverflow](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper). The inspiartion for the 
+`User interface` of the `wrapper` was initial taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html). 
 
-![Screenshot of css inspiration for radio buttons](assets/images/cssinspo.png)
-
-**My radio buttons:** 
-
-![Screenshot of my radio buttons](assets/images/radiobtns1.png) 
-
-**My CSS code for radio buttons** 
-
-![Screenshot of my radio buttons code](assets/images/inspo-radio.png)
-
-
-#### Wrapper 
-
-* The CSS for my `wrapper` was inspired from [stackoverflow](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper). 
-
-**My CSS for the wrapper** 
-
-![Screenshot of my wrapper css](assets/images/inspo-wrapper.png) 
+* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article. (Link opens in a new tab).  
 
 
 ---
 ### Content
-
-**Styling**
-* The `Wrapper` inspiration was taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html).
-* The design of the `Difficulty selector/Radio buttons` was taken as inspiration from this [project](https://codepen.io/skeddles/pen/PbROLK) but with my own styling and naming to the HTML and CSS elements. (Link opens in a new tab).
-* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article. (Link opens in a new tab).  
-* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link opens in a new tab).
-* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link opens in a new tab). 
 
 
 ### Media
@@ -741,7 +614,15 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 If you click the link you can see how it looks like at Pixa bay (link opens in a new tab). 
  
 ![Background image](/assets/images/background-image.jpg)
- 
+
+**Footer** 
+
+* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link opens in a new tab). 
+
+**Fonts** 
+
+* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link opens in a new tab). 
+
 
 ---
 ## Support
