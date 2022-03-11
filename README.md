@@ -337,7 +337,7 @@ as the `Wrapper`.
 ## Future Features
 
 
-* Be able to add a leadership board in the future. So the user's could see how good they have performed comapare to their friends. 
+* Be able to add a leadership board/scoreboard to the game in the future. So the user's could see how good they have performed comapare to their friends. 
 
 * Add some sort of sound or other effects when the user plays the game. 
 
