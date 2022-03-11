@@ -70,7 +70,7 @@ p {
 
 /* Background image */
 body {
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat top center black;
     height: 100%;
 } 
 
@@ -97,6 +97,11 @@ fieldset {
     text-decoration: solid;
     font-size: 18px;
     margin-bottom: 15px;
+    cursor: pointer;
+} 
+
+.start-btn:hover {
+    background-color: #0ca17a;
 }
 
 
@@ -106,17 +111,24 @@ footer {
     text-align: center; 
 }
 
+.social-media-links {
+    padding-left: 0;
+}
+
 .social-media-links > li {
-    display: inline;
+    display: inline; 
 }
 
 .social-media-links i {
     font-size: 30px;
-    padding: 10px;
-    margin: 10px;
+    padding-left: 0;
+    margin: 20px;
     color: #0fbd8e;
-    
 } 
+
+.social-media-links i:hover {
+    color: black;
+}
 
 /* Inspiration for styling of radio buttons taken from https://codepen.io/skeddles/pen/PbROLK */
 /* Styling for radio buttons Easy/Medium/Hard */
