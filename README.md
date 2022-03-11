@@ -2,7 +2,7 @@
  
 A website for people to play a version of the famous Simon Game. But this game is called Erik game. Instead of trying to match the computer color sequence, the user must hit a different color sequence. For each level the computer will increase one more color to the sequence and the game will continue for as long as the user doesn't press the same sequence as the computer. 
 
-**Remember that all links in this Readme open in a new tab.**
+**Remember that all links in this Readme does not open in a new tab. They open in the same window.**
  
 To play the game you can click this [link](https://erikandersson96.github.io/portfolio-project-two/). 
 
