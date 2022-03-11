@@ -29,7 +29,7 @@ const gameInterface = document.querySelector('.game-interface');
 // Reset game, with alert. 
 
 function resetGame() {
-    
+    instruction.textContent = `Bravo! ${currentIndex} correct of ${level} colors! Carry on!`;
     pattern = []; 
     userPattern = []; 
     level = 0; 
@@ -37,7 +37,8 @@ function resetGame() {
     userLevel.textContent = 'Erik game';
     instruction.classList.add('unseen'); 
     gameInterface.classList.add('not-activated');
-}
+} 
+
 
 // This userTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
 // This function creates a way to tell the user that it is his/her's turn to play. 
