@@ -2,11 +2,13 @@
  
 A website for people to play a version of the famous Simon Game. But this game is called Erik game. Instead of trying to match the computer color sequence, the user must hit a different color sequence. To win the game the user has to complete 10 levels, for each level the computer will increase one more color to the sequence. 
  
-To play the game you can cklick this [link](https://erikandersson96.github.io/portfolio-project-two/). (Opens in a new tab).
+To play the game you can cklick this [link](https://erikandersson96.github.io/portfolio-project-two/).
  
 ![Am I Responsive, to show the website on different screen sizes](/assets/images/responsive.png)
  
  
+**Remember that all links in this Readme opens in a new tab**
+
  
 ---
 ## Portfolio Project Two 
@@ -93,7 +95,7 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 ---
 ## Wireframes
  
-* First `11 images` is from the first visual idea for my project. As you will recognise from comparing my wireframes to the final product, you will see that my final product doesn't look like my wireframes at all. That has to do with a lot of different reasons that I will explain underneath all images. The wireframes was created using [Balsamiq - Balsamiq Wireframes](https://balsamiq.com/) (link). 
+* First `11 images` is from the first visual idea for my project. As you will recognise from comparing my wireframes to the final product, you will see that my final product doesn't look like my wireframes at all. That has to do with a lot of different reasons that I will explain underneath all images. The wireframes was created using [Balsamiq - Balsamiq Wireframes](https://balsamiq.com/). 
 * Second row containing `1 image` is from the final product of the website. To give you a comparison.
 
 ### First Idea
@@ -455,9 +457,7 @@ When testing the website link at [Jigsaw Validator](https://jigsaw.w3.org/css-va
 
 **Congratulations! No error found.**
 
-Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). 
-
-(All links opens in a new tab). 
+Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).  
 
 
 #### JS-Hint
@@ -490,8 +490,7 @@ I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve go
  
 * Erik game has been tested through [wave.webaim.org](https://wave.webaim.org/) for accessibility.
  
-You can look at the approved result [here](https://wave.webaim.org/report#/https://erikandersson96.github.io/portfolio-project-two/)
-(links opens in a new tab).
+You can look at the approved result [here](https://wave.webaim.org/report#/https://erikandersson96.github.io/portfolio-project-two/).
 
 * When I tested my webpage first I got 2 alerts. 
 
@@ -625,7 +624,7 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 1. Under `“Source”`, click the dropdown menu called `“None”` and select `“Main”`.
 1. Click `save` and the page will automatically refresh with the website link displayed.
 1. The published `link` will show up above. Alternatively, click this [link](https://erikandersson96.github.io/portfolio-project-two/).
-(Link opens in a new tab). 
+ 
 
 **Forking** 
 
@@ -670,12 +669,12 @@ I have added comments above my JavaScript code so that it clarifies my code vs t
 * Hide buttons when clicked. This css styling were taken as inspiration from [Freshman Simon Game](https://jsfiddle.net/ayoisaiah/Lxwhder6/20/). 
 
 * The inspiration for my radio buttons, `Easy | Medium | Hard` has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
-that I found from this article [link](https://freefrontend.com/css-radio-buttons/). But with my own styling and naming to the HTML and CSS elements. (both links opens in a new tab)
+that I found from this article [link](https://freefrontend.com/css-radio-buttons/). But with my own styling and naming to the HTML and CSS elements. 
 
 * The CSS for my `wrapper` was inspired from [stackoverflow](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper). The inspiartion for the 
 `User interface` of the `wrapper` was initial taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html). 
 
-* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article. (Link opens in a new tab).  
+* The inspiration for the styling of the `Circles` was taken from [this](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/) article.   
 
 
 ---
@@ -684,22 +683,22 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 
 ### Media
  
-* The Background Image (Hero image) was taken from [Pixa bay](https://pixabay.com/) (link opens in a new tab).
+* The Background Image (Hero image) was taken from [Pixa bay](https://pixabay.com/).
 
 **Background image:**
  
-* Image taken from [Pixa bay](https://pixabay.com/sv/photos/tunnel-korridor-plats-yttre-rymden-3233082/) (link opens in a new tab). 
-If you click the link you can see how it looks like at Pixa bay (link opens in a new tab). 
+* Image taken from [Pixa bay](https://pixabay.com/sv/photos/tunnel-korridor-plats-yttre-rymden-3233082/). 
+If you click the link you can see how it looks like at Pixa bay. 
  
 ![Background image](/assets/images/background-image.jpg)
 
 **Footer** 
 
-* The `footer` with the icons for the different social media was taken from [Font Awesome](https://fontawesome.com/) (link opens in a new tab). 
+* The `footer` with the icons for the different social media links was taken from [Font Awesome](https://fontawesome.com/). 
 
 **Fonts** 
 
-* The fonts were taken from [Pair Fonts](https://pairfonts.com/) (link opens in a new tab). 
+* The fonts were taken from [Pair Fonts](https://pairfonts.com/). 
 
 
 ---
