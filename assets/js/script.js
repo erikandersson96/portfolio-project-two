@@ -24,9 +24,12 @@ const gameInterface = document.querySelector('.game-interface');
 
 
 
-// This resetGame function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
+/**
+ * This resetGame function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
+ * I have no alert message in my resetGame as it is in the tutorial. 
+ * */ 
 
-// Reset game, with alert. 
+// Reset game, it changes the text above the game to message the user that he/she has lost. 
 
 function resetGame() { 
 
