@@ -338,6 +338,8 @@ radio class name, so the right game interface displays for `Hard` difficulty.
  
 * The footer includes all the social media links to the relevant social media platform. The links will open in a new tab to not confuse the user. Or open each social media platform application on the device if the user interacts on a mobile device or tablet. The icons for the social media links have been used from `Font Awesome` and they all have the same color 
 as the `Wrapper`. 
+
+* The footer also has an hover effect to it for when the user hover's over each social media link. The color of the link shifts from the green color to black. 
  
 ![Screenshot of Footer](/assets/images/footer1.png) 
 
