@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body> 
-    <!-- Body -->
+    <!-- Wrapper for all content but not footer -->
     <div id="wrapper">
         <header id="logo">
             <h1>Erik game</h1> 
@@ -32,8 +32,9 @@
                    color sequence in order to win. The game will by default
                    start in Easy mode. <br> Good luck!</p>
             </div> 
+            <!-- Play the game by choosing difficulty level -->
             <h2>Choose difficulty level</h2>
-              <!-- Play the game by choosing difficulty level -->
+            <!-- Fieldset and legend is hidden in css -->
             <fieldset>
                 <legend>Radio Buttons</legend>
                 <div class="radio-btns"> 
@@ -48,17 +49,17 @@
                     <label for="option-hard" class="option option-hard"><span class="dot">Hard</span></label> 
                 </div>
             </fieldset>
-                <!-- Start button/hide game instructions -->
+                <!-- Start button/hide when game is started -->
             <div> 
                 <button class="start-btn start">Start game</button>
             </div> 
             <div class="info">
-                <!-- Game instructions show instead of startBtn when user press "Start game" button -->
+                <!-- Game instructions show instead of start button when user press "Start game" button -->
                 <span class="instruction game-info unseen"></span>
             </div>
                  <!-- Main div for game interface -->
                     <div class="game-interface not-activated"> 
-                        <!-- data-easy is created to easier refer to the circles in my functions inside my js file -->
+                        <!-- data-circle is created to easier refer to the circles in my functions inside my js file -->
                        <div>
                           <div class="circle easy-green" id="circle-green" data-circle="green"></div> 
                           <div class="circle easy-blue" id="circle-blue" data-circle="blue"></div>
@@ -73,7 +74,7 @@
                        </div> 
                     </div>
 
-            <!-- Show which of 10 levels the user is on --> 
+            <!-- Show which level the user is on --> 
             <div> 
                 <div class="level level-count"></div>
             </div>  
