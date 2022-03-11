@@ -366,7 +366,10 @@ I just removed the div and added it's `class` to the `<span>` element instead.
 
 --- 
 ## Testing
- 
+
+
+### General Testing
+
 * The interface of the game has been tested across all screen sizes for a responsive experience. The size of the `logo, description box, choose difficulty and the circles` will all 
 change size at a break-point of 350px. I tested this in the `Chrome dev tool, so I have not tested it on actual devices`.
  
@@ -458,7 +461,7 @@ Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-v
 (All links opens in a new tab). 
 
 
-### JS Hint
+### JS-Hint
 
 When testing my JavaScript code in [JS hint]() I got this result: 
 
@@ -509,6 +512,25 @@ the correct size and font.
 ## User Story Testing 
 
 
+* To meet the expectations in the user stories. I have tested the website for each of them. 
+
+**Goal**
+* A user's perspective: I want to easily understand the purpose of the website. 
+
+**Result** 
+* By only displaying the game right away the user can fast and easy understand the purpose of this website as well start to play the game.  
+
+**Goal**
+* A user's perspective: I want to easily understand how to play the game. 
+
+**Result**
+* The interface of Erik game displays a straight forward look with both a description of the game and setup that is ready to be played right away.
+
+**Goal**
+* A user's perspective: I want the website to offer a clean interface.
+
+**Result**
+* The game offers a stand out look to capture the attention of the user. The game also offers clear instructions and is ready to be played with very few button presses. 
 
 
 ---
