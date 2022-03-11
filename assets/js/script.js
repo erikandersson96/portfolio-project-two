@@ -28,15 +28,14 @@ const gameInterface = document.querySelector('.game-interface');
 
 // Reset game, with alert. 
 
-function resetGame() {
-    instruction.textContent = `Bravo! ${currentIndex} correct of ${level} colors! Carry on!`;
-    pattern = []; 
-    userPattern = []; 
-    level = 0; 
-    startBtn.classList.remove('unseen'); 
-    userLevel.textContent = 'Erik game';
-    instruction.classList.add('unseen'); 
-    gameInterface.classList.add('not-activated');
+function resetGame() { 
+
+    pattern = [];
+    userPattern = [];
+    level = 0;
+    instruction.textContent = `Oh no! You hit the same sequence. You got to level: ${level}`;
+    startBtn.classList.remove('unseen');
+    gameInterface.classList.remove('not-activated');
 } 
 
 
