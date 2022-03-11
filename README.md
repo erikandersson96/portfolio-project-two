@@ -537,9 +537,9 @@ the correct size and font.
 * When I manually tested my game after I was satisfyed with the looks an everything, I noticed that there was some defects in my game that I had to fix. 
 I will list them underneath: 
 
-* When I played the game I was able to register a click (on a color) even if I didn't press a specific color. The whole area for the colors `the div` was acting as a color press. So I had to go back to my JavaScript file and change my function manageClick. 
+* When I played the game I was able to register a click (on a color) even if I didn't press a specific color. The whole area for the colors `the div` was acting as a color press. So therfore I had to change my gameInterface event listener to not listen for my div element as before but to listen for `data-circle` that is representing each of the colors 
 
-* When I played the game I also was able to click more times then the sequence was supposed to, so say that the sequence was 5 clicks I was able to click 8 of 5 colors. So therfore I had to change my 
+* When I played the game I also was able to click more times then the sequence was supposed to, so say that the sequence was 5 clicks I was able to click 8 of 5 colors. So therfore I had to add an if(usersTurn) in manageClick function so the game only allows the user to press a color until the number of clicks is met for each level.  
 
 * After I had tested the game for a while I realized that an alert message for my `game over` and `you have won` messages wasn't the best solution. So I decided to change my JavaScript file for resetGame function to instead showing these messages on the same row that the other instruction text in the game was displayed. But when I did this change I was left with a new problem, my message for `You won!` wasn't dispalyed were `Game over` now is displayed in fact it wasn't displayed anywhere. So to not confuse the user to much or needing to rewrite to much JavaScript I decided to not have any higher complete level as 10 of 10 to win the game. Initially, the game had 10 rounds, however following user feedback the decision was made to remove the round limit, so as to allow users to compete for higher scores, and to challenge themselves as the game progressively becomes more difficult. 
 
