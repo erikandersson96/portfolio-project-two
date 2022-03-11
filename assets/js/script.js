@@ -32,8 +32,8 @@ function resetGame() {
 
     pattern = [];
     userPattern = [];
-    level = 0;
-    instruction.textContent = `Oh no! You hit the same sequence. You got to level: ${level}`;
+    level = 0; 
+    instruction.textContent = 'Game Over! You hit the same sequence. Press Start game button to play again.';
     startBtn.classList.remove('unseen');
 } 
 
@@ -177,7 +177,7 @@ function nextTurn() {
     
     gameInterface.classList.add('not-activated');
     instruction.textContent = "Let the computer play it's sequence first";
-    userLevel.textContent = `Level ${level} of 10`;
+    userLevel.textContent = `Level ${level}`;
     
     
     const nextPattern = [...pattern];
@@ -211,12 +211,6 @@ function manageClick(currentClick) {
           // Tell the user their score
          instruction.textContent = `Bravo! ${currentIndex} correct of ${level} colors! Carry on!`;
          usersTurn = true; 
-       }
-          // Check win condition
-       if (currentIndex === 10) {
-          resetGame('Good Work! You won the game!');
-          gameOver = true;
-          return;
        }
           // Check to see if index is the length of current pattern
        if (currentIndex == pattern.length) {
