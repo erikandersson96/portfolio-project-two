@@ -46,30 +46,39 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
  
 * [Existing Features](#existing-features)
   * [Game Interface](#game-interface)
-  * [Landing Page](#landing-page)
+  * [Difficulty Selector](#difficulty-selector)
+  * [Easy Difficulty](#easy-difficulty)
+  * [Medium Difficulty](#medium-difficulty)
+  * [Hard Difficulty](#hard-difficulty) 
   * [Footer](#footer)
-  * [About us](#about-us)
-  * [Get in touch](#get-in-touch)
  
 * [Future Features](#future-features)
-  * [Learning Points](#learning-points)
- 
+  
+* [Learning Points](#learning-points)
+
 * [Testing](#testing)
-  * [Devices](#devices)
-  * [Validator Testing](#validator-testing)
-  * [Lighthouse Dev Tool](#lighthouse-dev-tool)
-  * [Wave Page](#wave-page)
-  * [Fixed Bugs](#fixed-bugs)
-  * [Unfixed Bugs](#unfixed-bugs)
+  * [General Testing](#general-testing)
+  * [Device Testing](#device-testing)
+  * [Validation](#validation)
+  * [Accessibility](#accessibility)
+  * [User Story Testing](#user-story-testing)
+  * [Feature Testing](#feature-testing)
  
- 
+* [Fixed Bugs](#fixed-bugs)
+
+* [Unfixed Bugs](#unfixed-bugs)
+
 * [Deployment](#deployment)
-  * [Creating My Website](#creating-my-website)
-  * [GitHub Pages](#github-pages)
  
+* [GitHub Pages](#github-pages) 
+  * [Forking](#inspiration-for-this-project)
+  * [Cloning](#content)
+
 * [Credits](#credits) 
-  * [Inspiration for this project](#inspiration-for-this-project)
-  * [Content](#content)
+  * [Code-JavaScript](#code-javascript)
+  * [Styling-CSS](#styling-css) 
+
+* [Content](#content)
   * [Media](#media)
  
 * [Support](#support)
@@ -604,7 +613,6 @@ browsers so I will leave it as an `Unfixed bug` and try to improve that over tim
 ---
 ## Deployment
  
-### Creating My Website
  
 When I created this website I used the `Code Institute Gitpod Full Template`.
  
@@ -684,7 +692,7 @@ that I found from this article [link](https://freefrontend.com/css-radio-buttons
 
 
 ---
-### Content
+## Content
 
 
 ### Media
