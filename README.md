@@ -416,11 +416,10 @@ I have tested the responsiveness and aesthetics on the following devices and bro
   * Safari 
 
 
---- 
-## Validation
+### Validation
  
 
-### HTML-Validator
+#### HTML-Validator
  
 When testing the website link at [W3C Validator](https://validator.w3.org/) I got 2 errors, I will show them here: 
 
@@ -450,7 +449,7 @@ but beacuse then the level counter isn't displayed before the game starts, just 
 Here you can take a look at my `Approved` HTML validation for my [Erik game](https://validator.w3.org/nu/?doc=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F). 
 
 
-### CSS-Validator 
+#### CSS-Validator 
  
 When testing the website link at [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator.html.en) I got these results:
 
@@ -461,7 +460,7 @@ Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-v
 (All links opens in a new tab). 
 
 
-### JS-Hint
+#### JS-Hint
 
 When testing my JavaScript code in [JS hint]() I got this result: 
 
@@ -471,11 +470,11 @@ I have considered that message and I do not believe it requires fixing as it onl
 Other then that message I got no errors. 
 
 
---- 
-## Accessibility 
+### Accessibility 
 
 
-### Lighthouse - dev tool
+#### Lighthouse - dev tool
+
 I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve got an average result of `97,25%` for desktop and `99,25%` for mobile devices.
 
 **Desktop**
@@ -487,7 +486,7 @@ I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve go
 ![Screenshot home page in lighthouse for mobile](/assets/images/lighthousemobile1.png)
 
  
-### Wave Page
+#### Wave Page
  
 * Erik game has been tested through [wave.webaim.org](https://wave.webaim.org/) for accessibility.
  
@@ -508,8 +507,7 @@ I got this beacuse I had used a `h3` element for my `"Choose difficulty level"` 
 the correct size and font. 
 
 
----
-## User Story Testing 
+### User Story Testing 
 
 
 * To meet the expectations in the user stories. I have tested the website for each of them. 
@@ -531,6 +529,27 @@ the correct size and font.
 
 **Result**
 * The game offers a stand out look to capture the attention of the user. The game also offers clear instructions and is ready to be played with very few button presses. 
+
+
+### Feature Testing 
+
+
+* When I manually tested my game after I was satisfyed with the looks an everything, I noticed that there was some defects in my game that I had to fix. 
+I will list them underneath: 
+
+* When I played the game I was able to register a click (on a color) even if I didn't press a specific color. The whole area for the colors `the div` was acting as a color press. So I had to go back to my JavaScript file and change my function manageClick. 
+
+* When I played the game I also was able to click more times then the sequence was supposed to, so say that the sequence was 5 clicks I was able to click 8 of 5 colors. So therfore I had to change my 
+
+* After I had tested the game for a while I realized that an alert message for my `game over` and `you have won` messages wasn't the best solution. So I decided to change my JavaScript file for resetGame function to instead showing these messages on the same row that the other instruction text in the game was displayed. But when I did this change I was left with a new problem, my message for `You won!` wasn't dispalyed were `Game over` now is displayed in fact it wasn't displayed anywhere. So to not confuse the user to much or needing to rewrite to much JavaScript I decided to not have any higher complete level as 10 of 10 to win the game. Initially, the game had 10 rounds, however following user feedback the decision was made to remove the round limit, so as to allow users to compete for higher scores, and to challenge themselves as the game progressively becomes more difficult. 
+
+**With alert message:** 
+
+![Screenshot of alert message](/assets/images/) 
+
+**Now without alert message:**
+
+![Screenshot of game over message](/assets/images/) 
 
 
 ---
