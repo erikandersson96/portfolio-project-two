@@ -145,6 +145,10 @@ label {
     cursor: pointer;
     font-weight: bold;
     padding: 1px 15px;
+} 
+
+label:hover {
+    background-color: #0ca17a;
 }
 
 input[type=radio]:checked + label {
