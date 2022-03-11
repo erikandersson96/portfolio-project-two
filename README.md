@@ -333,11 +333,19 @@ as the `Wrapper`.
 ![Screenshot of Footer](/assets/images/footer1.png) 
 
 
----
+--- 
 ## Future Features
- 
-### Learning Points
- 
+
+
+* Be able to add a leadership board in the future. So the user's could see how good they have performed comapare to their friends. 
+
+* Add some sort of sound or other effects when the user plays the game. 
+
+
+---
+## Learning Points
+
+
 * I learned when testing my website in `Wave page` that you are not supposed to have an `h3 heading` following an `h1` if you haven't used any `h2` in between beacuse it is `bad habbit` at least would I could read when I got the alert message with `Wave page` and istead apply styling to it in CSS to get the right font-size. I also learned in `Wave page` that when using `Radio buttons` 
 as I have in Erik game, it is good practise to use `fieldset and legend` for my `input and label elements` within my html index file beacuse it is more userfriendly for screen readers. So I fixed this and applied some styling to my `fieldset and legend` to hide it in my User interface. 
 
@@ -345,7 +353,7 @@ as I have in Erik game, it is good practise to use `fieldset and legend` for my 
 I just removed the div and added it's `class` to the `<span>` element instead. 
 
 
----
+--- 
 ## Testing
  
 * The interface of the game has been tested across all screen sizes for a responsive experience. The size of the `logo, description box, choose difficulty and the circles` will all 
