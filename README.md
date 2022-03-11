@@ -1,18 +1,18 @@
-# Erik game 
+# Erik game (Color game) 
  
 A website for people to play a version of the famous Simon Game. But this game is called Erik game. Instead of trying to match the computer color sequence, the user must hit a different color sequence. For each level the computer will increase one more color to the sequence and the game will countinue for as long as the user doesn't press the same sequence as the computer. 
  
-To play the game you can cklick this [link](https://erikandersson96.github.io/portfolio-project-two/).
+To play the game you can cklick this [link](https://erikandersson96.github.io/portfolio-project-two/). 
+
+**Remember that all links in this Readme opens in a new tab**
  
 ![Am I Responsive, to show the website on different screen sizes](/assets/images/responsive.png)
  
-
-**Remember that all links in this Readme opens in a new tab**
-
  
 ---
 ## Portfolio Project Two 
  
+
 ---
 ### Intention
  
@@ -45,7 +45,7 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
   * [Fonts](#fonts)
  
 * [Existing Features](#existing-features)
-  * [Navigation Bar](#navigation-bar)
+  * [Game Interface](#game-interface)
   * [Landing Page](#landing-page)
   * [Footer](#footer)
   * [About us](#about-us)
@@ -312,23 +312,29 @@ keep it original. The game controlls `"circles"` has all the same round shape to
 * The `description box` and the `difficulty selector` has a border around it to make it stand out and be easy to read. 
  
 ![Screenshot of Game Interface](/assets/images/gameinterface1.png) 
+
+
+### Difficulty Selector
+
+* To choose difficulty for the game the user needs to choose one of `Easy | Medium | Hard`. 
+
+![Screenshot of difficulty selector](/assets/images/easymediumhard.png)
  
- 
-### Easy difficulty 
+### Easy Difficulty 
 
 * When the user press `Easy` in the difficulty selector the JavaScript checks in radioButtons function if the current difficulty is the same as the `Easy` button 
 radio class name, so the right game interface displays for `Easy` difficulty. 
 
 ![Screenshot of Easy Interface](/assets/images/erikgameinterface1.png)
 
-### Medium difficulty 
+### Medium Difficulty 
 
 * When the user press `Medium` in the difficulty selector the JavaScript checks in radioButtons function if the current difficulty is the same as the `Medium` button 
 radio class name, so the right game interface displays for `Medium` difficulty.
 
 ![Screenshot of Medium Interface](/assets/images/erikgameinterface3.png)
 
-### Hard difficulty 
+### Hard Difficulty 
 
 * When the user press `Hard` in the difficulty selector the JavaScript checks in radioButtons function if the current difficulty is the same as the `Hard` button 
 radio class name, so the right game interface displays for `Hard` difficulty.
