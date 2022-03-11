@@ -266,6 +266,9 @@ gameInterface.addEventListener('click', event => {
 
     const currentClick = event.target.dataset.circle; 
 
-    manageClick(currentClick); 
+    if (event.target.hasAttribute('data-circle')) {
+        manageClick(currentClick);
+    }
+     
 }); 
 
