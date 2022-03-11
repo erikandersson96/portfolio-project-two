@@ -28,8 +28,8 @@ const gameInterface = document.querySelector('.game-interface');
 
 // Reset game, with alert. 
 
-function resetGame(text) {
-    alert(text); 
+function resetGame() {
+    
     pattern = []; 
     userPattern = []; 
     level = 0; 
