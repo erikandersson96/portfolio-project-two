@@ -310,15 +310,7 @@ keep it original. The game controlls `"circles"` has all the same round shape to
 * The `description box` and the `difficulty selector` has a border around it to make it stand out and be easy to read. 
  
 ![Screenshot of Game Interface](/assets/images/gameinterface1.png) 
-
  
-### Footer
- 
-* The footer includes all the social media links to the relevant social media platform. The links will open in a new tab to not confuse the user. Or open each social media platform application on the device if the user interacts on a mobile device or tablet. The icons for the social media links have been used from `Font Awesome` and they all have the same color 
-as the `Wrapper`. 
- 
-![Screenshot of Footer](/assets/images/footer1.png)
-
  
 ### Easy difficulty 
 
@@ -326,11 +318,19 @@ as the `Wrapper`.
 
 ### Medium difficulty 
 
-![Screenshot of Medium Interface](/assets/images/erikgameinterface2.png)
+![Screenshot of Medium Interface](/assets/images/erikgameinterface3.png)
 
 ### Hard difficulty 
 
-![Screenshot of Hard Interface](/assets/images/erikgameinterface3.png)
+![Screenshot of Hard Interface](/assets/images/erikgameinterface2.png)
+
+
+### Footer
+ 
+* The footer includes all the social media links to the relevant social media platform. The links will open in a new tab to not confuse the user. Or open each social media platform application on the device if the user interacts on a mobile device or tablet. The icons for the social media links have been used from `Font Awesome` and they all have the same color 
+as the `Wrapper`. 
+ 
+![Screenshot of Footer](/assets/images/footer1.png) 
 
 
 ---
