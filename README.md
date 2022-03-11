@@ -380,7 +380,8 @@ change size at a break-point of 350px. I tested this in the `Chrome dev tool, so
 * My difficulty selctor marks the selceted difficulty Easy | Medium | Hard, with a darker green to let the user know what is been selected. 
 
  
-### Devices
+### Device Testing
+
 Something that's worth mentioning is that I've tested the majority of these devices within `Chrome dev tool`, I have not had physical access to test these devices.
 I have tested the responsiveness and aesthetics on the following devices and browsers:
 
@@ -410,12 +411,13 @@ I have tested the responsiveness and aesthetics on the following devices and bro
 * **Browsers**
   * Chrome 
   * Safari 
+
+
+--- 
+## Validation
  
- 
----
-### Validator Testing
- 
-* **HTML-Validator**
+
+### HTML-Validator
  
 When testing the website link at [W3C Validator](https://validator.w3.org/) I got 2 errors, I will show them here: 
 
@@ -445,7 +447,7 @@ but beacuse then the level counter isn't displayed before the game starts, just 
 Here you can take a look at my `Approved` HTML validation for my [Erik game](https://validator.w3.org/nu/?doc=https%3A%2F%2Ferikandersson96.github.io%2Fportfolio-project-two%2F). 
 
 
-* **CSS-Validator** 
+### CSS-Validator 
  
 When testing the website link at [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator.html.en) I got these results:
 
@@ -456,7 +458,7 @@ Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-v
 (All links opens in a new tab). 
 
 
-* **JS Hint** 
+### JS Hint
 
 When testing my JavaScript code in [JS hint]() I got this result: 
 
@@ -466,8 +468,11 @@ I have considered that message and I do not believe it requires fixing as it onl
 Other then that message I got no errors. 
 
 
----
-### Lighthouse Dev Tool
+--- 
+## Accessibility 
+
+
+### Lighthouse - dev tool
 I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve got an average result of `97,25%` for desktop and `99,25%` for mobile devices.
 
 **Desktop**
@@ -479,7 +484,6 @@ I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve go
 ![Screenshot home page in lighthouse for mobile](/assets/images/lighthousemobile1.png)
 
  
----
 ### Wave Page
  
 * Erik game has been tested through [wave.webaim.org](https://wave.webaim.org/) for accessibility.
@@ -499,6 +503,12 @@ So I added it but then I didn't like the look of a border and a legend around my
 I got this beacuse I had used a `h3` element for my `"Choose difficulty level"` above my `Radio Buttons`, and after some googling I understood that I should use an 
 `h2` instead beacuse my logo is `h1` and this was the second heading level for my index file structure. So I changed to an `h2` and styled it with css to have 
 the correct size and font. 
+
+
+---
+## User Story Testing 
+
+
 
 
 ---
