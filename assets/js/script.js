@@ -1,3 +1,5 @@
+// I declared global variables like in the Freshman Tutorial at https://freshman.tech/simon-game/
+
 // pattern is for Computer's gameplay, we set pattern equal to an array[].
 let pattern = [];
 // userPattern is for user's gameplay, we set userPattern equal to an array[]. 
@@ -24,7 +26,7 @@ const gameInterface = document.querySelector('.game-interface');
 
 /**
  * This resetGame function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
- * I have no alert message in my resetGame as it is in the tutorial. 
+ * I have no alert message in my resetGame as it is in the tutorial. https://freshman.tech/simon-game/
  * */ 
 
 // Reset game, it changes the text above the game to message the user that he/she has lost. 
@@ -39,7 +41,8 @@ function resetGame() {
 } 
 
 
-// This userTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
+// This userTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations. https://freshman.tech/simon-game/
+
 // This function creates a way to tell the user that it is his/her's turn to play. 
 function userTurn() { 
     usersTurn = true; 
@@ -49,7 +52,7 @@ function userTurn() {
 }
 
 
-// This activateCircle function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
+// This activateCircle function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations. https://freshman.tech/simon-game/
 
 /**
  * This function is used to select the correct color of the circles. And light up that
@@ -64,7 +67,7 @@ function activateCircle(color) {
     }, 400);
 }
 
-// This playPattern function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
+// This playPattern function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations. https://freshman.tech/simon-game/
 
 // Here is a function to set a delay on 800 milliseconds between each color that the computer flashes. 
 
@@ -124,7 +127,7 @@ for (let i = 0; i < radioButtons.length; i++) {
  
 /* 
 * This nextPhase function is taken as inspiration from Freshman Simon Game, but it is configurated to work with 
-* Erik game. It also checks which difficulty the user has selected. 
+* Erik game. It also checks which difficulty the user has selected. https://freshman.tech/simon-game/
 */
 
 /**
@@ -160,7 +163,7 @@ function nextPhase() {
 }
 
 /* 
-* This nextTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations. 
+* This nextTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations. https://freshman.tech/simon-game/
 */
 
 /**
@@ -229,7 +232,7 @@ function manageClick(currentClick) {
 
 /* 
 * This startGame function is taken as inspiration from Freshman Simon Game, but it is configurated to work with 
-* Erik game.  
+* Erik game. https://freshman.tech/simon-game/
 */
 
 /**
@@ -248,7 +251,7 @@ function startGame() {
 
 /* 
 * startBtn is taken as inspiration from Freshman Simon Game, but it is configurated to work with 
-* Erik game.  
+* Erik game. https://freshman.tech/simon-game/
 */
 
 /**

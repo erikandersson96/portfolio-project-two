@@ -13,7 +13,6 @@ To play the game you can click this [link](https://erikandersson96.github.io/por
 ---
 ## Portfolio Project Two 
  
-
 ---
 ### Intention
  
