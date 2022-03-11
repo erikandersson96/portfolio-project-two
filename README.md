@@ -1,10 +1,10 @@
 # Erik game (Color game) 
  
-A website for people to play a version of the famous Simon Game. But this game is called Erik game. Instead of trying to match the computer color sequence, the user must hit a different color sequence. For each level the computer will increase one more color to the sequence and the game will countinue for as long as the user doesn't press the same sequence as the computer. 
+A website for people to play a version of the famous Simon Game. But this game is called Erik game. Instead of trying to match the computer color sequence, the user must hit a different color sequence. For each level the computer will increase one more color to the sequence and the game will continue for as long as the user doesn't press the same sequence as the computer. 
 
-**Remember that all links in this Readme opens in a new tab.**
+**Remember that all links in this Readme open in a new tab.**
  
-To play the game you can cklick this [link](https://erikandersson96.github.io/portfolio-project-two/). 
+To play the game you can click this [link](https://erikandersson96.github.io/portfolio-project-two/). 
 
 
 ![Am I Responsive, to show the website on different screen sizes](/assets/images/responsive.png)
@@ -17,14 +17,14 @@ To play the game you can cklick this [link](https://erikandersson96.github.io/po
 ---
 ### Intention
  
-This website is a `fictional website` for the purpose of my Second Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `HTML`, `CSS` and `JavaScript` modules. 
+This website is a `fictional website` for the purpose of my Second Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `HTML`, `CSS`, and `JavaScript` modules. 
 
-The main goal with this project was to test my new knowledge in JavaScript. I decided to create my own version of the famous Simon Game, but with a twist. I reversed the logic of the game so the player needs to play his/her own sequence in order to win over the computer.
+The main goal of this project was to test my new knowledge of JavaScript. I decided to create my own version of the famous Simon Game, but with a twist. I reversed the logic of the game so the player needs to play his/her own sequence in order to win over the computer.
  
 * Features I aimed to achieve with this project:
  
 * To make the game `easy` to understand.
-* Create a game with an old style interface `(Trying to take the user back to the 90's)`.
+* Create a game with an old-style interface `(Trying to take the user back to the '90s)`.
 * Use a `Wrapper` for all text and the game itself to create a `“stand out”` feeling and catch the attention of the user.
 * Create a game that everyone at any age can play!
  
@@ -105,7 +105,7 @@ The main goal with this project was to test my new knowledge in JavaScript. I de
 ---
 ## Wireframes
  
-* First `11 images` is from the first visual idea for my project. As you will recognise from comparing my wireframes to the final product, you will see that my final product doesn't look like my wireframes at all. That has to do with a lot of different reasons that I will explain underneath all images. The wireframes was created using [Balsamiq - Balsamiq Wireframes](https://balsamiq.com/). 
+* First `11 images` is from the first visual idea for my project. As you will recognize from comparing my wireframes to the final product, you will see that my final product doesn't look like my wireframes at all. That has to do with a lot of different reasons that I will explain underneath all images. The wireframes were created using [Balsamiq - Balsamiq Wireframes](https://balsamiq.com/). 
 * Second row containing `1 image` is from the final product of the website. To give you a comparison.
 
 ### First Idea
@@ -160,14 +160,14 @@ Footer (social media links).
 #### Changes:
 
 Using DOM instead of multiply HTML files: 
-* As you can see, I choose to only display the game on the "Landing page". Beacuse my game only exist on one page, at first I didn't really understood the princip of DOM so I tought that I would create one HTML page for each "function" of the game. Like creating one Landing page that displayed some information about the game and a button that would take the user to the next page(HTML file) which would have been game-level(User name) with the choice of three difficulty levels and a Play button. After that a page with the correlated game interface (Easy, Medium or Hard) and so on as you can see in my wireframes. But I quickly realized that if I instead used the DOM I could keep everything within one HTML file. I will display with images my first repository and each html file that i created before I choose to create this repository and work with DOM instead. Worth mentioning is that this first repository never had finsihed CSS so the styling is not what is importent, I just want to give you as a reader a better understanding of how complex things could have been for me if I didn't go with using the DOM. 
+* As you can see, I choose to only display the game on the "Landing page". Because my game only exists on one page, at first I didn't really understand the principle of DOM so I thought that I would create one HTML page for each "function" of the game. Like creating one Landing page that displayed some information about the game and a button that would take the user to the next page(HTML file) which would have been game-level(User name) with the choice of three difficulty levels and a Play button. After that a page with the correlated game interface (Easy, Medium, or Hard) and so on as you can see in my wireframes. But I quickly realized that if I instead used the DOM I could keep everything within one HTML file. I will display with images my first repository and each HTML file that I created before I choose to create this repository and work with DOM instead. Worth mentioning is that this first repository never had finished CSS so the styling is not what is important, I just want to give you as a reader a better understanding of how complex things could have been for me if I didn't go with using the DOM. 
  
 Using Game Interface of circles instead of pieces like the wireframes: 
-* I also choose to go with `another` style of my buttons for the game. Instead of using pieces like in the wireframe and in the original Simon Game, I chose to go with four circles. This was beacuse I felt that I am not to comfortable with my CSS skills to experiment with styles like that, maybe in the future.   
+* I also choose to go with `another` style of my buttons for the game. Instead of using pieces like in the wireframe and in the original Simon Game, I chose to go with four circles. This was because I felt that I am not too comfortable with my CSS skills to experiment with styles like that, maybe in the future.   
  
 * In the footer I chose to only use social media links like `My own Github, Instagram, Youtube`. I felt that it looked cleaner to only have Social media platforms here instead of credits.
  
-* Lastly, I decided to go with a simple design that had a look of an old game, so therfore I didn't experiment to much with the design of my final product. I wanted the game to be straight forward so the user could understand the game fast and start playing. 
+* Lastly, I decided to go with a simple design that had a look of an old game, so therefore I didn't experiment too much with the design of my final product. I wanted the game to be straightforward so the user could understand the game fast and start playing. 
 
 #### Images of first repository **(without using DOM):** 
 
@@ -232,29 +232,27 @@ how the JavaScript logic works. I will both display my `Flow diagram` underneath
 * In the flow diagram I first thought I would create a direct replica of Simon Game so my logic in the `Flow diagram` tells you that `"User try to match sequence"` as in the original 
 Simon Game but in my final product `Erik game` the user is not supposed to match the color sequence of the computer in order to win. 
 
-* The User interface (UI) says that `Easy` whould have 4 different colors, `Medium` whould have 6 different colors and `Hard` would have 8 different colors. But in `Erik game` the 
-User interface looks a little bit different with `Easy` that has 5 different colors, `Medium` has 4 different colors and `Hard` has 3 different colors. 
+* The User interface (UI) says that `Easy` should have 4 different colors, `Medium` should have 6 different colors and `Hard` would have 8 different colors. But in `Erik game` the 
+user interface looks a little bit different with `Easy` that has 5 different colors, `Medium` has 4 different colors and `Hard` has 3 different colors. 
 
-* The condition that checks if the user's input is either `true` or `false` would in this case be `false` it would trigger the alert message with `"Game over play again!"` but I should 
-also have added so the condition checks if the user has completed all levels (10/10) and then trigger an alert message with `You won!`. In `Erik game` the logic is created this way that the 
-condition both checks each round if it is `true or false` for the color sequence but also if the user has completed all levels or not. 
+* The condition that checks if the user's input is either `true` or `false` would in this case be `false` it would trigger a message with `"Game over, play again!"`. In `Erik game` the logic is created this way that the condition checks each round if it is `true or false` for the color sequence, and if it is `false (the user has pressed the same color)` the user will get an message above the colors that he/she have lost the game and can press `Start game` to play again. 
 
 
 ---
 ## Website Design
  
-Logo design - Because this website was created with the intention to keep it clean and simple. I decided to go with only `“Erik game”`. Beacuse I thought it gave the game a simple and clean look.
+Logo design - Because this website was created with the intention to keep it clean and simple. I decided to go with only `“Erik game”`. Because I thought it gave the game a simple and clean look.
  
 Background Image - I downloaded this image from `pixabay.com` which is a website with free images. And I used a `black background color` to it in case the image wouldn't load.
 
 `Wrapper` - I chose a `"Wrapper"` to contain the game and all other text on the page to let the Game stand out from the background image and make it look better.
 
-Website Colors - I went for a lighter green with almost a little neon effect to my Wrapper, difficulty selector and footer (social media links), beacuse I thought it was a nice contrast to my background-image that has green "neon" stripes in it. For my difficulty selector I used a dark green for when the User has selected a difficulty. For my description box (description of the game) and Start game button I chose a little darker green to let it `Stand out` from the Wrapper. For my game controlls (circles) I chose Green, Blue, Yellow and Red beacuse I think it looks the best. 
+Website Colors - I went for a lighter green with almost a little neon effect to my Wrapper, difficulty selector and footer (social media links), because I thought it was a nice contrast to my background-image that has green "neon" stripes in it. For my difficulty selector I used a dark green for when the User has selected a difficulty. For my description box (description of the game) and Start game button I chose a little darker green to let it `Stand out` from the Wrapper. For my game controlls (circles) I chose Green, Blue, Yellow and Red beacuse I think it looks the best. 
   
 
 ### Color Scheme
  
-* I went for eight different colors for the website. `Light neon green` for the `Wrapper, difficulty selector and social media links`, little darker green for the `description box and the "Start game" button`, black for all `text`, dark green for the selected `difficulty` and my circles has `green, blue, yellow, red`.
+* I went for eight different colors for the website. `Light neon green` for the `Wrapper, difficulty selector and social media links`, little darker green for the `description box and the "Start game" button`, black for all `text`, dark green for the selected `difficulty` and my circles has `green, blue, yellow, red, orange`.
  
 **#11D6A1 - Light neon green (HEX-color)**
  
@@ -295,7 +293,7 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 
 ### Fonts
  
-* I used two different fonts for the website. `"nunito"` for my `logo` and `“Roboto Mono”` for all other text with `sans-serif` as a backup if `“nunito” or "Roboto Mono"` wouldn’t work.  The `"nunito"` and `“Roboto Mono”` fonts were taken from `Pairfonts`. I chose this combination beacuse for me it looked the most like an old game so I think they complements each other well for this game. 
+* I used two different fonts for the website. `"nunito"` for my `logo` and `“Roboto Mono”` for all other text with `sans-serif` as a backup if `“nunito” or "Roboto Mono"` wouldn’t work.  The `"nunito"` and `“Roboto Mono”` fonts were taken from `Pairfonts`. I chose this combination because for me it looked the most like an old game so I think they complements each other well for this game. 
  
 **nunito, for my logo:**
  
@@ -312,7 +310,7 @@ Website Colors - I went for a lighter green with almost a little neon effect to 
 
 ### Game Interface  
  
-* Beacuse this is a very simplistic game I only have one page for my website. The `"Landing page"` exist of a background image `"A space corridor"` and a `"Wrapper"` for 
+* Because this is a very simplistic game I only have one page for my website. The `"Landing page"` exist of a background image `"A space corridor"` and a `"Wrapper"` for 
 all the content of my game. The description `"box"` is contained with a black thin border that has the same rounded edges as the `"Wrapper"`, the difficulty selector is styled 
 with black borders as well to capsule each diffuculty `Easy | Medium | Hard`. The `Start game` button is the only `"box"` in the Interface that I have kept square in it's shape, to 
 keep it original. The game controlls `"circles"` has all the same round shape to them. 
@@ -375,7 +373,7 @@ as the `Wrapper`.
 ## Learning Points
 
 
-* I learned when testing my website in `Wave page` that you are not supposed to have an `h3 heading` following an `h1` if you haven't used any `h2` in between beacuse it is `bad habbit` at least would I could read when I got the alert message with `Wave page` and istead apply styling to it in CSS to get the right font-size. I also learned in `Wave page` that when using `Radio buttons` 
+* I learned when testing my website in `Wave page` that you are not supposed to have an `h3 heading` following an `h1` if you haven't used any `h2` in between because it is `bad habbit` at least would I could read when I got the alert message with `Wave page` and istead apply styling to it in CSS to get the right font-size. I also learned in `Wave page` that when using `Radio buttons` 
 as I have in Erik game, it is good practise to use `fieldset and legend` for my `input and label elements` within my html index file beacuse it is more userfriendly for screen readers. So I fixed this and applied some styling to my `fieldset and legend` to hide it in my User interface. 
 
 * I learned when testing my website in HTML validation that I wasn't allowed to use a `div` as a child element to a `label` (radio buttons), I had did it for my `<span>`  element in my label so 
@@ -512,12 +510,12 @@ You can look at the approved result [here](https://wave.webaim.org/report#/https
 
 **First alert.** 
 
-I got this beacuse I hadn't added a `fieldset` or `legend` for my `Radio Buttons` in my index file. When I googled this I found that I should use it in consideration for `screen readers`. 
+I got this because I hadn't added a `fieldset` or `legend` for my `Radio Buttons` in my index file. When I googled this I found that I should use it in consideration for `screen readers`. 
 So I added it but then I didn't like the look of a border and a legend around my radio buttons so I applied some CSS to hide them. 
 
 **Second alert.**
 
-I got this beacuse I had used a `h3` element for my `"Choose difficulty level"` above my `Radio Buttons`, and after some googling I understood that I should use an 
+I got this because I had used a `h3` element for my `"Choose difficulty level"` above my `Radio Buttons`, and after some googling I understood that I should use an 
 `h2` instead beacuse my logo is `h1` and this was the second heading level for my index file structure. So I changed to an `h2` and styled it with css to have 
 the correct size and font. 
 
@@ -549,7 +547,7 @@ the correct size and font.
 ### Feature Testing 
 
 
-* When I manually tested my game after I was satisfyed with the looks an everything, I noticed that there was some defects in my game that I had to fix. 
+* When I tested my game after I was satisfyed with the looks an everything, I noticed that there was some defects in my game that I had to fix. 
 I will list them underneath: 
 
 * When I played the game I was able to register a click (on a color) even if I didn't press a specific color. The whole area for the colors `the div` was acting as a color press. So therfore I had to change my gameInterface event listener to not listen for my div element as before but to listen for `data-circle` that is representing each of the colors 
@@ -572,7 +570,7 @@ I will list them underneath:
  
 * When I first completed my JavaScript code and was satisfied with my styling I tested Erik game a couple of times both on desktop but also on a mobile device. 
 After a while I got to the conclusion that when playing in `Hard` difficulty (2 colors) It could quickly become impossible to win over the computer, beacuse if the computer 
-had flashed first `yellow` and secondly `green` the user wouldn't have any option to start. This was beacuse the user can't start with pressing the same color as the computer started or finsih with otherwise the user would lose. So to prevent this I had to come up with a solution. So I added one more color of `orange` to `Easy` in the middle that will be hidden in 
+had flashed first `yellow` and secondly `green` the user wouldn't have any option to start. This was because the user can't start with pressing the same color as the computer started or finsih with otherwise the user would lose. So to prevent this I had to come up with a solution. So I added one more color of `orange` to `Easy` in the middle that will be hidden in 
 `Medium and Hard` difficulty. So `Medium` got 4 `colors` instead and `Hard` got 3 `colors`. The solution I applied is this: 
 
 **Bugg before:** 
@@ -587,7 +585,7 @@ had flashed first `yellow` and secondly `green` the user wouldn't have any optio
 
 **Footer** 
 
-* My footer wasn't in the center of the screen beacuse I had mistakenly not added the correct `padding-left`attribute to my `social-media-links`in my CSS. But now it is fixed. 
+* My footer wasn't in the center of the screen because I had mistakenly not added the correct `padding-left`attribute to my `social-media-links`in my CSS. But now it is fixed. 
 Here is an comparison of the footer before and after I fixed it: 
 
 Before: 
@@ -601,10 +599,7 @@ After:
 
 ---
 ## Unfixed Bugs
-
-* When the user plays `Erik game`, if the user taps/cklicks each color in his/her sequence to fast the user might get pass the current level and get one press for the next level. 
-I noticed that this is the same in `Freshman Simon Game (the tutorial that I took inspiration from, read more in Credits)` so I will leave it as an `Unfixed bug`, but I will 
-remember it for future projects as my JavaScript knowledge gets better. 
+ 
 
 * When I first deployed `Erik game` I sent the link for the game to my friends so they could test it and then give me some input. What one of them experienced was that he wasn't able 
 to reach my game in `Opera GX` browser (desktop). I have only tested my game in `Safari and chrome` (both desktop and mobile) with no issues so I don't know why this bug exist with some 
@@ -641,24 +636,24 @@ This is all done to prevent any `data` loss in case Gitpod crashes.
 1. The published `link` will show up above. Alternatively, click this [link](https://erikandersson96.github.io/portfolio-project-two/).
  
 
-**Forking** 
+### Forking 
 
 Forking a Github repository is the process of making a copy of someone else repository and add your own changes to it without changing the original, the original repository is known 
 as "upstream repository". I will explain the process of forking down below: 
 
 1. Go to the Github page that hosts the repository you wish to fork. 
-1. In the top-right corner of the page there is a button that says "Fork". 
+1. In the top-right corner of the page there is a button that says `"Fork"`. 
 1. Click this button. 
 1. This creates a copy of that repository to your Github home page. You can submit and receive changes to your copy by using pull requests and/or syncing with the original upstream repository. 
 
 This instructions were taken from [Github - Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo). 
 
-**Cloning** 
+### Cloning 
 
 Cloning a repository inolves making a full copy of a repository on your local machine. This allows you to work on the code easier. Changes can be pushed back up to the Github site or changes from other sources pulled to your local copy. I will explain how to clone down below: 
 
 1. Go to the repository page on Github. 
-1. Above the file list click on the green button that says "Code". 
+1. Above the file list click on the green button that says `"Code"`. 
 1. You can choose to download a zip file of the repository, to unpack it on your local machine and open it in your IDE. 
 1. Clone using HTTPS by copying the URL under the HTTPS tab. 
 1. Open a terminal window, set current directory to the one you want to contain the clone from. 
@@ -673,7 +668,7 @@ This instructions were taken from [Github - cloning a repository](https://docs.g
 
 ### Code - JavaScript
 
-* The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), beacuse my knowledge for JavaScript is very low and for me to create 
+* The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), because my knowledge for JavaScript was very low and for me to create 
 a game like Simon Game as my first ever project in JavaScript out of only what I knew when starting out with my Portfolio Project Two was to big of a task. So therefore I chose 
 together with my mentor `Benjamin Kavanagh` to follow that guide as support but to use my own words and create my own version of it, which I ended up with Erik game. 
 I have added comments above my JavaScript code so that it clarifies my code vs the tutorial.   
