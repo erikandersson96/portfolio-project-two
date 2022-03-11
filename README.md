@@ -460,7 +460,9 @@ Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-v
 
 When testing my JavaScript code in [JS hint]() I got this result: 
 
-![Screenshot of result from JS hint](/assets/images/)
+![Screenshot of result from JS hint](/assets/images/jshint.png) 
+
+Other then that message which is fine I got no errors. 
 
 
 ---

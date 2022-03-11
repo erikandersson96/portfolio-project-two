@@ -6,8 +6,6 @@ let userPattern = [];
 let level = 0;
 // Boolean for user turn
 let usersTurn = false;
-// Boolean for win condition
-let gameOver = false; 
 // User's current position in array
 let currentIndex = 0;
 
@@ -120,7 +118,7 @@ for (let i = 0; i < radioButtons.length; i++) {
             document.getElementById('circle-orange').style.display = 'none';        
         } 
 
-    })
+    }); 
         
 }
  
