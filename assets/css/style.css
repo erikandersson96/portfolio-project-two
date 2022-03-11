@@ -1,6 +1,7 @@
 /* Copied from Pairfonts.com - Nunito for header and Roboto Mono for all other text */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Roboto+Mono:wght@300&display=swap");
 
+/* Logo */
 
 #logo {
     font-size: 25px;
@@ -8,6 +9,8 @@
     color: black;
     text-align: center;
 }
+
+/* Font-size, font and color for all text in wrapper and for my h2 */
 
 #wrapper, h2 {
     font-family: 'Roboto Mono', sans-serif; 
@@ -75,7 +78,7 @@ body {
 } 
 
 /* I used filedset and legend for screen readers but I dont want it in my game interface, 
-so therfore it is displayed with: none and border: 0 */
+so therfore it is displayed with: none and border: 0 to not be seen */
 
 legend {
     display: none;
@@ -178,6 +181,7 @@ label + input[type=radio] + label {
 
 
 /* CSS for the game! */
+
 /* unseen and not-activated is taken as inspiration from the guide at: https://freshman.tech/simon-game/, 
 https://jsfiddle.net/ayoisaiah/Lxwhder6/20/ */
 
@@ -290,7 +294,7 @@ p {
 } 
 
 
-h3 {
+h2 {
     font-size: 15px;
 }
 
