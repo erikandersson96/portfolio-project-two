@@ -166,8 +166,7 @@ function nextPhase() {
 */
 
 /**
- * Function called nextTurn is used to add 1 color to the sequence.  
- * It also tells the user which level is being played of 10. 
+ * Function called nextTurn is used to add 1 color to the sequence.   
  * TimeOut is set to slightly delay the time between the computers finished sequence and 
  * the user's turn to play. 
  * Pattern is also updated to match the current sequence in play. 
