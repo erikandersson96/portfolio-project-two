@@ -41,7 +41,8 @@ function resetGame(text) {
 
 // This userTurn function is taken as inspiration from Freshman Simon Game, but with my own names of the declarations.
 // This function creates a way to tell the user that it is his/her's turn to play. 
-function userTurn() {
+function userTurn() { 
+    usersTurn = true; 
     gameInterface.classList.remove('not-activated'); 
     instruction.textContent = "Now it's your turn."; 
     
@@ -198,36 +199,37 @@ function manageClick(currentClick) {
 
     if (usersTurn) {
 
-    usersTurn = false; 
+       usersTurn = false; 
 
-        // If current value matches current pattern position's value
-    if (currentClick === pattern[currentIndex]) {
-        // Game over
-        resetGame('Oh no! You pressed the same color sequence as the computer...');
-        return;
-    } else {
-        // Increase index by 1
-        currentIndex++;
-        // Tell the user their score
-        instruction.textContent = `Bravo! ${currentIndex} correct of ${level} colors! Carry on!`;
-    }
-    // Check win condition
-    if (currentIndex === 10) {
-        resetGame('Good Work! You won the game!');
-        gameOver = true;
-        return;
-    }
-    // Check to see if index is the length of current pattern
-    if (currentIndex == pattern.length) {
-        // Set computer's turn
-        usersTurn = false;
-        // Reset index
-        currentIndex = 0;
-        // Play CPU's next turn
-        setTimeout(() => {
-            nextTurn();
-        }, 1000);
-     }
+           // If current value matches current pattern position's value
+       if (currentClick === pattern[currentIndex]) {
+          // Game over
+          resetGame('Oh no! You pressed the same color sequence as the computer...');
+          return;
+       } else {
+          // Increase index by 1
+         currentIndex++;
+          // Tell the user their score
+         instruction.textContent = `Bravo! ${currentIndex} correct of ${level} colors! Carry on!`;
+         usersTurn = true; 
+       }
+          // Check win condition
+       if (currentIndex === 10) {
+          resetGame('Good Work! You won the game!');
+          gameOver = true;
+          return;
+       }
+          // Check to see if index is the length of current pattern
+       if (currentIndex == pattern.length) {
+          // Set computer's turn
+          usersTurn = false;
+          // Reset index
+          currentIndex = 0;
+          // Play CPU's next turn
+          setTimeout(() => {
+             nextTurn();
+          }, 1000);
+      }
    }   
 }
 
@@ -269,6 +271,6 @@ gameInterface.addEventListener('click', event => {
     if (event.target.hasAttribute('data-circle')) {
         manageClick(currentClick);
     }
-     
+
 }); 
 
