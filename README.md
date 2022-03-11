@@ -309,7 +309,7 @@ keep it original. The game controlls `"circles"` has all the same round shape to
 
 * The `description box` and the `difficulty selector` has a border around it to make it stand out and be easy to read. 
  
-![Screenshot of Game Interface](/assets/images/gameinterface1.png) ÄNDRA BILD HÄR TILL HELA SKÄRMEN MED DEN FIXAD FOOTERN!
+![Screenshot of Game Interface](/assets/images/gameinterface1.png) 
 
  
 ### Footer
