@@ -36,7 +36,7 @@ function resetGame() {
     pattern = [];
     userPattern = [];
     level = 0; 
-    instruction.textContent = 'Game Over! You hit the same sequence. Press Start game button to play again.';
+    instruction.textContent = 'Game Over! You hit the same sequence as the computer. Press Start game button to play again.';
     startBtn.classList.remove('unseen');
 } 
 
