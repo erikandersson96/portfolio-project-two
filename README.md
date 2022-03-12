@@ -584,8 +584,8 @@ had flashed first `yellow` and secondly `green` the user wouldn't have any optio
 
 **Footer** 
 
-* My footer wasn't in the center of the screen because I had mistakenly not added the correct `padding-left`attribute to my `social-media-links`in my CSS. But now it is fixed. 
-Here is an comparison of the footer before and after I fixed it: 
+* My footer wasn't in the center of the screen because I had mistakenly not added the correct `padding-left` attribute to my `social-media-links` in my CSS. But now it is fixed. 
+Here is an comparison of the footer before and after I fixed it, notice that Instagram icon is not in the middle of yellow and red circle: 
 
 Before: 
 
