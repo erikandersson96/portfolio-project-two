@@ -71,8 +71,8 @@ The main goal of this project was to test my new knowledge of JavaScript. I deci
 * [Deployment](#deployment)
  
 * [GitHub Pages](#github-pages) 
-  * [Forking](#inspiration-for-this-project)
-  * [Cloning](#content)
+  * [Forking](#forking)
+  * [Cloning](#cloning)
 
 * [Credits](#credits) 
   * [Code-JavaScript](#code-javascript)
@@ -665,7 +665,7 @@ This instructions were taken from [Github - cloning a repository](https://docs.g
 ---
 ## Credits 
 
-### Code - JavaScript
+### Code-JavaScript
 
 * The inspiration for my Simon Game JavaScript code was taken from this [tutorial](https://freshman.tech/simon-game/), because my knowledge for JavaScript was very low and for me to create 
 a game like Simon Game as my first ever project in JavaScript out of only what I knew when starting out with my Portfolio Project Two was to big of a task. So therefore I chose 
@@ -673,7 +673,7 @@ together with my mentor `Benjamin Kavanagh` to follow that guide as support but 
 I have added comments above my JavaScript code so that it clarifies my code vs the tutorial.   
 
 
-### Styling - CSS
+### Styling-CSS
 
 * Hide buttons when clicked. This css styling were taken as inspiration from [Freshman Simon Game](https://jsfiddle.net/ayoisaiah/Lxwhder6/20/). 
 
