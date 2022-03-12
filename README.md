@@ -105,7 +105,7 @@ The main goal of this project was to test my new knowledge of JavaScript. I deci
 ## Wireframes
  
 * First `11 images` is from the first visual idea for my project. As you will recognize from comparing my wireframes to the final product, you will see that my final product doesn't look like my wireframes at all. That has to do with a lot of different reasons that I will explain underneath all images. The wireframes were created using [Balsamiq - Balsamiq Wireframes](https://balsamiq.com/). 
-* Second row containing `1 image` is from the final product of the website. To give you a comparison.
+* Second row containing `5 images` is from the final product of the website. To give you a comparison.
 
 ### First Idea
  
