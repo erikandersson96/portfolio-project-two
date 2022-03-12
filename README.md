@@ -192,7 +192,7 @@ Hard interface file. Eight color circles and the `Start game` button in the midd
 
 ![Screenshot of hard interface file](/assets/images/first-hard.png) 
 
-**Interface - users perspective.**
+**Interface - users perspective. First repository (without using DOM):**
 
 Landing page. 
 
