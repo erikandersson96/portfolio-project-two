@@ -194,6 +194,9 @@ https://jsfiddle.net/ayoisaiah/Lxwhder6/20/ */
 }
 
 
+/* Inspiration for my circles shape came from this article 
+https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/ */
+
 /* Easy interface */ 
 .circle {
     border-radius: 50%;
