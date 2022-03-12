@@ -196,7 +196,7 @@ Hard interface file. Eight color circles and the `Start game` button in the midd
 
 Landing page. 
 
-![Screenshot of landing page](/assets/images/firstlanding2.png) 
+![Screenshot of landing page](/assets/images/first-landing2.png) 
 
 Choose difficulty. `Easy | Medium | Hard`.
 
