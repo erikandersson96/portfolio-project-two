@@ -172,23 +172,23 @@ Using Game Interface of circles instead of pieces like the wireframes:
 
 **HTML files.**
 
-Index file. 
+Index file. (Landing page)
 
 ![Screenshot of index file](/assets/images/firstindex.png) 
 
-Select difficulty file. 
+Select difficulty file. `Easy | Medium | Hard`. 
 
 ![Screenshot of difficulty file](/assets/images/firstselector.png) 
 
-Easy interface file. 
+Easy interface file. Four color circles and one in the middle that was supposed to be a `Start game` button. 
 
 ![Screenshot of easy interface file](/assets/images/first-easy.png)
 
-Medium interface file. 
+Medium interface file. Six color circles and the `Start game` button in the middle. 
 
 ![Screenshot of medium interface file](/assets/images/first-medium.png) 
 
-Hard interface file. 
+Hard interface file. Eight color circles and the `Start game` button in the middle.
 
 ![Screenshot of hard interface file](/assets/images/first-hard.png) 
 
@@ -198,19 +198,19 @@ Landing page.
 
 ![Screenshot of landing page](/assets/images/firstlanding.png) 
 
-Choose difficulty. 
+Choose difficulty. `Easy | Medium | Hard`.
 
 ![Screenshot of choose difficulty](/assets/images/firstselection.png) 
 
-Easy Interface. 
+Easy Interface. Four color circles and a white `Start game` button. 
 
 ![Screenshot of easy interface](/assets/images/first-easy1.png) 
 
-Medium Interface. 
+Medium Interface. Six color circles and a white `Start game` button.
 
 ![Screenshot of medium interface](/assets/images/first-medium1.png) 
 
-Hard Interface. 
+Hard Interface. Eight color circles and a white `Start game` button.
 
 ![Screenshot of hard interface](/assets/images/first-medium1.png) 
 
