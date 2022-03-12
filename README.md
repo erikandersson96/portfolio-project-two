@@ -196,23 +196,23 @@ Hard interface file. Eight color circles and the `Start game` button in the midd
 
 Landing page. 
 
-![Screenshot of landing page](/assets/images/firstlanding.png) 
+![Screenshot of landing page](/assets/images/firstlanding2.png) 
 
 Choose difficulty. `Easy | Medium | Hard`.
 
-![Screenshot of choose difficulty](/assets/images/firstselection.png) 
+![Screenshot of choose difficulty](/assets/images/select2.png) 
 
 Easy Interface. Four color circles and a white `Start game` button. 
 
-![Screenshot of easy interface](/assets/images/first-easy1.png) 
+![Screenshot of easy interface](/assets/images/easy2.png) 
 
 Medium Interface. Six color circles and a white `Start game` button.
 
-![Screenshot of medium interface](/assets/images/first-medium1.png) 
+![Screenshot of medium interface](/assets/images/m2.png) 
 
 Hard Interface. Eight color circles and a white `Start game` button.
 
-![Screenshot of hard interface](/assets/images/first-medium1.png) 
+![Screenshot of hard interface](/assets/images/first-hard1.png) 
 
 
 ## Flow diagram 
