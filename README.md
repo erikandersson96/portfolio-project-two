@@ -488,15 +488,23 @@ Other then that message I got no errors.
 
 #### Lighthouse - dev tool
 
-I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve got an average result of `97,25%` for desktop and `99,25%` for mobile devices.
+I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve got an average result of `93%` for desktop and `93%` for mobile devices in a normal chrome browser window, but when I tested `Chrome lighthouse dev tool` in a chrome inkognito window I got an average result of `100%` for desktop and `99,75%` for mobile devices.
 
-**Desktop**
+**Desktop in normal chrome window:**
  
-![Screenshot home page in ligthouse](/assets/images/lighthousedesktop1.png)
+![Screenshot home page in ligthouse](/assets/images/lightdesktop2.png)
  
-**Mobile**
+**Mobile in normal chrome window:**
  
-![Screenshot home page in lighthouse for mobile](/assets/images/lighthousemobile1.png)
+![Screenshot home page in lighthouse for mobile](/assets/images/lightmobile2.png)
+
+**Desktop in chrome inkognito window:** 
+
+![Screenshot home page in ligthouse, inkognito window](/assets/images/lightdesktop3.png)
+
+**Desktop in chrome inkognito window:** 
+
+![Screenshot home page in ligthouse, inkognito window](/assets/images/lightmobile3.png)
 
  
 #### Wave Page
