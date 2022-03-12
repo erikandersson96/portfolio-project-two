@@ -680,7 +680,7 @@ I have added comments above my JavaScript code so that it clarifies my code vs t
 * Hide buttons when clicked. This css styling were taken as inspiration from [Freshman Simon Game](https://jsfiddle.net/ayoisaiah/Lxwhder6/20/). 
 
 * The inspiration for my radio buttons, `Easy | Medium | Hard` has been taken from [this](https://codepen.io/skeddles/pen/PbROLK) codepen link
-that I found from this article [link](https://freefrontend.com/css-radio-buttons/). But with my own styling and naming to the HTML and CSS elements. 
+that I found from this [article](https://freefrontend.com/css-radio-buttons/). But with my own styling and naming to the HTML and CSS elements. 
 
 * The CSS for my `wrapper` was inspired from [stackoverflow](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper). The inspiartion for the 
 `User interface` of the `wrapper` was initial taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html). 
