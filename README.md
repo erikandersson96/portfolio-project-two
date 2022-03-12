@@ -386,12 +386,12 @@ I just removed the div and added it's `class` to the `<span>` element instead.
 ### General Testing
 
 * The interface of the game has been tested across all screen sizes for a responsive experience. The size of the `logo, description box, choose difficulty and the circles` will all 
-change size at a break-point of 350px. I tested this in the `Chrome dev tool, so I have not tested it on actual devices`.
+change size at a break-point of 350 pixels. I tested this in the `Chrome dev tool, so I have not tested it on actual devices`.
  
 * I used validators to ensure that my code was correct and up to standard. I did this with the use of `W3C validator` for HTML, `Jigsaw Validator` for CSS and 
 `JS Hint` for JavaScript.
  
-* I made sure that the website looks good down to a screen size of 278px wide.
+* I made sure that the website looks good down to a screen size of 271 pixels wide.
  
 * All links to external websites open in a new browser.
  
