@@ -604,6 +604,8 @@ After:
 to reach my game in `Opera GX` browser (desktop). I have only tested my game in `Safari and chrome` (both desktop and mobile) with no issues so I don't know why this bug exist with some 
 browsers so I will leave it as an `Unfixed bug` and try to improve that over time with my increased knowledge.  
 
+* When playing the game, if the user lose the game and press `Start game` to restart the game and to play again, the game might break. I have noticed when playing the game that when I press `Start game` after I have lost, the counter that counts number of clicks for each level have sometimes not be working correct, so let say I am restarting the game after I lost the game at level 5 the game restarts properly to level 1 but when it is my turn to press my opposite sequence the press counter records my first press as number 5 etc. And espacially if the user maybe try to change difficulty when already started the game at a certain difficulty. So the game will break and only let me as a user to press as many times I want and it will never start the computers sequence. The user has to refresh the page if this happens. I don't know what is causing this bugs, so therfore I will leave them as bugs and remember it for future projects to improve on. 
+
 
 ---
 ## Deployment
