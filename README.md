@@ -693,7 +693,7 @@ that I found from this [article](https://freefrontend.com/css-radio-buttons/). B
 * The CSS for my `wrapper` was inspired from [stackoverflow](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper). The inspiartion for the 
 `User interface` of the `wrapper` was initial taken from `Benjamin Kavanagh - my mentor` and his second project, you can check it out [here](https://bak2k3.github.io/covid-dashboard/index.html). 
 
-* The inspiration for the styling of the `Circles` was taken from this [article](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/).   
+* The inspiration for the styling of the `Circles` round shape was taken from this [article](https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/).   
 
 
 ---
