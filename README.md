@@ -502,7 +502,7 @@ I used `Chrome lighthouse dev tool` to test the website `performance`. I’ve go
 
 ![Screenshot home page in ligthouse, inkognito window](/assets/images/lightdesktop3.png)
 
-**Desktop in chrome inkognito window:** 
+**Mobile in chrome inkognito window:** 
 
 ![Screenshot home page in ligthouse, inkognito window](/assets/images/lightmobile3.png)
 
