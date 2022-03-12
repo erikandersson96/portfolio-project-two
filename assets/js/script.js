@@ -32,7 +32,6 @@ const gameInterface = document.querySelector('.game-interface');
 // Reset game, it changes the text above the game to message the user that he/she has lost. 
 
 function resetGame() { 
-
     pattern = [];
     userPattern = [];
     level = 0; 
