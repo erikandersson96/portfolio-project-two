@@ -475,7 +475,7 @@ Here is a link to my Approved CSS jigsaw [Validator](https://jigsaw.w3.org/css-v
 
 #### JS-Hint
 
-When testing my JavaScript code in [JS hint]() I got this result: 
+When testing my JavaScript code in [JS hint](https://jshint.com/) I got this result: 
 
 ![Screenshot of result from JS hint](/assets/images/jshint.png) 
 
